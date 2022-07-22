@@ -1,0 +1,58 @@
+analyzeCommits:
+  releaseRules:
+    - type: build
+      release: patch
+branches:
+  - main
+plugins:
+  - "@semantic-release/commit-analyzer"
+  - "@semantic-release/release-notes-generator"
+  - - "@semantic-release/github"
+    - labels: false
+      releasedLabels: false
+  - - "@semantic-release/exec"
+    - prepareCmd: |-
+        sed -Ei 's/^(version *= *).*$/\1"${nextRelease.version}"/' Cargo.toml
+        cargo check
+  - - "@semantic-release/changelog"
+    - changelogFile: CHANGELOG.md
+      changelogTitle: |-
+        # Changelog
+
+        All notable changes to this project will be documented in this file.
+  - - "@semantic-release/git"
+    - assets:
+      - Cargo.lock
+      - Cargo.toml
+      - CHANGELOG.md
+      message: |-
+        chore(release): v${nextRelease.version} [skip ci]
+
+        ${nextRelease.notes}
+preset: conventionalcommits
+presetConfig:
+  types:
+    - type: feat
+      section: Features
+    - type: feature
+      section: Features
+    - type: fix
+      section: Bug Fixes
+    - type: perf
+      section: Performance Improvements
+    - type: revert
+      section: Reverts
+    - type: docs
+      section: Documentation
+    - type: style
+      section: Styles
+    - type: chore
+      section: Miscellaneous Chores
+    - type: refactor
+      section: Code Refactoring
+    - type: test
+      section: Tests
+    - type: build
+      section: Build System
+    - type: ci
+      section: Continuous Integration

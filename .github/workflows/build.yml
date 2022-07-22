@@ -1,0 +1,117 @@
+name: build
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.event.number || github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    timeout-minutes: 10
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@2541b1294d2704b0964813337f33b291d3f8596b # tag=v3.0.2
+        with:
+          fetch-depth: 2
+
+      - name: Set up Rust
+        run: rustup show
+
+      - name: Set up Rust cache
+        uses: Swatinem/rust-cache@6720f05bc48b77f96918929a9019fb2203ff71f8 # tag=v2.0.0
+
+      - name: Test
+        run: cargo test
+
+  lint:
+    runs-on: ubuntu-latest
+
+    timeout-minutes: 10
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@2541b1294d2704b0964813337f33b291d3f8596b # tag=v3.0.2
+        with:
+          fetch-depth: 2
+
+      - name: Set up Rust
+        run: rustup show
+
+      - name: Set up Rust cache
+        uses: Swatinem/rust-cache@6720f05bc48b77f96918929a9019fb2203ff71f8 # tag=v2.0.0
+
+      - name: Run clippy
+        run: cargo clippy -- --deny warnings
+
+      - name: Run fmt
+        run: cargo fmt --check
+
+  build:
+    runs-on: ubuntu-latest
+
+    timeout-minutes: 10
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@2541b1294d2704b0964813337f33b291d3f8596b # tag=v3.0.2
+        with:
+          fetch-depth: 2
+
+      - name: Set up Rust
+        run: rustup show
+
+      - name: Set up Rust cache
+        uses: Swatinem/rust-cache@6720f05bc48b77f96918929a9019fb2203ff71f8 # tag=v2.0.0
+
+      - name: Build
+        run: cargo build
+
+  semantic-release:
+    needs: [build, lint, test]
+    if: github.event_name != 'pull_request'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      issues: write
+      pull-requests: write
+
+    timeout-minutes: 10
+
+    steps:
+      # full checkout for semantic-release
+      - name: Checkout repository
+        uses: actions/checkout@2541b1294d2704b0964813337f33b291d3f8596b # tag=v3.0.2
+        with:
+          fetch-depth: 0
+          # Use Deploy key with write access to push changelog to main branch (protected branch)
+          ssh-key: ${{ secrets.SEMANTIC_RELEASE_SSH_KEY }}
+
+      - name: Set up Rust
+        run: rustup show
+
+      - name: Set up Rust cache
+        uses: Swatinem/rust-cache@6720f05bc48b77f96918929a9019fb2203ff71f8 # tag=v2.0.0
+
+      - name: Semantic Release
+        uses: cycjimmy/semantic-release-action@3b88c82b34098e8b51e401c1082c9170b0a3ec3c # tag=v3.0.0
+        id: semantic-release
+        with:
+          # renovate: datasource=npm depName=semantic-release
+          semantic_version: 19.0.3
+          extra_plugins: |
+            conventional-changelog-conventionalcommits@5.0.0
+            @semantic-release/changelog@6.0.1
+            @semantic-release/exec@6.0.3
+            @semantic-release/git@10.0.1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

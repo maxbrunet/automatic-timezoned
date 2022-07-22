@@ -1,0 +1,3041 @@
+---
+source: src/zoneinfo.rs
+expression: zoneinfo
+---
+ZoneInfo {
+    zones: [
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: 55.18,
+                    y: 25.18,
+                },
+            ),
+            timezone: "Asia/Dubai",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: 69.12,
+                    y: 34.31,
+                },
+            ),
+            timezone: "Asia/Kabul",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: 19.5,
+                    y: 41.2,
+                },
+            ),
+            timezone: "Europe/Tirane",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: 44.3,
+                    y: 40.11,
+                },
+            ),
+            timezone: "Asia/Yerevan",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: 110.31,
+                    y: -66.17,
+                },
+            ),
+            timezone: "Antarctica/Casey",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: 77.58,
+                    y: -68.35,
+                },
+            ),
+            timezone: "Antarctica/Davis",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: 62.53,
+                    y: -67.36,
+                },
+            ),
+            timezone: "Antarctica/Mawson",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: -64.06,
+                    y: -64.48,
+                },
+            ),
+            timezone: "Antarctica/Palmer",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: -68.08,
+                    y: -67.34,
+                },
+            ),
+            timezone: "Antarctica/Rothera",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: 2.3205999999999998,
+                    y: -72.0041,
+                },
+            ),
+            timezone: "Antarctica/Troll",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: 106.54,
+                    y: -78.24,
+                },
+            ),
+            timezone: "Antarctica/Vostok",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: -58.27,
+                    y: -34.36,
+                },
+            ),
+            timezone: "America/Argentina/Buenos_Aires",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: -64.11,
+                    y: -31.24,
+                },
+            ),
+            timezone: "America/Argentina/Cordoba",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: -65.25,
+                    y: -24.47,
+                },
+            ),
+            timezone: "America/Argentina/Salta",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: -65.18,
+                    y: -24.11,
+                },
+            ),
+            timezone: "America/Argentina/Jujuy",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: -65.13,
+                    y: -26.49,
+                },
+            ),
+            timezone: "America/Argentina/Tucuman",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: -65.47,
+                    y: -28.28,
+                },
+            ),
+            timezone: "America/Argentina/Catamarca",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: -66.51,
+                    y: -29.26,
+                },
+            ),
+            timezone: "America/Argentina/La_Rioja",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: -68.31,
+                    y: -31.32,
+                },
+            ),
+            timezone: "America/Argentina/San_Juan",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: -68.49,
+                    y: -32.53,
+                },
+            ),
+            timezone: "America/Argentina/Mendoza",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: -66.21,
+                    y: -33.19,
+                },
+            ),
+            timezone: "America/Argentina/San_Luis",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: -69.13,
+                    y: -51.38,
+                },
+            ),
+            timezone: "America/Argentina/Rio_Gallegos",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: -68.18,
+                    y: -54.48,
+                },
+            ),
+            timezone: "America/Argentina/Ushuaia",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: -170.42,
+                    y: -14.16,
+                },
+            ),
+            timezone: "Pacific/Pago_Pago",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: 16.2,
+                    y: 48.13,
+                },
+            ),
+            timezone: "Europe/Vienna",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: 159.05,
+                    y: -31.33,
+                },
+            ),
+            timezone: "Australia/Lord_Howe",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: 158.57,
+                    y: -54.3,
+                },
+            ),
+            timezone: "Antarctica/Macquarie",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: 147.19,
+                    y: -42.53,
+                },
+            ),
+            timezone: "Australia/Hobart",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: 144.58,
+                    y: -37.49,
+                },
+            ),
+            timezone: "Australia/Melbourne",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: 151.13,
+                    y: -33.52,
+                },
+            ),
+            timezone: "Australia/Sydney",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: 141.27,
+                    y: -31.57,
+                },
+            ),
+            timezone: "Australia/Broken_Hill",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: 153.02,
+                    y: -27.28,
+                },
+            ),
+            timezone: "Australia/Brisbane",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: 149.0,
+                    y: -20.16,
+                },
+            ),
+            timezone: "Australia/Lindeman",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: 138.35,
+                    y: -34.55,
+                },
+            ),
+            timezone: "Australia/Adelaide",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: 130.5,
+                    y: -12.28,
+                },
+            ),
+            timezone: "Australia/Darwin",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: 115.51,
+                    y: -31.57,
+                },
+            ),
+            timezone: "Australia/Perth",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: 128.52,
+                    y: -31.43,
+                },
+            ),
+            timezone: "Australia/Eucla",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: 49.51,
+                    y: 40.23,
+                },
+            ),
+            timezone: "Asia/Baku",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: -59.37,
+                    y: 13.06,
+                },
+            ),
+            timezone: "America/Barbados",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: 90.25,
+                    y: 23.43,
+                },
+            ),
+            timezone: "Asia/Dhaka",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: 4.2,
+                    y: 50.5,
+                },
+            ),
+            timezone: "Europe/Brussels",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: 23.19,
+                    y: 42.41,
+                },
+            ),
+            timezone: "Europe/Sofia",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: -64.46,
+                    y: 32.17,
+                },
+            ),
+            timezone: "Atlantic/Bermuda",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: 114.55,
+                    y: 4.5600000000000005,
+                },
+            ),
+            timezone: "Asia/Brunei",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: -68.09,
+                    y: -16.3,
+                },
+            ),
+            timezone: "America/La_Paz",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: -32.25,
+                    y: -3.51,
+                },
+            ),
+            timezone: "America/Noronha",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: -48.29,
+                    y: -1.27,
+                },
+            ),
+            timezone: "America/Belem",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: -38.3,
+                    y: -3.43,
+                },
+            ),
+            timezone: "America/Fortaleza",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: -34.54,
+                    y: -8.03,
+                },
+            ),
+            timezone: "America/Recife",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: -48.12,
+                    y: -7.12,
+                },
+            ),
+            timezone: "America/Araguaina",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: -35.43,
+                    y: -9.4,
+                },
+            ),
+            timezone: "America/Maceio",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: -38.31,
+                    y: -12.59,
+                },
+            ),
+            timezone: "America/Bahia",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: -46.37,
+                    y: -23.32,
+                },
+            ),
+            timezone: "America/Sao_Paulo",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: -54.37,
+                    y: -20.27,
+                },
+            ),
+            timezone: "America/Campo_Grande",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: -56.05,
+                    y: -15.35,
+                },
+            ),
+            timezone: "America/Cuiaba",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: -54.52,
+                    y: -2.26,
+                },
+            ),
+            timezone: "America/Santarem",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: -63.54,
+                    y: -8.46,
+                },
+            ),
+            timezone: "America/Porto_Velho",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: -60.4,
+                    y: 2.49,
+                },
+            ),
+            timezone: "America/Boa_Vista",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: -60.01,
+                    y: -3.08,
+                },
+            ),
+            timezone: "America/Manaus",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: -69.52,
+                    y: -6.4,
+                },
+            ),
+            timezone: "America/Eirunepe",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: -67.48,
+                    y: -9.58,
+                },
+            ),
+            timezone: "America/Rio_Branco",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: 89.39,
+                    y: 27.28,
+                },
+            ),
+            timezone: "Asia/Thimphu",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: 27.34,
+                    y: 53.54,
+                },
+            ),
+            timezone: "Europe/Minsk",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: -88.12,
+                    y: 17.3,
+                },
+            ),
+            timezone: "America/Belize",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: -52.43,
+                    y: 47.34,
+                },
+            ),
+            timezone: "America/St_Johns",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: -63.36,
+                    y: 44.39,
+                },
+            ),
+            timezone: "America/Halifax",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: -59.57,
+                    y: 46.12,
+                },
+            ),
+            timezone: "America/Glace_Bay",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: -64.47,
+                    y: 46.06,
+                },
+            ),
+            timezone: "America/Moncton",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: -60.25,
+                    y: 53.2,
+                },
+            ),
+            timezone: "America/Goose_Bay",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: -79.23,
+                    y: 43.39,
+                },
+            ),
+            timezone: "America/Toronto",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: -88.16,
+                    y: 49.01,
+                },
+            ),
+            timezone: "America/Nipigon",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: -89.15,
+                    y: 48.23,
+                },
+            ),
+            timezone: "America/Thunder_Bay",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: -68.28,
+                    y: 63.44,
+                },
+            ),
+            timezone: "America/Iqaluit",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: -65.44,
+                    y: 66.08,
+                },
+            ),
+            timezone: "America/Pangnirtung",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: -97.09,
+                    y: 49.53,
+                },
+            ),
+            timezone: "America/Winnipeg",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: -94.34,
+                    y: 48.43,
+                },
+            ),
+            timezone: "America/Rainy_River",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: -94.4945,
+                    y: 74.4144,
+                },
+            ),
+            timezone: "America/Resolute",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: -92.0459,
+                    y: 62.49,
+                },
+            ),
+            timezone: "America/Rankin_Inlet",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: -104.39,
+                    y: 50.24,
+                },
+            ),
+            timezone: "America/Regina",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: -107.5,
+                    y: 50.17,
+                },
+            ),
+            timezone: "America/Swift_Current",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: -113.28,
+                    y: 53.33,
+                },
+            ),
+            timezone: "America/Edmonton",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: -105.031,
+                    y: 69.065,
+                },
+            ),
+            timezone: "America/Cambridge_Bay",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: -114.21,
+                    y: 62.27,
+                },
+            ),
+            timezone: "America/Yellowknife",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: -133.43,
+                    y: 68.2059,
+                },
+            ),
+            timezone: "America/Inuvik",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: -120.14,
+                    y: 59.46,
+                },
+            ),
+            timezone: "America/Dawson_Creek",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: -122.42,
+                    y: 58.48,
+                },
+            ),
+            timezone: "America/Fort_Nelson",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: -135.03,
+                    y: 60.43,
+                },
+            ),
+            timezone: "America/Whitehorse",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: -139.25,
+                    y: 64.04,
+                },
+            ),
+            timezone: "America/Dawson",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: -123.07,
+                    y: 49.16,
+                },
+            ),
+            timezone: "America/Vancouver",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: 96.55,
+                    y: -12.1,
+                },
+            ),
+            timezone: "Indian/Cocos",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: 8.32,
+                    y: 47.23,
+                },
+            ),
+            timezone: "Europe/Zurich",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: -4.02,
+                    y: 5.19,
+                },
+            ),
+            timezone: "Africa/Abidjan",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: -159.46,
+                    y: -21.14,
+                },
+            ),
+            timezone: "Pacific/Rarotonga",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: -70.4,
+                    y: -33.27,
+                },
+            ),
+            timezone: "America/Santiago",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: -70.55,
+                    y: -53.09,
+                },
+            ),
+            timezone: "America/Punta_Arenas",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: -109.26,
+                    y: -27.09,
+                },
+            ),
+            timezone: "Pacific/Easter",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: 121.28,
+                    y: 31.14,
+                },
+            ),
+            timezone: "Asia/Shanghai",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: 87.35,
+                    y: 43.48,
+                },
+            ),
+            timezone: "Asia/Urumqi",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: -74.05,
+                    y: 4.36,
+                },
+            ),
+            timezone: "America/Bogota",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: -84.05,
+                    y: 9.56,
+                },
+            ),
+            timezone: "America/Costa_Rica",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: -82.22,
+                    y: 23.08,
+                },
+            ),
+            timezone: "America/Havana",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: -23.31,
+                    y: 14.55,
+                },
+            ),
+            timezone: "Atlantic/Cape_Verde",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: 105.43,
+                    y: -10.25,
+                },
+            ),
+            timezone: "Indian/Christmas",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: 33.22,
+                    y: 35.1,
+                },
+            ),
+            timezone: "Asia/Nicosia",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: 33.57,
+                    y: 35.07,
+                },
+            ),
+            timezone: "Asia/Famagusta",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: 14.26,
+                    y: 50.05,
+                },
+            ),
+            timezone: "Europe/Prague",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: 13.22,
+                    y: 52.3,
+                },
+            ),
+            timezone: "Europe/Berlin",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: 12.35,
+                    y: 55.4,
+                },
+            ),
+            timezone: "Europe/Copenhagen",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: -69.54,
+                    y: 18.28,
+                },
+            ),
+            timezone: "America/Santo_Domingo",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: 3.03,
+                    y: 36.47,
+                },
+            ),
+            timezone: "Africa/Algiers",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: -79.5,
+                    y: -2.1,
+                },
+            ),
+            timezone: "America/Guayaquil",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: -89.36,
+                    y: 0.54,
+                },
+            ),
+            timezone: "Pacific/Galapagos",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: 24.45,
+                    y: 59.25,
+                },
+            ),
+            timezone: "Europe/Tallinn",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: 31.15,
+                    y: 30.03,
+                },
+            ),
+            timezone: "Africa/Cairo",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: -13.12,
+                    y: 27.09,
+                },
+            ),
+            timezone: "Africa/El_Aaiun",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: -3.41,
+                    y: 40.24,
+                },
+            ),
+            timezone: "Europe/Madrid",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: -5.19,
+                    y: 35.53,
+                },
+            ),
+            timezone: "Africa/Ceuta",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: -15.24,
+                    y: 28.06,
+                },
+            ),
+            timezone: "Atlantic/Canary",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: 24.58,
+                    y: 60.1,
+                },
+            ),
+            timezone: "Europe/Helsinki",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: 178.25,
+                    y: -18.08,
+                },
+            ),
+            timezone: "Pacific/Fiji",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: -57.51,
+                    y: -51.42,
+                },
+            ),
+            timezone: "Atlantic/Stanley",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: 151.47,
+                    y: 7.25,
+                },
+            ),
+            timezone: "Pacific/Chuuk",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: 158.13,
+                    y: 6.58,
+                },
+            ),
+            timezone: "Pacific/Pohnpei",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: 162.59,
+                    y: 5.19,
+                },
+            ),
+            timezone: "Pacific/Kosrae",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: -6.46,
+                    y: 62.01,
+                },
+            ),
+            timezone: "Atlantic/Faroe",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: 2.2,
+                    y: 48.52,
+                },
+            ),
+            timezone: "Europe/Paris",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: 0.0731,
+                    y: 51.303,
+                },
+            ),
+            timezone: "Europe/London",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: 44.49,
+                    y: 41.43,
+                },
+            ),
+            timezone: "Asia/Tbilisi",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: -52.2,
+                    y: 4.5600000000000005,
+                },
+            ),
+            timezone: "America/Cayenne",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: -5.21,
+                    y: 36.08,
+                },
+            ),
+            timezone: "Europe/Gibraltar",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: -51.44,
+                    y: 64.11,
+                },
+            ),
+            timezone: "America/Nuuk",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: -18.4,
+                    y: 76.46,
+                },
+            ),
+            timezone: "America/Danmarkshavn",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: -21.58,
+                    y: 70.29,
+                },
+            ),
+            timezone: "America/Scoresbysund",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: -68.47,
+                    y: 76.34,
+                },
+            ),
+            timezone: "America/Thule",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: 23.43,
+                    y: 37.58,
+                },
+            ),
+            timezone: "Europe/Athens",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: -36.32,
+                    y: -54.16,
+                },
+            ),
+            timezone: "Atlantic/South_Georgia",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: -90.31,
+                    y: 14.38,
+                },
+            ),
+            timezone: "America/Guatemala",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: 144.45,
+                    y: 13.28,
+                },
+            ),
+            timezone: "Pacific/Guam",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: -15.35,
+                    y: 11.51,
+                },
+            ),
+            timezone: "Africa/Bissau",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: -58.1,
+                    y: 6.48,
+                },
+            ),
+            timezone: "America/Guyana",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: 114.09,
+                    y: 22.17,
+                },
+            ),
+            timezone: "Asia/Hong_Kong",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: -87.13,
+                    y: 14.06,
+                },
+            ),
+            timezone: "America/Tegucigalpa",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: -72.2,
+                    y: 18.32,
+                },
+            ),
+            timezone: "America/Port-au-Prince",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: 19.05,
+                    y: 47.3,
+                },
+            ),
+            timezone: "Europe/Budapest",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: 106.48,
+                    y: -6.1,
+                },
+            ),
+            timezone: "Asia/Jakarta",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: 109.2,
+                    y: 0.02,
+                },
+            ),
+            timezone: "Asia/Pontianak",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: 119.24,
+                    y: -5.07,
+                },
+            ),
+            timezone: "Asia/Makassar",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: 140.42,
+                    y: -2.32,
+                },
+            ),
+            timezone: "Asia/Jayapura",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: -6.15,
+                    y: 53.2,
+                },
+            ),
+            timezone: "Europe/Dublin",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: 35.1326,
+                    y: 31.465,
+                },
+            ),
+            timezone: "Asia/Jerusalem",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: 88.22,
+                    y: 22.32,
+                },
+            ),
+            timezone: "Asia/Kolkata",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: 72.25,
+                    y: -7.2,
+                },
+            ),
+            timezone: "Indian/Chagos",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: 44.25,
+                    y: 33.21,
+                },
+            ),
+            timezone: "Asia/Baghdad",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: 51.26,
+                    y: 35.4,
+                },
+            ),
+            timezone: "Asia/Tehran",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: -21.51,
+                    y: 64.09,
+                },
+            ),
+            timezone: "Atlantic/Reykjavik",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: 12.29,
+                    y: 41.54,
+                },
+            ),
+            timezone: "Europe/Rome",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: -76.4736,
+                    y: 17.5805,
+                },
+            ),
+            timezone: "America/Jamaica",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: 35.56,
+                    y: 31.57,
+                },
+            ),
+            timezone: "Asia/Amman",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: 139.4441,
+                    y: 35.3916,
+                },
+            ),
+            timezone: "Asia/Tokyo",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: 36.49,
+                    y: -1.17,
+                },
+            ),
+            timezone: "Africa/Nairobi",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: 74.36,
+                    y: 42.54,
+                },
+            ),
+            timezone: "Asia/Bishkek",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: 173.0,
+                    y: 1.25,
+                },
+            ),
+            timezone: "Pacific/Tarawa",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: -171.43,
+                    y: -2.4699999999999998,
+                },
+            ),
+            timezone: "Pacific/Kanton",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: -157.2,
+                    y: 1.52,
+                },
+            ),
+            timezone: "Pacific/Kiritimati",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: 125.45,
+                    y: 39.01,
+                },
+            ),
+            timezone: "Asia/Pyongyang",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: 126.58,
+                    y: 37.33,
+                },
+            ),
+            timezone: "Asia/Seoul",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: 76.57,
+                    y: 43.15,
+                },
+            ),
+            timezone: "Asia/Almaty",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: 65.28,
+                    y: 44.48,
+                },
+            ),
+            timezone: "Asia/Qyzylorda",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: 63.37,
+                    y: 53.12,
+                },
+            ),
+            timezone: "Asia/Qostanay",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: 57.1,
+                    y: 50.17,
+                },
+            ),
+            timezone: "Asia/Aqtobe",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: 50.16,
+                    y: 44.31,
+                },
+            ),
+            timezone: "Asia/Aqtau",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: 51.56,
+                    y: 47.07,
+                },
+            ),
+            timezone: "Asia/Atyrau",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: 51.21,
+                    y: 51.13,
+                },
+            ),
+            timezone: "Asia/Oral",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: 35.3,
+                    y: 33.53,
+                },
+            ),
+            timezone: "Asia/Beirut",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: 79.51,
+                    y: 6.5600000000000005,
+                },
+            ),
+            timezone: "Asia/Colombo",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: -10.47,
+                    y: 6.18,
+                },
+            ),
+            timezone: "Africa/Monrovia",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: 25.19,
+                    y: 54.41,
+                },
+            ),
+            timezone: "Europe/Vilnius",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: 6.09,
+                    y: 49.36,
+                },
+            ),
+            timezone: "Europe/Luxembourg",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: 24.06,
+                    y: 56.57,
+                },
+            ),
+            timezone: "Europe/Riga",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: 13.11,
+                    y: 32.54,
+                },
+            ),
+            timezone: "Africa/Tripoli",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: -7.35,
+                    y: 33.39,
+                },
+            ),
+            timezone: "Africa/Casablanca",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: 7.23,
+                    y: 43.42,
+                },
+            ),
+            timezone: "Europe/Monaco",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: 28.5,
+                    y: 47.0,
+                },
+            ),
+            timezone: "Europe/Chisinau",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: 171.12,
+                    y: 7.09,
+                },
+            ),
+            timezone: "Pacific/Majuro",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: 167.2,
+                    y: 9.05,
+                },
+            ),
+            timezone: "Pacific/Kwajalein",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: 96.1,
+                    y: 16.47,
+                },
+            ),
+            timezone: "Asia/Yangon",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: 106.53,
+                    y: 47.55,
+                },
+            ),
+            timezone: "Asia/Ulaanbaatar",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: 91.39,
+                    y: 48.01,
+                },
+            ),
+            timezone: "Asia/Hovd",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: 114.3,
+                    y: 48.04,
+                },
+            ),
+            timezone: "Asia/Choibalsan",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: 113.323,
+                    y: 22.115,
+                },
+            ),
+            timezone: "Asia/Macau",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: -61.05,
+                    y: 14.36,
+                },
+            ),
+            timezone: "America/Martinique",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: 14.31,
+                    y: 35.54,
+                },
+            ),
+            timezone: "Europe/Malta",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: 57.3,
+                    y: -20.1,
+                },
+            ),
+            timezone: "Indian/Mauritius",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: 73.3,
+                    y: 4.1,
+                },
+            ),
+            timezone: "Indian/Maldives",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: -99.09,
+                    y: 19.24,
+                },
+            ),
+            timezone: "America/Mexico_City",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: -86.46,
+                    y: 21.05,
+                },
+            ),
+            timezone: "America/Cancun",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: -89.37,
+                    y: 20.58,
+                },
+            ),
+            timezone: "America/Merida",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: -100.19,
+                    y: 25.4,
+                },
+            ),
+            timezone: "America/Monterrey",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: -97.3,
+                    y: 25.5,
+                },
+            ),
+            timezone: "America/Matamoros",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: -106.25,
+                    y: 23.13,
+                },
+            ),
+            timezone: "America/Mazatlan",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: -106.05,
+                    y: 28.38,
+                },
+            ),
+            timezone: "America/Chihuahua",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: -104.25,
+                    y: 29.34,
+                },
+            ),
+            timezone: "America/Ojinaga",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: -110.58,
+                    y: 29.04,
+                },
+            ),
+            timezone: "America/Hermosillo",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: -117.01,
+                    y: 32.32,
+                },
+            ),
+            timezone: "America/Tijuana",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: -105.15,
+                    y: 20.48,
+                },
+            ),
+            timezone: "America/Bahia_Banderas",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: 101.42,
+                    y: 3.1,
+                },
+            ),
+            timezone: "Asia/Kuala_Lumpur",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: 110.2,
+                    y: 1.33,
+                },
+            ),
+            timezone: "Asia/Kuching",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: 32.35,
+                    y: -25.58,
+                },
+            ),
+            timezone: "Africa/Maputo",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: 17.06,
+                    y: -22.34,
+                },
+            ),
+            timezone: "Africa/Windhoek",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: 166.27,
+                    y: -22.16,
+                },
+            ),
+            timezone: "Pacific/Noumea",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: 167.58,
+                    y: -29.03,
+                },
+            ),
+            timezone: "Pacific/Norfolk",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: 3.24,
+                    y: 6.27,
+                },
+            ),
+            timezone: "Africa/Lagos",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: -86.17,
+                    y: 12.09,
+                },
+            ),
+            timezone: "America/Managua",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: 4.54,
+                    y: 52.22,
+                },
+            ),
+            timezone: "Europe/Amsterdam",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: 10.45,
+                    y: 59.55,
+                },
+            ),
+            timezone: "Europe/Oslo",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: 85.19,
+                    y: 27.43,
+                },
+            ),
+            timezone: "Asia/Kathmandu",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: 166.55,
+                    y: 0.31,
+                },
+            ),
+            timezone: "Pacific/Nauru",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: -169.55,
+                    y: -19.01,
+                },
+            ),
+            timezone: "Pacific/Niue",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: 174.46,
+                    y: -36.52,
+                },
+            ),
+            timezone: "Pacific/Auckland",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: -176.33,
+                    y: -43.57,
+                },
+            ),
+            timezone: "Pacific/Chatham",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: -79.32,
+                    y: 8.58,
+                },
+            ),
+            timezone: "America/Panama",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: -77.03,
+                    y: -12.03,
+                },
+            ),
+            timezone: "America/Lima",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: -149.34,
+                    y: -17.32,
+                },
+            ),
+            timezone: "Pacific/Tahiti",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: -139.3,
+                    y: -9.0,
+                },
+            ),
+            timezone: "Pacific/Marquesas",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: -134.57,
+                    y: -23.08,
+                },
+            ),
+            timezone: "Pacific/Gambier",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: 147.1,
+                    y: -9.3,
+                },
+            ),
+            timezone: "Pacific/Port_Moresby",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: 155.34,
+                    y: -6.13,
+                },
+            ),
+            timezone: "Pacific/Bougainville",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: 121.0,
+                    y: 14.35,
+                },
+            ),
+            timezone: "Asia/Manila",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: 67.03,
+                    y: 24.52,
+                },
+            ),
+            timezone: "Asia/Karachi",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: 21.0,
+                    y: 52.15,
+                },
+            ),
+            timezone: "Europe/Warsaw",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: -56.2,
+                    y: 47.03,
+                },
+            ),
+            timezone: "America/Miquelon",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: -130.05,
+                    y: -25.04,
+                },
+            ),
+            timezone: "Pacific/Pitcairn",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: -66.0622,
+                    y: 18.2806,
+                },
+            ),
+            timezone: "America/Puerto_Rico",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: 34.28,
+                    y: 31.3,
+                },
+            ),
+            timezone: "Asia/Gaza",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: 35.0542,
+                    y: 31.32,
+                },
+            ),
+            timezone: "Asia/Hebron",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: -9.08,
+                    y: 38.43,
+                },
+            ),
+            timezone: "Europe/Lisbon",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: -16.54,
+                    y: 32.38,
+                },
+            ),
+            timezone: "Atlantic/Madeira",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: -25.4,
+                    y: 37.44,
+                },
+            ),
+            timezone: "Atlantic/Azores",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: 134.29,
+                    y: 7.2,
+                },
+            ),
+            timezone: "Pacific/Palau",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: -57.4,
+                    y: -25.16,
+                },
+            ),
+            timezone: "America/Asuncion",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: 51.32,
+                    y: 25.17,
+                },
+            ),
+            timezone: "Asia/Qatar",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: 55.28,
+                    y: -20.52,
+                },
+            ),
+            timezone: "Indian/Reunion",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: 26.06,
+                    y: 44.26,
+                },
+            ),
+            timezone: "Europe/Bucharest",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: 20.3,
+                    y: 44.5,
+                },
+            ),
+            timezone: "Europe/Belgrade",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: 20.3,
+                    y: 54.43,
+                },
+            ),
+            timezone: "Europe/Kaliningrad",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: 37.3704,
+                    y: 55.4521,
+                },
+            ),
+            timezone: "Europe/Moscow",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: 34.06,
+                    y: 44.57,
+                },
+            ),
+            timezone: "Europe/Simferopol",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: 49.39,
+                    y: 58.36,
+                },
+            ),
+            timezone: "Europe/Kirov",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: 44.25,
+                    y: 48.44,
+                },
+            ),
+            timezone: "Europe/Volgograd",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: 48.03,
+                    y: 46.21,
+                },
+            ),
+            timezone: "Europe/Astrakhan",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: 46.02,
+                    y: 51.34,
+                },
+            ),
+            timezone: "Europe/Saratov",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: 48.24,
+                    y: 54.2,
+                },
+            ),
+            timezone: "Europe/Ulyanovsk",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: 50.09,
+                    y: 53.12,
+                },
+            ),
+            timezone: "Europe/Samara",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: 60.36,
+                    y: 56.51,
+                },
+            ),
+            timezone: "Asia/Yekaterinburg",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: 73.24,
+                    y: 55.0,
+                },
+            ),
+            timezone: "Asia/Omsk",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: 82.55,
+                    y: 55.02,
+                },
+            ),
+            timezone: "Asia/Novosibirsk",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: 83.45,
+                    y: 53.22,
+                },
+            ),
+            timezone: "Asia/Barnaul",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: 84.58,
+                    y: 56.3,
+                },
+            ),
+            timezone: "Asia/Tomsk",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: 87.07,
+                    y: 53.45,
+                },
+            ),
+            timezone: "Asia/Novokuznetsk",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: 92.5,
+                    y: 56.01,
+                },
+            ),
+            timezone: "Asia/Krasnoyarsk",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: 104.2,
+                    y: 52.16,
+                },
+            ),
+            timezone: "Asia/Irkutsk",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: 113.28,
+                    y: 52.03,
+                },
+            ),
+            timezone: "Asia/Chita",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: 129.4,
+                    y: 62.0,
+                },
+            ),
+            timezone: "Asia/Yakutsk",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: 135.3314,
+                    y: 62.3923,
+                },
+            ),
+            timezone: "Asia/Khandyga",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: 131.56,
+                    y: 43.1,
+                },
+            ),
+            timezone: "Asia/Vladivostok",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: 143.1336,
+                    y: 64.3337,
+                },
+            ),
+            timezone: "Asia/Ust-Nera",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: 150.48,
+                    y: 59.34,
+                },
+            ),
+            timezone: "Asia/Magadan",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: 142.42,
+                    y: 46.58,
+                },
+            ),
+            timezone: "Asia/Sakhalin",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: 153.43,
+                    y: 67.28,
+                },
+            ),
+            timezone: "Asia/Srednekolymsk",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: 158.39,
+                    y: 53.01,
+                },
+            ),
+            timezone: "Asia/Kamchatka",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: 177.29,
+                    y: 64.45,
+                },
+            ),
+            timezone: "Asia/Anadyr",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: 46.43,
+                    y: 24.38,
+                },
+            ),
+            timezone: "Asia/Riyadh",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: 160.12,
+                    y: -9.32,
+                },
+            ),
+            timezone: "Pacific/Guadalcanal",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: 55.28,
+                    y: -4.4,
+                },
+            ),
+            timezone: "Indian/Mahe",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: 32.32,
+                    y: 15.36,
+                },
+            ),
+            timezone: "Africa/Khartoum",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: 18.03,
+                    y: 59.2,
+                },
+            ),
+            timezone: "Europe/Stockholm",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: 103.51,
+                    y: 1.17,
+                },
+            ),
+            timezone: "Asia/Singapore",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: -55.1,
+                    y: 5.5,
+                },
+            ),
+            timezone: "America/Paramaribo",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: 31.37,
+                    y: 4.51,
+                },
+            ),
+            timezone: "Africa/Juba",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: 6.44,
+                    y: 0.2,
+                },
+            ),
+            timezone: "Africa/Sao_Tome",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: -89.12,
+                    y: 13.42,
+                },
+            ),
+            timezone: "America/El_Salvador",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: 36.18,
+                    y: 33.3,
+                },
+            ),
+            timezone: "Asia/Damascus",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: -71.08,
+                    y: 21.28,
+                },
+            ),
+            timezone: "America/Grand_Turk",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: 15.03,
+                    y: 12.07,
+                },
+            ),
+            timezone: "Africa/Ndjamena",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: 70.1303,
+                    y: -49.211,
+                },
+            ),
+            timezone: "Indian/Kerguelen",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: 100.31,
+                    y: 13.45,
+                },
+            ),
+            timezone: "Asia/Bangkok",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: 68.48,
+                    y: 38.35,
+                },
+            ),
+            timezone: "Asia/Dushanbe",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: -171.14,
+                    y: -9.22,
+                },
+            ),
+            timezone: "Pacific/Fakaofo",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: 125.35,
+                    y: -8.33,
+                },
+            ),
+            timezone: "Asia/Dili",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: 58.23,
+                    y: 37.57,
+                },
+            ),
+            timezone: "Asia/Ashgabat",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: 10.11,
+                    y: 36.48,
+                },
+            ),
+            timezone: "Africa/Tunis",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: -175.12,
+                    y: -21.08,
+                },
+            ),
+            timezone: "Pacific/Tongatapu",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: 28.58,
+                    y: 41.01,
+                },
+            ),
+            timezone: "Europe/Istanbul",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: 179.13,
+                    y: -8.31,
+                },
+            ),
+            timezone: "Pacific/Funafuti",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: 121.3,
+                    y: 25.03,
+                },
+            ),
+            timezone: "Asia/Taipei",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: 30.31,
+                    y: 50.26,
+                },
+            ),
+            timezone: "Europe/Kiev",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: 22.18,
+                    y: 48.37,
+                },
+            ),
+            timezone: "Europe/Uzhgorod",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: 35.1,
+                    y: 47.5,
+                },
+            ),
+            timezone: "Europe/Zaporozhye",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: 166.37,
+                    y: 19.17,
+                },
+            ),
+            timezone: "Pacific/Wake",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: -74.0023,
+                    y: 40.4251,
+                },
+            ),
+            timezone: "America/New_York",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: -83.0245,
+                    y: 42.1953,
+                },
+            ),
+            timezone: "America/Detroit",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: -85.4534,
+                    y: 38.1515,
+                },
+            ),
+            timezone: "America/Kentucky/Louisville",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: -84.5057,
+                    y: 36.4947,
+                },
+            ),
+            timezone: "America/Kentucky/Monticello",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: -86.0929,
+                    y: 39.4606,
+                },
+            ),
+            timezone: "America/Indiana/Indianapolis",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: -87.3143,
+                    y: 38.4038,
+                },
+            ),
+            timezone: "America/Indiana/Vincennes",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: -86.3611,
+                    y: 41.0305,
+                },
+            ),
+            timezone: "America/Indiana/Winamac",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: -86.2041,
+                    y: 38.2232,
+                },
+            ),
+            timezone: "America/Indiana/Marengo",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: -87.1643,
+                    y: 38.2931,
+                },
+            ),
+            timezone: "America/Indiana/Petersburg",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: -85.0402,
+                    y: 38.4452,
+                },
+            ),
+            timezone: "America/Indiana/Vevay",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: -87.39,
+                    y: 41.51,
+                },
+            ),
+            timezone: "America/Chicago",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: -86.4541,
+                    y: 37.5711,
+                },
+            ),
+            timezone: "America/Indiana/Tell_City",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: -86.373,
+                    y: 41.1745,
+                },
+            ),
+            timezone: "America/Indiana/Knox",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: -87.3651,
+                    y: 45.0628,
+                },
+            ),
+            timezone: "America/Menominee",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: -101.1757,
+                    y: 47.0659,
+                },
+            ),
+            timezone: "America/North_Dakota/Center",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: -101.2439,
+                    y: 46.5042,
+                },
+            ),
+            timezone: "America/North_Dakota/New_Salem",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: -101.464,
+                    y: 47.1551,
+                },
+            ),
+            timezone: "America/North_Dakota/Beulah",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: -104.5903,
+                    y: 39.4421,
+                },
+            ),
+            timezone: "America/Denver",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: -116.1209,
+                    y: 43.3649,
+                },
+            ),
+            timezone: "America/Boise",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: -112.0424,
+                    y: 33.2654,
+                },
+            ),
+            timezone: "America/Phoenix",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: -118.1434,
+                    y: 34.0308,
+                },
+            ),
+            timezone: "America/Los_Angeles",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: -149.5401,
+                    y: 61.1305,
+                },
+            ),
+            timezone: "America/Anchorage",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: -134.2511,
+                    y: 58.1807,
+                },
+            ),
+            timezone: "America/Juneau",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: -135.1807,
+                    y: 57.1035,
+                },
+            ),
+            timezone: "America/Sitka",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: -131.3435,
+                    y: 55.0737,
+                },
+            ),
+            timezone: "America/Metlakatla",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: -139.4338,
+                    y: 59.3249,
+                },
+            ),
+            timezone: "America/Yakutat",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: -165.2423,
+                    y: 64.3004,
+                },
+            ),
+            timezone: "America/Nome",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: -176.3929,
+                    y: 51.5248,
+                },
+            ),
+            timezone: "America/Adak",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: -157.513,
+                    y: 21.1825,
+                },
+            ),
+            timezone: "Pacific/Honolulu",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: -56.1245,
+                    y: -34.5433,
+                },
+            ),
+            timezone: "America/Montevideo",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: 66.48,
+                    y: 39.4,
+                },
+            ),
+            timezone: "Asia/Samarkand",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: 69.18,
+                    y: 41.2,
+                },
+            ),
+            timezone: "Asia/Tashkent",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: -66.56,
+                    y: 10.3,
+                },
+            ),
+            timezone: "America/Caracas",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: 106.4,
+                    y: 10.45,
+                },
+            ),
+            timezone: "Asia/Ho_Chi_Minh",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: 168.25,
+                    y: -17.4,
+                },
+            ),
+            timezone: "Pacific/Efate",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: -176.1,
+                    y: -13.18,
+                },
+            ),
+            timezone: "Pacific/Wallis",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: -171.44,
+                    y: -13.5,
+                },
+            ),
+            timezone: "Pacific/Apia",
+        },
+        Zone {
+            coordinates: Point(
+                Coordinate {
+                    x: 28.0,
+                    y: -26.15,
+                },
+            ),
+            timezone: "Africa/Johannesburg",
+        },
+    ],
+}

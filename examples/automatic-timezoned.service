@@ -1,0 +1,12 @@
+# vim: ft=systemd
+[Unit]
+Description=Automatically update system timezone based on location
+Requires=geoclue.service
+After=geoclue.service
+
+[Service]
+User=SOME_USER
+ExecStart=automatic-timezoned --zoneinfo-path=/usr/share/zoneinfo/zone1970.tab
+
+[Install]
+WantedBy=default.target

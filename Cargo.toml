@@ -1,0 +1,25 @@
+[package]
+name = "automatic-timezoned"
+description = "Automatically update system timezone based on location"
+version = "0.1.0"
+edition = "2021"
+repository = "https://github.com/maxbrunet/automatic-timezoned"
+license = "GPL-3.0"
+keywords = ["dbus", "geoclue", "systemd", "timezone", "zoneinfo"]
+publish = false
+
+[dependencies]
+clap = { version = "3.2.14", features = ["derive", "env"] }
+csv = "1.1.6"
+env_logger = "0.9.0"
+geo = "0.22.1"
+log = "0.4.17"
+zbus = "2.3.2"
+zvariant = "3.4.1"
+
+[dev-dependencies]
+insta = "1.16.0"
+
+[profile.release]
+lto = true
+codegen-units = 1

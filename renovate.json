@@ -1,0 +1,69 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": [
+    "config:base",
+    ":automergeDigest",
+    ":automergeMinor",
+    ":maintainLockFilesMonthly",
+    ":rebaseStalePrs",
+    ":semanticCommits",
+    ":semanticCommitScope(deps)",
+    "helpers:pinGitHubActionDigests"
+  ],
+  "assignees": ["maxbrunet"],
+  "internalChecksFilter": "strict",
+  "platformAutomerge": true,
+  "packageRules": [
+    {
+      "description": "One week stability period for Rust packages",
+      "matchDatasources": ["crate"],
+      "stabilityDays": 7
+    },
+    {
+      "description": "Customize rust updates commit message",
+      "matchPackageNames": ["rust"],
+      "commitMessageTopic": "rust"
+    },
+    {
+      "matchDepTypes": ["dependencies"],
+      "semanticCommitType": "build"
+    },
+    {
+      "matchPackageNames": ["rust"],
+      "matchUpdateTypes": ["patch", "minor", "major"],
+      "semanticCommitType": "build"
+    },
+    {
+      "matchFiles": ["Dockerfile"],
+      "semanticCommitType": "build"
+    }
+  ],
+  "regexManagers": [
+    {
+      "description": "Update version keys in YAML files",
+      "fileMatch": ["(^|/).*.ya?ml$"],
+      "matchStrings": ["# renovate: datasource=(?<datasource>[a-z-]+?) depName=(?<depName>[^\\s]+?)(?: packageName=(?<packageName>[^\\s]+?))?(?: versioning=(?<versioning>[a-z-0-9]+?))?\\s*[\\w-_]*version: (?<currentValue>.*?)\\s"]
+    },
+    {
+      "description": "Update semantic-release plugins",
+      "fileMatch": ["^\\.github/workflows/build\\.yml$"],
+      "matchStrings": ["\\s{12}(?<depName>\\S+?)@(?<currentValue>.+?)\\s"],
+      "datasourceTemplate": "npm"
+    },
+    {
+      "description": "Update _VERSION variables in .envrc",
+      "fileMatch": ["(^|/)\\.envrc$"],
+      "matchStrings": [
+        "# renovate: datasource=(?<datasource>.+?) depName=(?<depName>.+?)(?: (?:packageName)=(?<packageName>.+?))?(?: versioning=(?<versioning>.+?))?\\s[A-Z_]+?_VERSION=('|\")?(?<currentValue>.+?)('|\")?\\s"
+      ]
+    },
+    {
+      "description": "Update Rust stable version in rust-toolchain.toml",
+      "fileMatch": ["(^|/)rust-toolchain\\.toml$"],
+      "matchStrings": ["channel\\s*=\\s*('|\")(?<currentValue>.+?)('|\")\\s"],
+      "depNameTemplate": "rust",
+      "packageNameTemplate": "rust-lang/rust",
+      "datasourceTemplate": "github-releases"
+    }
+  ]
+}
