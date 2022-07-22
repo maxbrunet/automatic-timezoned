@@ -1,25 +1,32 @@
-# automatic-timezoned
+# Automatic Timezone Daemon
 
 A Linux daemon to automatically update the system timezone based on location.
 
 ## How It Works
 
 1. The list of timezones and their location is loaded from the [`zone1970.tab`](https://github.com/eggert/tz/blob/main/zone1970.tab) file
-2. The current location is retrieved from Geoclue
+2. The current location is retrieved from GeoClue
 3. The distance between the current location and each timezone is calculated with the [Haversine formula](https://en.wikipedia.org/wiki/Haversine_formula)
 4. The shortest distance determines the current timezone set via `systemd-timedated`
-5. Then, the daemon waits for the location updated signal from Geoclue, and repeats from step 2 when it happens
+5. Then, the daemon waits for the location updated signal from GeoClue, and repeats from step 2 when it happens
 
 _Note: The timezone choice may not be accurate if a reference city in a neighboring timezone is closer than any one in the actual timezone._
 
 ## Requirements
 
-* [Geoclue](https://gitlab.freedesktop.org/geoclue/geoclue/-/wikis/home)
+* [GeoClue](https://gitlab.freedesktop.org/geoclue/geoclue/-/wikis/home)
 * [IANA Time Zone Database](https://www.iana.org/time-zones) a.k.a. `tzdata` a.k.a. `zoneinfo`
 * [systemd](https://systemd.io/)
 * The user must be allowed to use the [`org.freedesktop.timedate1.set-timezone` action](https://www.freedesktop.org/software/systemd/man/org.freedesktop.timedate1.html#Security) (`root` or [Polkit](https://www.freedesktop.org/software/polkit/docs/latest/) rule)
+* The user must have running a GeoClue agent or the GeoClue configuration must allow the absence of agent with an empty agent `whitelist`
+  (see also [Stebalien/localtime - Configuring GeoClue](https://github.com/Stebalien/localtime#configuring-geoclue), [geoclue/geoclue#74](https://gitlab.freedesktop.org/geoclue/geoclue/-/issues/74))
 
 Please see the [examples/](examples/) directory for sample configurations.
+
+Sample Nix modules can be found here (may be submitted to [NixOS/nixpkgs](https://github.com/NixOS/nixpkgs) if there is interest):
+
+* [maxbrunet/naxos//modules/pkgs/automatic-timezoned.nix](https://github.com/maxbrunet/naxos/blob/main/modules/pkgs/automatic-timezoned.nix)
+* [maxbrunet/naxos//modules/services/automatic-timezoned.nix](https://github.com/maxbrunet/naxos/blob/main/modules/services/automatic-timezoned.nix)
 
 ## Configuration
 
