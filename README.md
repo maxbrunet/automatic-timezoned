@@ -56,7 +56,7 @@ This service depends on the `tzdata` package which allows to update the Time Zon
 here are some alternatives which have made different trade-offs for performance and accuracy:
 
 * [github.com/Stebalien/localtime](https://github.com/Stebalien/localtime): Depends on the unmaintained [github.com/bradfitz/latlong](https://pkg.go.dev/github.com/bradfitz/latlong) Go library.
-* [Gnome Automatic Time Zone](https://help.gnome.org/users/gnome-help/stable/clock-timezone.html.en) ([Source Code](https://github.com/GNOME/gnome-settings-daemon/tree/master/plugins/datetime)): Depends on the `tzdata` package and [Nominatim Web API](https://nominatim.org/) for distances.
+* [Gnome Automatic Time Zone](https://help.gnome.org/users/gnome-help/stable/clock-timezone.html.en) ([Source Code](https://gitlab.gnome.org/GNOME/gnome-settings-daemon/-/tree/master/plugins/datetime)): Depends on the `tzdata` package and [Nominatim Web API](https://nominatim.org/) for distances.
 
 ## License
 
