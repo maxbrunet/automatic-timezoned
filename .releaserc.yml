@@ -11,9 +11,10 @@ plugins:
     - labels: false
       releasedLabels: false
   - - "@semantic-release/exec"
-    - prepareCmd: |-
+    - prepareCmd: >-
         sed -Ei 's/^(version *= *).*$/\1"${nextRelease.version}"/' Cargo.toml
-        cargo check
+        && cargo check
+      publishCmd: cargo publish
   - - "@semantic-release/changelog"
     - changelogFile: CHANGELOG.md
       changelogTitle: |-
