@@ -26,16 +26,18 @@
       "commitMessageTopic": "rust"
     },
     {
+      "description": "Group insta packages",
+      "matchSourceUrls": ["https://github.com/mitsuhiko/insta"],
+      "matchUpdateTypes": ["digest", "patch", "minor", "major"],
+      "groupName": "insta"
+    },
+    {
       "matchDepTypes": ["dependencies"],
       "semanticCommitType": "build"
     },
     {
       "matchPackageNames": ["rust"],
       "matchUpdateTypes": ["patch", "minor", "major"],
-      "semanticCommitType": "build"
-    },
-    {
-      "matchFiles": ["Dockerfile"],
       "semanticCommitType": "build"
     }
   ],
