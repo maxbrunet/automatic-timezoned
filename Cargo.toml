@@ -6,7 +6,6 @@ edition = "2021"
 repository = "https://github.com/maxbrunet/automatic-timezoned"
 license = "GPL-3.0"
 keywords = ["dbus", "geoclue", "systemd", "timezone", "zoneinfo"]
-publish = false
 
 [dependencies]
 clap = { version = "=3.2.14", features = ["derive", "env"] }
