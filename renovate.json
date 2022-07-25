@@ -34,11 +34,6 @@
     {
       "matchDepTypes": ["dependencies"],
       "semanticCommitType": "build"
-    },
-    {
-      "matchPackageNames": ["rust"],
-      "matchUpdateTypes": ["patch", "minor", "major"],
-      "semanticCommitType": "build"
     }
   ],
   "regexManagers": [
