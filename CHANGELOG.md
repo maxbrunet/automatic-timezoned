@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.3](https://github.com/maxbrunet/automatic-timezoned/compare/v1.0.2...v1.0.3) (2022-07-25)
+
+
+### Miscellaneous Chores
+
+* **renovate:** change semantic of rust updates to "chore" ([#10](https://github.com/maxbrunet/automatic-timezoned/issues/10)) ([971404c](https://github.com/maxbrunet/automatic-timezoned/commit/971404cfa804ce83910e19bc93b7332eb93b0e84))
+
+
+### Build System
+
+* **deps:** update rust crate clap to v3.2.15 ([#11](https://github.com/maxbrunet/automatic-timezoned/issues/11)) ([1cf3d72](https://github.com/maxbrunet/automatic-timezoned/commit/1cf3d72d8ffb5d6eaa68bbd2c791a6739c280e3f))
+
 ## [1.0.2](https://github.com/maxbrunet/automatic-timezoned/compare/v1.0.1...v1.0.2) (2022-07-24)
 
 
