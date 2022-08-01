@@ -23,7 +23,7 @@ struct Args {
     )]
     zoneinfo_path: String,
 
-    /// Log level filter. See https://docs.rs/env_logger for syntax
+    /// Log level filter. See <https://docs.rs/env_logger> for syntax
     #[clap(
         short,
         long,

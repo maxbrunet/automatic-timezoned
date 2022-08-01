@@ -12,6 +12,10 @@ concurrency:
   group: ${{ github.workflow }}-${{ github.event.number || github.ref }}
   cancel-in-progress: true
 
+env:
+  RUSTFLAGS: --deny warnings
+  RUSTDOCFLAGS: --deny warnings
+
 jobs:
   test:
     runs-on: ubuntu-latest
@@ -51,7 +55,10 @@ jobs:
         uses: Swatinem/rust-cache@6720f05bc48b77f96918929a9019fb2203ff71f8 # tag=v2.0.0
 
       - name: Run clippy
-        run: cargo clippy -- --deny warnings
+        run: cargo clippy
+
+      - name: Run doc
+        run: cargo doc
 
       - name: Run fmt
         run: cargo fmt --check
