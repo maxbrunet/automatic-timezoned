@@ -19,7 +19,7 @@ pub struct ZoneInfo {
 }
 
 impl ZoneInfo {
-    /// Load zone1970.tab file (https://github.com/eggert/tz/blob/main/zone1970.tab).
+    /// Load zone1970.tab file (<https://github.com/eggert/tz/blob/main/zone1970.tab>).
     pub fn load_zones(&mut self, path: &str) -> Result<(), Box<dyn Error>> {
         let mut rdr = ReaderBuilder::new()
             .delimiter(b'\t')
