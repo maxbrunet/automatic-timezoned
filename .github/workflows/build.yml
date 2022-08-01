@@ -56,6 +56,32 @@ jobs:
       - name: Run fmt
         run: cargo fmt --check
 
+  audit:
+    runs-on: ubuntu-latest
+
+    timeout-minutes: 10
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@2541b1294d2704b0964813337f33b291d3f8596b # tag=v3.0.2
+        with:
+          fetch-depth: 2
+
+      - name: Set up Rust
+        run: rustup show
+
+      - name: Set up Rust cache
+        uses: Swatinem/rust-cache@6720f05bc48b77f96918929a9019fb2203ff71f8 # tag=v2.0.0
+
+      - name: Set up cargo-audit
+        run: cargo install --locked cargo-audit --version "${CARGO_AUDIT_VERSION}"
+        env:
+          # renovate: datasource=crate depName=cargo-audit versioning=cargo
+          CARGO_AUDIT_VERSION: =0.17.0
+
+      - name: Audit
+        run: cargo audit --deny warnings
+
   build:
     runs-on: ubuntu-latest
 
@@ -77,7 +103,7 @@ jobs:
         run: cargo build
 
   semantic-release:
-    needs: [build, lint, test]
+    needs: [audit, build, lint, test]
     if: github.event_name != 'pull_request'
     runs-on: ubuntu-latest
     permissions:

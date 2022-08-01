@@ -40,7 +40,9 @@
     {
       "description": "Update version keys in YAML files",
       "fileMatch": ["(^|/).*.ya?ml$"],
-      "matchStrings": ["# renovate: datasource=(?<datasource>[a-z-]+?) depName=(?<depName>[^\\s]+?)(?: packageName=(?<packageName>[^\\s]+?))?(?: versioning=(?<versioning>[a-z-0-9]+?))?\\s*[\\w-_]*version: (?<currentValue>.*?)\\s"]
+      "matchStrings": [
+        "# renovate: datasource=(?<datasource>[a-z-]+?) depName=(?<depName>[^\\s]+?)(?: packageName=(?<packageName>[^\\s]+?))?(?: versioning=(?<versioning>[a-z-0-9]+?))?\\s*[\\w-_]*(?:version|VERSION): (?<currentValue>.*?)\\s"
+      ]
     },
     {
       "description": "Update semantic-release plugins",
