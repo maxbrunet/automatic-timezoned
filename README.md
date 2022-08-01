@@ -1,5 +1,9 @@
 # Automatic Timezone Daemon
 
+[![Crates.io](https://img.shields.io/crates/v/automatic-timezoned)](https://crates.io/crates/automatic-timezoned)
+[![Build Status](https://github.com/maxbrunet/automatic-timezoned/actions/workflows/build.yml/badge.svg)](https://github.com/maxbrunet/automatic-timezoned/actions/workflows/build.yml)
+[![dependency status](https://deps.rs/repo/github/maxbrunet/automatic-timezoned/status.svg)](https://deps.rs/repo/github/maxbrunet/automatic-timezoned)
+
 A Linux daemon to automatically update the system timezone based on location.
 
 ## How It Works
