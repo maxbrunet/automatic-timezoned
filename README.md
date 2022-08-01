@@ -22,7 +22,7 @@ _Note: The timezone choice may not be accurate if a reference city in a neighbor
 * [IANA Time Zone Database](https://www.iana.org/time-zones) a.k.a. `tzdata` a.k.a. `zoneinfo`
 * [systemd](https://systemd.io/)
 * The user must be allowed to use the [`org.freedesktop.timedate1.set-timezone` action](https://www.freedesktop.org/software/systemd/man/org.freedesktop.timedate1.html#Security) (`root` or [Polkit](https://www.freedesktop.org/software/polkit/docs/latest/) rule)
-* The user must have running a GeoClue agent or the GeoClue configuration must allow the absence of agent with an empty agent `whitelist`
+* The user must have a running GeoClue agent or the GeoClue configuration must allow the absence of agent with an empty agent `whitelist`
   (see also [Stebalien/localtime - Configuring GeoClue](https://github.com/Stebalien/localtime#configuring-geoclue), [geoclue/geoclue#74](https://gitlab.freedesktop.org/geoclue/geoclue/-/issues/74))
 
 Please see the [examples/](examples/) directory for sample configurations.
