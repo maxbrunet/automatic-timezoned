@@ -17,7 +17,7 @@ zbus = "=2.3.2"
 zvariant = "=3.6.0"
 
 [dev-dependencies]
-insta = "=1.17.1"
+insta = "=1.17.2"
 
 [profile.release]
 lto = true
