@@ -2,6 +2,38 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.5](https://github.com/maxbrunet/automatic-timezoned/compare/v1.0.4...v1.0.5) (2022-08-12)
+
+
+### Continuous Integration
+
+* run cargo doc ([#17](https://github.com/maxbrunet/automatic-timezoned/issues/17)) ([fd2417d](https://github.com/maxbrunet/automatic-timezoned/commit/fd2417d633353dc60d8214e5e25d0a245b3ef34d))
+* run cargo-audit ([#15](https://github.com/maxbrunet/automatic-timezoned/issues/15)) ([3f3a4a5](https://github.com/maxbrunet/automatic-timezoned/commit/3f3a4a5e99aa2e1568d1935ef6d0659b779aef4f))
+
+
+### Documentation
+
+* **readme:** add badges ([#18](https://github.com/maxbrunet/automatic-timezoned/issues/18)) ([a5c9d8b](https://github.com/maxbrunet/automatic-timezoned/commit/a5c9d8b421abbf3929555c63686d4e58530b521c))
+* **readme:** fix running GeoClue agent typo ([#19](https://github.com/maxbrunet/automatic-timezoned/issues/19)) ([b9fa492](https://github.com/maxbrunet/automatic-timezoned/commit/b9fa4921050ca68441e236ba39505e64c0102f64))
+
+
+### Miscellaneous Chores
+
+* **deps:** lock file maintenance ([#16](https://github.com/maxbrunet/automatic-timezoned/issues/16)) ([8efb080](https://github.com/maxbrunet/automatic-timezoned/commit/8efb080b396ad23d8bf12127b88097fa7017e140))
+* **deps:** lock file maintenance ([#26](https://github.com/maxbrunet/automatic-timezoned/issues/26)) ([7631228](https://github.com/maxbrunet/automatic-timezoned/commit/7631228d0c3507f90f0046ee844ad1976a1f96fe))
+* **deps:** update cycjimmy/semantic-release-action action to v3.1.0 ([#20](https://github.com/maxbrunet/automatic-timezoned/issues/20)) ([be6dd04](https://github.com/maxbrunet/automatic-timezoned/commit/be6dd04d9bfbd43da70d006410e8e993219282de))
+* **deps:** update insta to v1.17.1 ([#14](https://github.com/maxbrunet/automatic-timezoned/issues/14)) ([9df9fee](https://github.com/maxbrunet/automatic-timezoned/commit/9df9fee992da066e0a1fbad0f3ce31d8a0ba8aa6))
+* **deps:** update insta to v1.17.2 ([#21](https://github.com/maxbrunet/automatic-timezoned/issues/21)) ([387e2a6](https://github.com/maxbrunet/automatic-timezoned/commit/387e2a6c7c7e2b48c25acf336c1c6c03661bd110))
+* **deps:** update insta to v1.18.0 ([#22](https://github.com/maxbrunet/automatic-timezoned/issues/22)) ([c2be493](https://github.com/maxbrunet/automatic-timezoned/commit/c2be49359d304c95ffb419478691c87cc9b0a456))
+* **deps:** update insta to v1.18.1 ([#23](https://github.com/maxbrunet/automatic-timezoned/issues/23)) ([85a6feb](https://github.com/maxbrunet/automatic-timezoned/commit/85a6febcc9d1b6198e0744bfcfe99079342d5223))
+* **deps:** update insta to v1.18.2 ([#24](https://github.com/maxbrunet/automatic-timezoned/issues/24)) ([590d4de](https://github.com/maxbrunet/automatic-timezoned/commit/590d4deb2ce5898f74f0c9155933f1573e7d738f))
+* **deps:** update rust to v1.63.0 ([#25](https://github.com/maxbrunet/automatic-timezoned/issues/25)) ([dcaa442](https://github.com/maxbrunet/automatic-timezoned/commit/dcaa4428e54567aedddc1906c5c77f7a1a3c3c9a))
+
+
+### Build System
+
+* **deps:** update rust crate clap to v3.2.17 ([#27](https://github.com/maxbrunet/automatic-timezoned/issues/27)) ([39ac0f4](https://github.com/maxbrunet/automatic-timezoned/commit/39ac0f421653f4388a319b208dfda27d59e88c7d))
+
 ## [1.0.4](https://github.com/maxbrunet/automatic-timezoned/compare/v1.0.3...v1.0.4) (2022-07-30)
 
 
