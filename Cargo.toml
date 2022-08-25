@@ -11,7 +11,7 @@ keywords = ["dbus", "geoclue", "systemd", "timezone", "zoneinfo"]
 clap = { version = "=3.2.17", features = ["derive", "env"] }
 csv = "=1.1.6"
 env_logger = "=0.9.0"
-geo = "=0.22.1"
+geo = "=0.23.0"
 log = "=0.4.17"
 zbus = "=3.0.0"
 zvariant = "=3.6.0"
