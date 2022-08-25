@@ -2,6 +2,20 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.7](https://github.com/maxbrunet/automatic-timezoned/compare/v1.0.6...v1.0.7) (2022-08-25)
+
+
+### Miscellaneous Chores
+
+* **deps:** update dependency semantic-release to v19.0.4 ([#30](https://github.com/maxbrunet/automatic-timezoned/issues/30)) ([df4abd0](https://github.com/maxbrunet/automatic-timezoned/commit/df4abd08d2da696be834df116db8377ccef4aa2a))
+* **deps:** update dependency semantic-release to v19.0.5 ([#31](https://github.com/maxbrunet/automatic-timezoned/issues/31)) ([544a9a4](https://github.com/maxbrunet/automatic-timezoned/commit/544a9a4455245f7622b45ebb12046e67c4631e3b))
+* **deps:** update insta to v1.19.0 ([#29](https://github.com/maxbrunet/automatic-timezoned/issues/29)) ([b9df3f4](https://github.com/maxbrunet/automatic-timezoned/commit/b9df3f48473b40cf20127a7aac76c60afd596e0d))
+
+
+### Build System
+
+* **deps:** update rust crate geo to v0.23.0 ([#32](https://github.com/maxbrunet/automatic-timezoned/issues/32)) ([31e8cd6](https://github.com/maxbrunet/automatic-timezoned/commit/31e8cd6b305317010774048c6faeaf9df21b910b))
+
 ## [1.0.6](https://github.com/maxbrunet/automatic-timezoned/compare/v1.0.5...v1.0.6) (2022-08-17)
 
 
