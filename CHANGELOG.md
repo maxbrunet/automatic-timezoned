@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.9](https://github.com/maxbrunet/automatic-timezoned/compare/v1.0.8...v1.0.9) (2022-08-30)
+
+
+### Miscellaneous Chores
+
+* **deps:** update cycjimmy/semantic-release-action action to v3.1.1 ([#34](https://github.com/maxbrunet/automatic-timezoned/issues/34)) ([856807e](https://github.com/maxbrunet/automatic-timezoned/commit/856807e26de5bdf2baa10301881ad63dad2ca86f))
+
+
+### Build System
+
+* **deps:** update rust crate clap to v3.2.19 ([#35](https://github.com/maxbrunet/automatic-timezoned/issues/35)) ([8b4d5d4](https://github.com/maxbrunet/automatic-timezoned/commit/8b4d5d4845be92bd4922d8e335e79711b360af79))
+
 ## [1.0.8](https://github.com/maxbrunet/automatic-timezoned/compare/v1.0.7...v1.0.8) (2022-08-29)
 
 
