@@ -8,7 +8,7 @@ license = "GPL-3.0"
 keywords = ["dbus", "geoclue", "systemd", "timezone", "zoneinfo"]
 
 [dependencies]
-clap = { version = "=3.2.18", features = ["derive", "env"] }
+clap = { version = "=3.2.19", features = ["derive", "env"] }
 csv = "=1.1.6"
 env_logger = "=0.9.0"
 geo = "=0.23.0"
