@@ -136,7 +136,7 @@ jobs:
         uses: Swatinem/rust-cache@6720f05bc48b77f96918929a9019fb2203ff71f8 # tag=v2.0.0
 
       - name: Semantic Release
-        uses: cycjimmy/semantic-release-action@071ef4c9640be3700de2aa7f39e8f4038e0269ed # tag=v3.1.0
+        uses: cycjimmy/semantic-release-action@e1fe1fc00a3729593e87efb2f88475de76d64a24 # tag=v3.1.1
         id: semantic-release
         with:
           # renovate: datasource=npm depName=semantic-release
