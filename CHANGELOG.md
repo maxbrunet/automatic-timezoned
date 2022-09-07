@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.11](https://github.com/maxbrunet/automatic-timezoned/compare/v1.0.10...v1.0.11) (2022-09-07)
+
+
+### Build System
+
+* **deps:** update rust crate zbus to v3.1.0 ([#39](https://github.com/maxbrunet/automatic-timezoned/issues/39)) ([c037783](https://github.com/maxbrunet/automatic-timezoned/commit/c037783d0bfe2ac7734f796cbe8bc610ba5e84e8))
+
 ## [1.0.10](https://github.com/maxbrunet/automatic-timezoned/compare/v1.0.9...v1.0.10) (2022-09-02)
 
 
