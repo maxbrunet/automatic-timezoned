@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.15](https://github.com/maxbrunet/automatic-timezoned/compare/v1.0.14...v1.0.15) (2022-09-28)
+
+
+### Miscellaneous Chores
+
+* **deps:** update insta to v1.21.0 ([#45](https://github.com/maxbrunet/automatic-timezoned/issues/45)) ([82723ae](https://github.com/maxbrunet/automatic-timezoned/commit/82723aee9a833cf2b33462d2fc1b4631d57c9e1f))
+* **deps:** update rust to v1.64.0 ([#44](https://github.com/maxbrunet/automatic-timezoned/issues/44)) ([0925a69](https://github.com/maxbrunet/automatic-timezoned/commit/0925a69eff5c8a45c3669294146ae1d19cedeefe))
+
+
+### Build System
+
+* disable default features from all dependencies ([#46](https://github.com/maxbrunet/automatic-timezoned/issues/46)) ([5d6cb37](https://github.com/maxbrunet/automatic-timezoned/commit/5d6cb37ff1b860d496e7ee18c7b435a60bac73f7))
+
 ## [1.0.14](https://github.com/maxbrunet/automatic-timezoned/compare/v1.0.13...v1.0.14) (2022-09-17)
 
 
