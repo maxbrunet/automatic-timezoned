@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.16](https://github.com/maxbrunet/automatic-timezoned/compare/v1.0.15...v1.0.16) (2022-09-29)
+
+
+### Tests
+
+* add snapshot tests for CLI ([#48](https://github.com/maxbrunet/automatic-timezoned/issues/48)) ([579a77d](https://github.com/maxbrunet/automatic-timezoned/commit/579a77dd9b935e60238ec6e522b2e560059cf997))
+
+
+### Build System
+
+* **deps:** update rust crate zvariant to v3.7.0 ([#50](https://github.com/maxbrunet/automatic-timezoned/issues/50)) ([df6d042](https://github.com/maxbrunet/automatic-timezoned/commit/df6d042654b344e81fc48d8a418d548b3f1a3a79))
+
 ## [1.0.15](https://github.com/maxbrunet/automatic-timezoned/compare/v1.0.14...v1.0.15) (2022-09-28)
 
 
