@@ -2,6 +2,24 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.19](https://github.com/maxbrunet/automatic-timezoned/compare/v1.0.18...v1.0.19) (2022-10-05)
+
+
+### Miscellaneous Chores
+
+* **deps:** lock file maintenance ([#52](https://github.com/maxbrunet/automatic-timezoned/issues/52)) ([ab2b5d0](https://github.com/maxbrunet/automatic-timezoned/commit/ab2b5d082fb0ab82f3ad4a1b91530342b652c256))
+* **deps:** update actions/checkout action to v3.1.0 ([#53](https://github.com/maxbrunet/automatic-timezoned/issues/53)) ([a439d9a](https://github.com/maxbrunet/automatic-timezoned/commit/a439d9a1b06ea10b1b3ca8a03de44e0356aa9428))
+
+
+### Build System
+
+* **deps:** update rust crate clap to v4 ([#47](https://github.com/maxbrunet/automatic-timezoned/issues/47)) ([69b5877](https://github.com/maxbrunet/automatic-timezoned/commit/69b58774c373767e82a4d160f18e8f6390ddd3f4))
+
+
+### Continuous Integration
+
+* **semantic-release:** fix version bump ([#54](https://github.com/maxbrunet/automatic-timezoned/issues/54)) ([67bd79d](https://github.com/maxbrunet/automatic-timezoned/commit/67bd79d760cac58527b9f118c2b5ae76317bbbd7))
+
 ## [1.0.18](https://github.com/maxbrunet/automatic-timezoned/compare/v1.0.17...v1.0.18) (2022-09-30)
 
 
