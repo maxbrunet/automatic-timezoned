@@ -12,7 +12,7 @@ plugins:
       releasedLabels: false
   - - "@semantic-release/exec"
     - prepareCmd: >-
-        sed -Ei 's/^(version *= *).*$/\1"${nextRelease.version}"/' Cargo.toml
+        sed -Ei '0,/^version *=/ s/^(version *= *).*$/\1"${nextRelease.version}"/' Cargo.toml
         && cargo check
       publishCmd: cargo publish
   - - "@semantic-release/changelog"
