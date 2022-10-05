@@ -11,26 +11,19 @@ mod zoneinfo;
 
 /// Automatically update system timezone based on location
 #[derive(Parser)]
-#[clap(author, version, about, long_about = None)]
+#[command(author, version, about, long_about = None)]
 struct Args {
     /// Path to zoneinfo tab file
-    #[clap(
+    #[arg(
         short,
         long,
-        value_parser,
         default_value = "/usr/share/zoneinfo/zone1970.tab",
         env = "AUTOTZD_ZONEINFO_FILE"
     )]
     zoneinfo_path: String,
 
     /// Log level filter. See <https://docs.rs/env_logger> for syntax
-    #[clap(
-        short,
-        long,
-        value_parser,
-        default_value = "info",
-        env = "AUTOTZD_LOG_LEVEL"
-    )]
+    #[arg(short, long, default_value = "info", env = "AUTOTZD_LOG_LEVEL")]
     log_level: String,
 }
 
