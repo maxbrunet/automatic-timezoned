@@ -8,13 +8,24 @@ license = "GPL-3.0"
 keywords = ["dbus", "geoclue", "systemd", "timezone", "zoneinfo"]
 
 [dependencies]
-clap = { version = "=4.0.9", default-features = false, features = ["derive", "env", "std"] }
 csv = { version = "=1.1.6", default-features = false }
 env_logger = { version = "=0.9.1", default-features = false }
 geo = { version = "=0.23.0", default-features = false }
 log = { version = "=0.4.17", default-features = false }
 zbus = { version = "=3.2.0", default-features = false, features = ["async-io"] }
 zvariant = { version = "=3.7.1", default-features = false }
+
+[dependencies.clap]
+version = "=4.0.9"
+default-features = false
+features = [
+  "derive",
+  "env",
+  "error-context",
+  "help",
+  "std",
+  "usage",
+]
 
 [dev-dependencies]
 insta = "=1.21.0"
