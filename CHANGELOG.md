@@ -2,6 +2,20 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.32](https://github.com/maxbrunet/automatic-timezoned/compare/v1.0.31...v1.0.32) (2022-11-07)
+
+
+### Miscellaneous Chores
+
+* **deps:** update rust crate trycmd to v0.14.3 ([#79](https://github.com/maxbrunet/automatic-timezoned/issues/79)) ([46cc963](https://github.com/maxbrunet/automatic-timezoned/commit/46cc963cdc04492e1108aea85444a5087cd863df))
+* **deps:** update rust to v1.65.0 ([#75](https://github.com/maxbrunet/automatic-timezoned/issues/75)) ([ce0d40d](https://github.com/maxbrunet/automatic-timezoned/commit/ce0d40d530a2b5945f9c5b7d8b4c7745af158fef))
+* **deps:** update swatinem/rust-cache action to v2.1.0 ([#80](https://github.com/maxbrunet/automatic-timezoned/issues/80)) ([b5a9678](https://github.com/maxbrunet/automatic-timezoned/commit/b5a96782fa2c93373bd0d40a7258cd2cafefc09a))
+
+
+### Build System
+
+* **deps:** update rust crate clap to v4.0.20 ([#81](https://github.com/maxbrunet/automatic-timezoned/issues/81)) ([6af9b9f](https://github.com/maxbrunet/automatic-timezoned/commit/6af9b9f35c58d7a89c4909319475451a452e9572))
+
 ## [1.0.31](https://github.com/maxbrunet/automatic-timezoned/compare/v1.0.30...v1.0.31) (2022-11-04)
 
 
