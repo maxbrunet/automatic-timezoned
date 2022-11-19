@@ -27,11 +27,6 @@ _Note: The timezone choice may not be accurate if a reference city in a neighbor
 
 Please see the [examples/](examples/) directory for sample configurations.
 
-Sample Nix modules can be found here (may be submitted to [NixOS/nixpkgs](https://github.com/NixOS/nixpkgs) if there is interest):
-
-* [maxbrunet/naxos//modules/pkgs/automatic-timezoned.nix](https://github.com/maxbrunet/naxos/blob/main/modules/pkgs/automatic-timezoned.nix)
-* [maxbrunet/naxos//modules/services/automatic-timezoned.nix](https://github.com/maxbrunet/naxos/blob/main/modules/services/automatic-timezoned.nix)
-
 ## Configuration
 
 ```
@@ -47,6 +42,10 @@ Options:
   -V, --version                        Print version information
 
 ```
+
+## Packages
+
+[![Packaging status](https://repology.org/badge/vertical-allrepos/automatic-timezoned.svg?header=&columns=3)](https://repology.org/project/automatic-timezoned/versions)
 
 ## Development
 
