@@ -2,6 +2,23 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.42](https://github.com/maxbrunet/automatic-timezoned/compare/v1.0.41...v1.0.42) (2022-11-24)
+
+
+### Documentation
+
+* **readme:** add packaging status ([#95](https://github.com/maxbrunet/automatic-timezoned/issues/95)) ([47d6830](https://github.com/maxbrunet/automatic-timezoned/commit/47d68307ffd0120fb1df443cda58ec8dd32b102c))
+
+
+### Miscellaneous Chores
+
+* **deps:** update rust crate trycmd to v0.14.5 ([#97](https://github.com/maxbrunet/automatic-timezoned/issues/97)) ([e7f8200](https://github.com/maxbrunet/automatic-timezoned/commit/e7f820019cf5b4b240fd47f7aa439bff386a3fb9))
+
+
+### Build System
+
+* **deps:** update rust crate clap to v4.0.27 ([#96](https://github.com/maxbrunet/automatic-timezoned/issues/96)) ([ac8f4df](https://github.com/maxbrunet/automatic-timezoned/commit/ac8f4dff913e49d9d420efbd53da3d78042e50bd))
+
 ## [1.0.41](https://github.com/maxbrunet/automatic-timezoned/compare/v1.0.40...v1.0.41) (2022-11-16)
 
 
