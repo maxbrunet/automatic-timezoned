@@ -2,6 +2,20 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.44](https://github.com/maxbrunet/automatic-timezoned/compare/v1.0.43...v1.0.44) (2022-11-29)
+
+
+### Miscellaneous Chores
+
+* **deps:** update dependency @semantic-release/changelog to v6.0.2 ([#101](https://github.com/maxbrunet/automatic-timezoned/issues/101)) ([d99f8df](https://github.com/maxbrunet/automatic-timezoned/commit/d99f8df3b27d4abfe8590c947434db6547350ba5))
+* **deps:** update dependency cargo-insta to v1.21.2 ([#99](https://github.com/maxbrunet/automatic-timezoned/issues/99)) ([5b5dd8b](https://github.com/maxbrunet/automatic-timezoned/commit/5b5dd8bf2deb0837c1b0bea37f58e9043da0450c))
+* **deps:** update rust crate insta to v1.21.2 ([#100](https://github.com/maxbrunet/automatic-timezoned/issues/100)) ([4431f81](https://github.com/maxbrunet/automatic-timezoned/commit/4431f81b1dfca11d829401294881fd92e7c0211a))
+
+
+### Build System
+
+* **deps:** update rust crate clap to v4.0.28 ([#102](https://github.com/maxbrunet/automatic-timezoned/issues/102)) ([481989b](https://github.com/maxbrunet/automatic-timezoned/commit/481989b60b441962b226ce41f917fee47a25c789))
+
 ## [1.0.43](https://github.com/maxbrunet/automatic-timezoned/compare/v1.0.42...v1.0.43) (2022-11-24)
 
 
