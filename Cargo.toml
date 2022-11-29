@@ -1,7 +1,7 @@
 [package]
 name = "automatic-timezoned"
 description = "Automatically update system timezone based on location"
-version = "1.0.44"
+version = "1.0.45"
 edition = "2021"
 repository = "https://github.com/maxbrunet/automatic-timezoned"
 license = "GPL-3.0"
