@@ -6,7 +6,7 @@ ZoneInfo {
     zones: [
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: 55.18,
                     y: 25.18,
                 },
@@ -15,7 +15,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: 69.12,
                     y: 34.31,
                 },
@@ -24,7 +24,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: 19.5,
                     y: 41.2,
                 },
@@ -33,7 +33,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: 44.3,
                     y: 40.11,
                 },
@@ -42,7 +42,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: 110.31,
                     y: -66.17,
                 },
@@ -51,7 +51,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: 77.58,
                     y: -68.35,
                 },
@@ -60,7 +60,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: 62.53,
                     y: -67.36,
                 },
@@ -69,7 +69,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: -64.06,
                     y: -64.48,
                 },
@@ -78,7 +78,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: -68.08,
                     y: -67.34,
                 },
@@ -87,7 +87,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: 2.3205999999999998,
                     y: -72.0041,
                 },
@@ -96,7 +96,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: 106.54,
                     y: -78.24,
                 },
@@ -105,7 +105,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: -58.27,
                     y: -34.36,
                 },
@@ -114,7 +114,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: -64.11,
                     y: -31.24,
                 },
@@ -123,7 +123,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: -65.25,
                     y: -24.47,
                 },
@@ -132,7 +132,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: -65.18,
                     y: -24.11,
                 },
@@ -141,7 +141,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: -65.13,
                     y: -26.49,
                 },
@@ -150,7 +150,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: -65.47,
                     y: -28.28,
                 },
@@ -159,7 +159,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: -66.51,
                     y: -29.26,
                 },
@@ -168,7 +168,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: -68.31,
                     y: -31.32,
                 },
@@ -177,7 +177,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: -68.49,
                     y: -32.53,
                 },
@@ -186,7 +186,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: -66.21,
                     y: -33.19,
                 },
@@ -195,7 +195,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: -69.13,
                     y: -51.38,
                 },
@@ -204,7 +204,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: -68.18,
                     y: -54.48,
                 },
@@ -213,7 +213,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: -170.42,
                     y: -14.16,
                 },
@@ -222,7 +222,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: 16.2,
                     y: 48.13,
                 },
@@ -231,7 +231,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: 159.05,
                     y: -31.33,
                 },
@@ -240,7 +240,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: 158.57,
                     y: -54.3,
                 },
@@ -249,7 +249,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: 147.19,
                     y: -42.53,
                 },
@@ -258,7 +258,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: 144.58,
                     y: -37.49,
                 },
@@ -267,7 +267,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: 151.13,
                     y: -33.52,
                 },
@@ -276,7 +276,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: 141.27,
                     y: -31.57,
                 },
@@ -285,7 +285,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: 153.02,
                     y: -27.28,
                 },
@@ -294,7 +294,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: 149.0,
                     y: -20.16,
                 },
@@ -303,7 +303,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: 138.35,
                     y: -34.55,
                 },
@@ -312,7 +312,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: 130.5,
                     y: -12.28,
                 },
@@ -321,7 +321,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: 115.51,
                     y: -31.57,
                 },
@@ -330,7 +330,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: 128.52,
                     y: -31.43,
                 },
@@ -339,7 +339,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: 49.51,
                     y: 40.23,
                 },
@@ -348,7 +348,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: -59.37,
                     y: 13.06,
                 },
@@ -357,7 +357,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: 90.25,
                     y: 23.43,
                 },
@@ -366,7 +366,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: 4.2,
                     y: 50.5,
                 },
@@ -375,7 +375,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: 23.19,
                     y: 42.41,
                 },
@@ -384,7 +384,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: -64.46,
                     y: 32.17,
                 },
@@ -393,7 +393,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: 114.55,
                     y: 4.5600000000000005,
                 },
@@ -402,7 +402,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: -68.09,
                     y: -16.3,
                 },
@@ -411,7 +411,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: -32.25,
                     y: -3.51,
                 },
@@ -420,7 +420,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: -48.29,
                     y: -1.27,
                 },
@@ -429,7 +429,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: -38.3,
                     y: -3.43,
                 },
@@ -438,7 +438,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: -34.54,
                     y: -8.03,
                 },
@@ -447,7 +447,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: -48.12,
                     y: -7.12,
                 },
@@ -456,7 +456,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: -35.43,
                     y: -9.4,
                 },
@@ -465,7 +465,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: -38.31,
                     y: -12.59,
                 },
@@ -474,7 +474,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: -46.37,
                     y: -23.32,
                 },
@@ -483,7 +483,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: -54.37,
                     y: -20.27,
                 },
@@ -492,7 +492,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: -56.05,
                     y: -15.35,
                 },
@@ -501,7 +501,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: -54.52,
                     y: -2.26,
                 },
@@ -510,7 +510,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: -63.54,
                     y: -8.46,
                 },
@@ -519,7 +519,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: -60.4,
                     y: 2.49,
                 },
@@ -528,7 +528,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: -60.01,
                     y: -3.08,
                 },
@@ -537,7 +537,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: -69.52,
                     y: -6.4,
                 },
@@ -546,7 +546,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: -67.48,
                     y: -9.58,
                 },
@@ -555,7 +555,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: 89.39,
                     y: 27.28,
                 },
@@ -564,7 +564,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: 27.34,
                     y: 53.54,
                 },
@@ -573,7 +573,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: -88.12,
                     y: 17.3,
                 },
@@ -582,7 +582,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: -52.43,
                     y: 47.34,
                 },
@@ -591,7 +591,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: -63.36,
                     y: 44.39,
                 },
@@ -600,7 +600,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: -59.57,
                     y: 46.12,
                 },
@@ -609,7 +609,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: -64.47,
                     y: 46.06,
                 },
@@ -618,7 +618,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: -60.25,
                     y: 53.2,
                 },
@@ -627,7 +627,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: -79.23,
                     y: 43.39,
                 },
@@ -636,7 +636,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: -88.16,
                     y: 49.01,
                 },
@@ -645,7 +645,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: -89.15,
                     y: 48.23,
                 },
@@ -654,7 +654,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: -68.28,
                     y: 63.44,
                 },
@@ -663,7 +663,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: -65.44,
                     y: 66.08,
                 },
@@ -672,7 +672,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: -97.09,
                     y: 49.53,
                 },
@@ -681,7 +681,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: -94.34,
                     y: 48.43,
                 },
@@ -690,7 +690,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: -94.4945,
                     y: 74.4144,
                 },
@@ -699,7 +699,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: -92.0459,
                     y: 62.49,
                 },
@@ -708,7 +708,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: -104.39,
                     y: 50.24,
                 },
@@ -717,7 +717,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: -107.5,
                     y: 50.17,
                 },
@@ -726,7 +726,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: -113.28,
                     y: 53.33,
                 },
@@ -735,7 +735,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: -105.031,
                     y: 69.065,
                 },
@@ -744,7 +744,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: -114.21,
                     y: 62.27,
                 },
@@ -753,7 +753,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: -133.43,
                     y: 68.2059,
                 },
@@ -762,7 +762,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: -120.14,
                     y: 59.46,
                 },
@@ -771,7 +771,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: -122.42,
                     y: 58.48,
                 },
@@ -780,7 +780,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: -135.03,
                     y: 60.43,
                 },
@@ -789,7 +789,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: -139.25,
                     y: 64.04,
                 },
@@ -798,7 +798,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: -123.07,
                     y: 49.16,
                 },
@@ -807,7 +807,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: 96.55,
                     y: -12.1,
                 },
@@ -816,7 +816,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: 8.32,
                     y: 47.23,
                 },
@@ -825,7 +825,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: -4.02,
                     y: 5.19,
                 },
@@ -834,7 +834,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: -159.46,
                     y: -21.14,
                 },
@@ -843,7 +843,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: -70.4,
                     y: -33.27,
                 },
@@ -852,7 +852,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: -70.55,
                     y: -53.09,
                 },
@@ -861,7 +861,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: -109.26,
                     y: -27.09,
                 },
@@ -870,7 +870,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: 121.28,
                     y: 31.14,
                 },
@@ -879,7 +879,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: 87.35,
                     y: 43.48,
                 },
@@ -888,7 +888,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: -74.05,
                     y: 4.36,
                 },
@@ -897,7 +897,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: -84.05,
                     y: 9.56,
                 },
@@ -906,7 +906,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: -82.22,
                     y: 23.08,
                 },
@@ -915,7 +915,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: -23.31,
                     y: 14.55,
                 },
@@ -924,7 +924,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: 105.43,
                     y: -10.25,
                 },
@@ -933,7 +933,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: 33.22,
                     y: 35.1,
                 },
@@ -942,7 +942,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: 33.57,
                     y: 35.07,
                 },
@@ -951,7 +951,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: 14.26,
                     y: 50.05,
                 },
@@ -960,7 +960,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: 13.22,
                     y: 52.3,
                 },
@@ -969,7 +969,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: 12.35,
                     y: 55.4,
                 },
@@ -978,7 +978,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: -69.54,
                     y: 18.28,
                 },
@@ -987,7 +987,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: 3.03,
                     y: 36.47,
                 },
@@ -996,7 +996,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: -79.5,
                     y: -2.1,
                 },
@@ -1005,7 +1005,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: -89.36,
                     y: 0.54,
                 },
@@ -1014,7 +1014,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: 24.45,
                     y: 59.25,
                 },
@@ -1023,7 +1023,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: 31.15,
                     y: 30.03,
                 },
@@ -1032,7 +1032,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: -13.12,
                     y: 27.09,
                 },
@@ -1041,7 +1041,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: -3.41,
                     y: 40.24,
                 },
@@ -1050,7 +1050,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: -5.19,
                     y: 35.53,
                 },
@@ -1059,7 +1059,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: -15.24,
                     y: 28.06,
                 },
@@ -1068,7 +1068,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: 24.58,
                     y: 60.1,
                 },
@@ -1077,7 +1077,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: 178.25,
                     y: -18.08,
                 },
@@ -1086,7 +1086,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: -57.51,
                     y: -51.42,
                 },
@@ -1095,7 +1095,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: 151.47,
                     y: 7.25,
                 },
@@ -1104,7 +1104,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: 158.13,
                     y: 6.58,
                 },
@@ -1113,7 +1113,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: 162.59,
                     y: 5.19,
                 },
@@ -1122,7 +1122,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: -6.46,
                     y: 62.01,
                 },
@@ -1131,7 +1131,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: 2.2,
                     y: 48.52,
                 },
@@ -1140,7 +1140,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: 0.0731,
                     y: 51.303,
                 },
@@ -1149,7 +1149,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: 44.49,
                     y: 41.43,
                 },
@@ -1158,7 +1158,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: -52.2,
                     y: 4.5600000000000005,
                 },
@@ -1167,7 +1167,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: -5.21,
                     y: 36.08,
                 },
@@ -1176,7 +1176,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: -51.44,
                     y: 64.11,
                 },
@@ -1185,7 +1185,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: -18.4,
                     y: 76.46,
                 },
@@ -1194,7 +1194,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: -21.58,
                     y: 70.29,
                 },
@@ -1203,7 +1203,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: -68.47,
                     y: 76.34,
                 },
@@ -1212,7 +1212,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: 23.43,
                     y: 37.58,
                 },
@@ -1221,7 +1221,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: -36.32,
                     y: -54.16,
                 },
@@ -1230,7 +1230,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: -90.31,
                     y: 14.38,
                 },
@@ -1239,7 +1239,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: 144.45,
                     y: 13.28,
                 },
@@ -1248,7 +1248,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: -15.35,
                     y: 11.51,
                 },
@@ -1257,7 +1257,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: -58.1,
                     y: 6.48,
                 },
@@ -1266,7 +1266,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: 114.09,
                     y: 22.17,
                 },
@@ -1275,7 +1275,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: -87.13,
                     y: 14.06,
                 },
@@ -1284,7 +1284,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: -72.2,
                     y: 18.32,
                 },
@@ -1293,7 +1293,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: 19.05,
                     y: 47.3,
                 },
@@ -1302,7 +1302,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: 106.48,
                     y: -6.1,
                 },
@@ -1311,7 +1311,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: 109.2,
                     y: 0.02,
                 },
@@ -1320,7 +1320,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: 119.24,
                     y: -5.07,
                 },
@@ -1329,7 +1329,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: 140.42,
                     y: -2.32,
                 },
@@ -1338,7 +1338,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: -6.15,
                     y: 53.2,
                 },
@@ -1347,7 +1347,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: 35.1326,
                     y: 31.465,
                 },
@@ -1356,7 +1356,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: 88.22,
                     y: 22.32,
                 },
@@ -1365,7 +1365,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: 72.25,
                     y: -7.2,
                 },
@@ -1374,7 +1374,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: 44.25,
                     y: 33.21,
                 },
@@ -1383,7 +1383,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: 51.26,
                     y: 35.4,
                 },
@@ -1392,7 +1392,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: -21.51,
                     y: 64.09,
                 },
@@ -1401,7 +1401,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: 12.29,
                     y: 41.54,
                 },
@@ -1410,7 +1410,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: -76.4736,
                     y: 17.5805,
                 },
@@ -1419,7 +1419,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: 35.56,
                     y: 31.57,
                 },
@@ -1428,7 +1428,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: 139.4441,
                     y: 35.3916,
                 },
@@ -1437,7 +1437,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: 36.49,
                     y: -1.17,
                 },
@@ -1446,7 +1446,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: 74.36,
                     y: 42.54,
                 },
@@ -1455,7 +1455,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: 173.0,
                     y: 1.25,
                 },
@@ -1464,7 +1464,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: -171.43,
                     y: -2.4699999999999998,
                 },
@@ -1473,7 +1473,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: -157.2,
                     y: 1.52,
                 },
@@ -1482,7 +1482,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: 125.45,
                     y: 39.01,
                 },
@@ -1491,7 +1491,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: 126.58,
                     y: 37.33,
                 },
@@ -1500,7 +1500,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: 76.57,
                     y: 43.15,
                 },
@@ -1509,7 +1509,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: 65.28,
                     y: 44.48,
                 },
@@ -1518,7 +1518,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: 63.37,
                     y: 53.12,
                 },
@@ -1527,7 +1527,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: 57.1,
                     y: 50.17,
                 },
@@ -1536,7 +1536,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: 50.16,
                     y: 44.31,
                 },
@@ -1545,7 +1545,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: 51.56,
                     y: 47.07,
                 },
@@ -1554,7 +1554,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: 51.21,
                     y: 51.13,
                 },
@@ -1563,7 +1563,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: 35.3,
                     y: 33.53,
                 },
@@ -1572,7 +1572,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: 79.51,
                     y: 6.5600000000000005,
                 },
@@ -1581,7 +1581,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: -10.47,
                     y: 6.18,
                 },
@@ -1590,7 +1590,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: 25.19,
                     y: 54.41,
                 },
@@ -1599,7 +1599,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: 6.09,
                     y: 49.36,
                 },
@@ -1608,7 +1608,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: 24.06,
                     y: 56.57,
                 },
@@ -1617,7 +1617,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: 13.11,
                     y: 32.54,
                 },
@@ -1626,7 +1626,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: -7.35,
                     y: 33.39,
                 },
@@ -1635,7 +1635,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: 7.23,
                     y: 43.42,
                 },
@@ -1644,7 +1644,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: 28.5,
                     y: 47.0,
                 },
@@ -1653,7 +1653,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: 171.12,
                     y: 7.09,
                 },
@@ -1662,7 +1662,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: 167.2,
                     y: 9.05,
                 },
@@ -1671,7 +1671,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: 96.1,
                     y: 16.47,
                 },
@@ -1680,7 +1680,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: 106.53,
                     y: 47.55,
                 },
@@ -1689,7 +1689,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: 91.39,
                     y: 48.01,
                 },
@@ -1698,7 +1698,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: 114.3,
                     y: 48.04,
                 },
@@ -1707,7 +1707,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: 113.323,
                     y: 22.115,
                 },
@@ -1716,7 +1716,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: -61.05,
                     y: 14.36,
                 },
@@ -1725,7 +1725,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: 14.31,
                     y: 35.54,
                 },
@@ -1734,7 +1734,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: 57.3,
                     y: -20.1,
                 },
@@ -1743,7 +1743,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: 73.3,
                     y: 4.1,
                 },
@@ -1752,7 +1752,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: -99.09,
                     y: 19.24,
                 },
@@ -1761,7 +1761,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: -86.46,
                     y: 21.05,
                 },
@@ -1770,7 +1770,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: -89.37,
                     y: 20.58,
                 },
@@ -1779,7 +1779,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: -100.19,
                     y: 25.4,
                 },
@@ -1788,7 +1788,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: -97.3,
                     y: 25.5,
                 },
@@ -1797,7 +1797,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: -106.25,
                     y: 23.13,
                 },
@@ -1806,7 +1806,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: -106.05,
                     y: 28.38,
                 },
@@ -1815,7 +1815,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: -104.25,
                     y: 29.34,
                 },
@@ -1824,7 +1824,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: -110.58,
                     y: 29.04,
                 },
@@ -1833,7 +1833,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: -117.01,
                     y: 32.32,
                 },
@@ -1842,7 +1842,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: -105.15,
                     y: 20.48,
                 },
@@ -1851,7 +1851,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: 101.42,
                     y: 3.1,
                 },
@@ -1860,7 +1860,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: 110.2,
                     y: 1.33,
                 },
@@ -1869,7 +1869,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: 32.35,
                     y: -25.58,
                 },
@@ -1878,7 +1878,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: 17.06,
                     y: -22.34,
                 },
@@ -1887,7 +1887,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: 166.27,
                     y: -22.16,
                 },
@@ -1896,7 +1896,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: 167.58,
                     y: -29.03,
                 },
@@ -1905,7 +1905,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: 3.24,
                     y: 6.27,
                 },
@@ -1914,7 +1914,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: -86.17,
                     y: 12.09,
                 },
@@ -1923,7 +1923,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: 4.54,
                     y: 52.22,
                 },
@@ -1932,7 +1932,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: 10.45,
                     y: 59.55,
                 },
@@ -1941,7 +1941,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: 85.19,
                     y: 27.43,
                 },
@@ -1950,7 +1950,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: 166.55,
                     y: 0.31,
                 },
@@ -1959,7 +1959,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: -169.55,
                     y: -19.01,
                 },
@@ -1968,7 +1968,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: 174.46,
                     y: -36.52,
                 },
@@ -1977,7 +1977,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: -176.33,
                     y: -43.57,
                 },
@@ -1986,7 +1986,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: -79.32,
                     y: 8.58,
                 },
@@ -1995,7 +1995,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: -77.03,
                     y: -12.03,
                 },
@@ -2004,7 +2004,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: -149.34,
                     y: -17.32,
                 },
@@ -2013,7 +2013,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: -139.3,
                     y: -9.0,
                 },
@@ -2022,7 +2022,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: -134.57,
                     y: -23.08,
                 },
@@ -2031,7 +2031,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: 147.1,
                     y: -9.3,
                 },
@@ -2040,7 +2040,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: 155.34,
                     y: -6.13,
                 },
@@ -2049,7 +2049,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: 121.0,
                     y: 14.35,
                 },
@@ -2058,7 +2058,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: 67.03,
                     y: 24.52,
                 },
@@ -2067,7 +2067,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: 21.0,
                     y: 52.15,
                 },
@@ -2076,7 +2076,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: -56.2,
                     y: 47.03,
                 },
@@ -2085,7 +2085,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: -130.05,
                     y: -25.04,
                 },
@@ -2094,7 +2094,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: -66.0622,
                     y: 18.2806,
                 },
@@ -2103,7 +2103,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: 34.28,
                     y: 31.3,
                 },
@@ -2112,7 +2112,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: 35.0542,
                     y: 31.32,
                 },
@@ -2121,7 +2121,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: -9.08,
                     y: 38.43,
                 },
@@ -2130,7 +2130,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: -16.54,
                     y: 32.38,
                 },
@@ -2139,7 +2139,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: -25.4,
                     y: 37.44,
                 },
@@ -2148,7 +2148,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: 134.29,
                     y: 7.2,
                 },
@@ -2157,7 +2157,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: -57.4,
                     y: -25.16,
                 },
@@ -2166,7 +2166,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: 51.32,
                     y: 25.17,
                 },
@@ -2175,7 +2175,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: 55.28,
                     y: -20.52,
                 },
@@ -2184,7 +2184,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: 26.06,
                     y: 44.26,
                 },
@@ -2193,7 +2193,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: 20.3,
                     y: 44.5,
                 },
@@ -2202,7 +2202,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: 20.3,
                     y: 54.43,
                 },
@@ -2211,7 +2211,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: 37.3704,
                     y: 55.4521,
                 },
@@ -2220,7 +2220,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: 34.06,
                     y: 44.57,
                 },
@@ -2229,7 +2229,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: 49.39,
                     y: 58.36,
                 },
@@ -2238,7 +2238,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: 44.25,
                     y: 48.44,
                 },
@@ -2247,7 +2247,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: 48.03,
                     y: 46.21,
                 },
@@ -2256,7 +2256,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: 46.02,
                     y: 51.34,
                 },
@@ -2265,7 +2265,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: 48.24,
                     y: 54.2,
                 },
@@ -2274,7 +2274,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: 50.09,
                     y: 53.12,
                 },
@@ -2283,7 +2283,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: 60.36,
                     y: 56.51,
                 },
@@ -2292,7 +2292,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: 73.24,
                     y: 55.0,
                 },
@@ -2301,7 +2301,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: 82.55,
                     y: 55.02,
                 },
@@ -2310,7 +2310,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: 83.45,
                     y: 53.22,
                 },
@@ -2319,7 +2319,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: 84.58,
                     y: 56.3,
                 },
@@ -2328,7 +2328,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: 87.07,
                     y: 53.45,
                 },
@@ -2337,7 +2337,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: 92.5,
                     y: 56.01,
                 },
@@ -2346,7 +2346,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: 104.2,
                     y: 52.16,
                 },
@@ -2355,7 +2355,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: 113.28,
                     y: 52.03,
                 },
@@ -2364,7 +2364,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: 129.4,
                     y: 62.0,
                 },
@@ -2373,7 +2373,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: 135.3314,
                     y: 62.3923,
                 },
@@ -2382,7 +2382,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: 131.56,
                     y: 43.1,
                 },
@@ -2391,7 +2391,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: 143.1336,
                     y: 64.3337,
                 },
@@ -2400,7 +2400,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: 150.48,
                     y: 59.34,
                 },
@@ -2409,7 +2409,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: 142.42,
                     y: 46.58,
                 },
@@ -2418,7 +2418,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: 153.43,
                     y: 67.28,
                 },
@@ -2427,7 +2427,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: 158.39,
                     y: 53.01,
                 },
@@ -2436,7 +2436,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: 177.29,
                     y: 64.45,
                 },
@@ -2445,7 +2445,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: 46.43,
                     y: 24.38,
                 },
@@ -2454,7 +2454,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: 160.12,
                     y: -9.32,
                 },
@@ -2463,7 +2463,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: 55.28,
                     y: -4.4,
                 },
@@ -2472,7 +2472,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: 32.32,
                     y: 15.36,
                 },
@@ -2481,7 +2481,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: 18.03,
                     y: 59.2,
                 },
@@ -2490,7 +2490,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: 103.51,
                     y: 1.17,
                 },
@@ -2499,7 +2499,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: -55.1,
                     y: 5.5,
                 },
@@ -2508,7 +2508,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: 31.37,
                     y: 4.51,
                 },
@@ -2517,7 +2517,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: 6.44,
                     y: 0.2,
                 },
@@ -2526,7 +2526,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: -89.12,
                     y: 13.42,
                 },
@@ -2535,7 +2535,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: 36.18,
                     y: 33.3,
                 },
@@ -2544,7 +2544,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: -71.08,
                     y: 21.28,
                 },
@@ -2553,7 +2553,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: 15.03,
                     y: 12.07,
                 },
@@ -2562,7 +2562,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: 70.1303,
                     y: -49.211,
                 },
@@ -2571,7 +2571,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: 100.31,
                     y: 13.45,
                 },
@@ -2580,7 +2580,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: 68.48,
                     y: 38.35,
                 },
@@ -2589,7 +2589,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: -171.14,
                     y: -9.22,
                 },
@@ -2598,7 +2598,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: 125.35,
                     y: -8.33,
                 },
@@ -2607,7 +2607,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: 58.23,
                     y: 37.57,
                 },
@@ -2616,7 +2616,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: 10.11,
                     y: 36.48,
                 },
@@ -2625,7 +2625,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: -175.12,
                     y: -21.08,
                 },
@@ -2634,7 +2634,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: 28.58,
                     y: 41.01,
                 },
@@ -2643,7 +2643,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: 179.13,
                     y: -8.31,
                 },
@@ -2652,7 +2652,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: 121.3,
                     y: 25.03,
                 },
@@ -2661,7 +2661,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: 30.31,
                     y: 50.26,
                 },
@@ -2670,7 +2670,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: 22.18,
                     y: 48.37,
                 },
@@ -2679,7 +2679,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: 35.1,
                     y: 47.5,
                 },
@@ -2688,7 +2688,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: 166.37,
                     y: 19.17,
                 },
@@ -2697,7 +2697,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: -74.0023,
                     y: 40.4251,
                 },
@@ -2706,7 +2706,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: -83.0245,
                     y: 42.1953,
                 },
@@ -2715,7 +2715,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: -85.4534,
                     y: 38.1515,
                 },
@@ -2724,7 +2724,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: -84.5057,
                     y: 36.4947,
                 },
@@ -2733,7 +2733,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: -86.0929,
                     y: 39.4606,
                 },
@@ -2742,7 +2742,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: -87.3143,
                     y: 38.4038,
                 },
@@ -2751,7 +2751,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: -86.3611,
                     y: 41.0305,
                 },
@@ -2760,7 +2760,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: -86.2041,
                     y: 38.2232,
                 },
@@ -2769,7 +2769,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: -87.1643,
                     y: 38.2931,
                 },
@@ -2778,7 +2778,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: -85.0402,
                     y: 38.4452,
                 },
@@ -2787,7 +2787,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: -87.39,
                     y: 41.51,
                 },
@@ -2796,7 +2796,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: -86.4541,
                     y: 37.5711,
                 },
@@ -2805,7 +2805,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: -86.373,
                     y: 41.1745,
                 },
@@ -2814,7 +2814,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: -87.3651,
                     y: 45.0628,
                 },
@@ -2823,7 +2823,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: -101.1757,
                     y: 47.0659,
                 },
@@ -2832,7 +2832,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: -101.2439,
                     y: 46.5042,
                 },
@@ -2841,7 +2841,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: -101.464,
                     y: 47.1551,
                 },
@@ -2850,7 +2850,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: -104.5903,
                     y: 39.4421,
                 },
@@ -2859,7 +2859,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: -116.1209,
                     y: 43.3649,
                 },
@@ -2868,7 +2868,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: -112.0424,
                     y: 33.2654,
                 },
@@ -2877,7 +2877,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: -118.1434,
                     y: 34.0308,
                 },
@@ -2886,7 +2886,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: -149.5401,
                     y: 61.1305,
                 },
@@ -2895,7 +2895,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: -134.2511,
                     y: 58.1807,
                 },
@@ -2904,7 +2904,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: -135.1807,
                     y: 57.1035,
                 },
@@ -2913,7 +2913,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: -131.3435,
                     y: 55.0737,
                 },
@@ -2922,7 +2922,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: -139.4338,
                     y: 59.3249,
                 },
@@ -2931,7 +2931,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: -165.2423,
                     y: 64.3004,
                 },
@@ -2940,7 +2940,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: -176.3929,
                     y: 51.5248,
                 },
@@ -2949,7 +2949,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: -157.513,
                     y: 21.1825,
                 },
@@ -2958,7 +2958,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: -56.1245,
                     y: -34.5433,
                 },
@@ -2967,7 +2967,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: 66.48,
                     y: 39.4,
                 },
@@ -2976,7 +2976,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: 69.18,
                     y: 41.2,
                 },
@@ -2985,7 +2985,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: -66.56,
                     y: 10.3,
                 },
@@ -2994,7 +2994,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: 106.4,
                     y: 10.45,
                 },
@@ -3003,7 +3003,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: 168.25,
                     y: -17.4,
                 },
@@ -3012,7 +3012,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: -176.1,
                     y: -13.18,
                 },
@@ -3021,7 +3021,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: -171.44,
                     y: -13.5,
                 },
@@ -3030,7 +3030,7 @@ ZoneInfo {
         },
         Zone {
             coordinates: Point(
-                Coordinate {
+                Coord {
                     x: 28.0,
                     y: -26.15,
                 },
