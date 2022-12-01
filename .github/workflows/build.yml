@@ -35,7 +35,7 @@ jobs:
         uses: Swatinem/rust-cache@359a70e43a0bb8a13953b04a90f76428b4959bb6 # v2.2.0
 
       - name: Test
-        run: cargo test
+        run: cargo --color=always test
 
   lint:
     runs-on: ubuntu-latest
@@ -55,13 +55,13 @@ jobs:
         uses: Swatinem/rust-cache@359a70e43a0bb8a13953b04a90f76428b4959bb6 # v2.2.0
 
       - name: Run clippy
-        run: cargo clippy
+        run: cargo --color=always clippy
 
       - name: Run doc
-        run: cargo doc
+        run: cargo --color=always doc
 
       - name: Run fmt
-        run: cargo fmt --check
+        run: cargo --color=always fmt --check
 
   audit:
     runs-on: ubuntu-latest
@@ -81,13 +81,13 @@ jobs:
         uses: Swatinem/rust-cache@359a70e43a0bb8a13953b04a90f76428b4959bb6 # v2.2.0
 
       - name: Set up cargo-audit
-        run: cargo install --locked cargo-audit --version "${CARGO_AUDIT_VERSION}"
+        run: cargo --color=always install --locked cargo-audit --version "${CARGO_AUDIT_VERSION}"
         env:
           # renovate: datasource=crate depName=cargo-audit versioning=cargo
           CARGO_AUDIT_VERSION: =0.17.4
 
       - name: Audit
-        run: cargo audit --deny warnings
+        run: cargo --color=always audit --deny warnings
 
   build:
     runs-on: ubuntu-latest
@@ -107,7 +107,7 @@ jobs:
         uses: Swatinem/rust-cache@359a70e43a0bb8a13953b04a90f76428b4959bb6 # v2.2.0
 
       - name: Build
-        run: cargo build
+        run: cargo --color=always build
 
   semantic-release:
     needs: [audit, build, lint, test]
