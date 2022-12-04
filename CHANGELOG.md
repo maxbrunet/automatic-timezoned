@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.46](https://github.com/maxbrunet/automatic-timezoned/compare/v1.0.45...v1.0.46) (2022-12-04)
+
+
+### Miscellaneous Chores
+
+* **deps:** lock file maintenance ([#104](https://github.com/maxbrunet/automatic-timezoned/issues/104)) ([d858ae9](https://github.com/maxbrunet/automatic-timezoned/commit/d858ae9933642ceafbf93c92c0755840e87a7dc6))
+* **deps:** update insta to v1.22.0 ([#105](https://github.com/maxbrunet/automatic-timezoned/issues/105)) ([19dc6b3](https://github.com/maxbrunet/automatic-timezoned/commit/19dc6b3d76f21171ddf41ddc607598badaa542f6))
+
+
+### Build System
+
+* **deps:** update rust crate zvariant to v3.9.0 ([#107](https://github.com/maxbrunet/automatic-timezoned/issues/107)) ([507d369](https://github.com/maxbrunet/automatic-timezoned/commit/507d369b4ce2a56331b389193c6f8a9c136c80c6))
+
 ## [1.0.45](https://github.com/maxbrunet/automatic-timezoned/compare/v1.0.44...v1.0.45) (2022-11-29)
 
 
