@@ -588,9 +588,9 @@ dependencies = [
 
 [[package]]
 name = "geo"
-version = "0.23.0"
+version = "0.23.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "b684179d4c034f9e6718692601a7ec77e4a3b654dbc09b5e4fd342f0e48f2ba1"
+checksum = "b39f57e9624b1a17ce621375464e9878c705d0aaadaf25cb44e4e0005a16de2f"
 dependencies = [
  "float_next_after",
  "geo-types",
