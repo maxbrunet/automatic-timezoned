@@ -1421,9 +1421,9 @@ dependencies = [
 
 [[package]]
 name = "trycmd"
-version = "0.14.8"
+version = "0.14.9"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "efc283953d490e63682af2551b2c85b475f3c8d9cafda427a2b198936024ef86"
+checksum = "8a050cd97463d2f8df73e65b122dadb7f04ea31f0bd53a1306ea915cbb156849"
 dependencies = [
  "glob",
  "humantime",
