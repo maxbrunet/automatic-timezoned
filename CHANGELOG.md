@@ -2,6 +2,21 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.56](https://github.com/maxbrunet/automatic-timezoned/compare/v1.0.55...v1.0.56) (2023-01-13)
+
+
+### Miscellaneous Chores
+
+* **deps:** update insta to v1.26.0 ([#127](https://github.com/maxbrunet/automatic-timezoned/issues/127)) ([21ed7c4](https://github.com/maxbrunet/automatic-timezoned/commit/21ed7c4eb33425a5883f86ae8f6613040e06f3f2))
+* **deps:** update rust crate trycmd to v0.14.10 ([#129](https://github.com/maxbrunet/automatic-timezoned/issues/129)) ([5b3d38b](https://github.com/maxbrunet/automatic-timezoned/commit/5b3d38bb102015fdaf3aa0f3d0e82ef9ffdf1628))
+* **deps:** update rust crate trycmd to v0.14.9 ([#126](https://github.com/maxbrunet/automatic-timezoned/issues/126)) ([12e9dfb](https://github.com/maxbrunet/automatic-timezoned/commit/12e9dfb014a3d80251b1a97ff4fafd5612bd9a4a))
+* **deps:** update rust to v1.66.1 ([#130](https://github.com/maxbrunet/automatic-timezoned/issues/130)) ([791076a](https://github.com/maxbrunet/automatic-timezoned/commit/791076a8cda3db19754221a1fa67c2ccc982ea4e))
+
+
+### Build System
+
+* **deps:** update rust crate clap to v4.1.0 ([#131](https://github.com/maxbrunet/automatic-timezoned/issues/131)) ([7017c2c](https://github.com/maxbrunet/automatic-timezoned/commit/7017c2c228903b448623c901b177c214094b6478))
+
 ## [1.0.55](https://github.com/maxbrunet/automatic-timezoned/compare/v1.0.54...v1.0.55) (2023-01-05)
 
 
