@@ -2,6 +2,24 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.62](https://github.com/maxbrunet/automatic-timezoned/compare/v1.0.61...v1.0.62) (2023-02-05)
+
+
+### Miscellaneous Chores
+
+* **deps:** lock file maintenance ([#139](https://github.com/maxbrunet/automatic-timezoned/issues/139)) ([76c3d1f](https://github.com/maxbrunet/automatic-timezoned/commit/76c3d1f8e01b5b5c53eb75c089ec237390f4c66d))
+* **deps:** update rust crate trycmd to v0.14.11 ([#138](https://github.com/maxbrunet/automatic-timezoned/issues/138)) ([3649c4e](https://github.com/maxbrunet/automatic-timezoned/commit/3649c4e062a31d52ff43baca8a45db78ab0c760a))
+
+
+### Continuous Integration
+
+* use semantic-release dry-run ([#140](https://github.com/maxbrunet/automatic-timezoned/issues/140)) ([7bc3e17](https://github.com/maxbrunet/automatic-timezoned/commit/7bc3e174d63a5c740a11115798a9a99cdd616cf5))
+
+
+### Build System
+
+* **deps:** update rust crate zbus to v3.9.0 ([#141](https://github.com/maxbrunet/automatic-timezoned/issues/141)) ([42f8bc9](https://github.com/maxbrunet/automatic-timezoned/commit/42f8bc9ca687bd4bffd0b8e48ffd16f4df3f37bd))
+
 ## [1.0.61](https://github.com/maxbrunet/automatic-timezoned/compare/v1.0.60...v1.0.61) (2023-01-30)
 
 
