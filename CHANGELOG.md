@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.65](https://github.com/maxbrunet/automatic-timezoned/compare/v1.0.64...v1.0.65) (2023-02-14)
+
+
+### Build System
+
+* **deps:** update rust crate csv to v1.2.0 ([#145](https://github.com/maxbrunet/automatic-timezoned/issues/145)) ([f0b36a7](https://github.com/maxbrunet/automatic-timezoned/commit/f0b36a7e66787a094a4ab44204b38094e2728ae1))
+
 ## [1.0.64](https://github.com/maxbrunet/automatic-timezoned/compare/v1.0.63...v1.0.64) (2023-02-11)
 
 
