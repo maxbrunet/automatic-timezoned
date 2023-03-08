@@ -13,7 +13,7 @@ env_logger = { version = "=0.10.0", default-features = false }
 geo = { version = "=0.23.1", default-features = false }
 log = { version = "=0.4.17", default-features = false }
 zbus = { version = "=3.11.0", default-features = false, features = ["async-io"] }
-zvariant = { version = "=3.11.0", default-features = false }
+zvariant = { version = "=3.12.0", default-features = false }
 
 [dependencies.clap]
 version = "=4.1.8"
