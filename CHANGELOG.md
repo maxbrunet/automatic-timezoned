@@ -2,6 +2,23 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.73](https://github.com/maxbrunet/automatic-timezoned/compare/v1.0.72...v1.0.73) (2023-03-18)
+
+
+### Build System
+
+* **deps:** update rust crate clap to v4.1.10 ([#164](https://github.com/maxbrunet/automatic-timezoned/issues/164)) ([9e40717](https://github.com/maxbrunet/automatic-timezoned/commit/9e4071724379efe9a3ea706f4bd0025695edf0cb))
+
+
+### Miscellaneous Chores
+
+* **deps:** lock file maintenance ([#161](https://github.com/maxbrunet/automatic-timezoned/issues/161)) ([cb2a8f6](https://github.com/maxbrunet/automatic-timezoned/commit/cb2a8f64f4c98503f5db163b29eb9046c2ac128b))
+* **deps:** update actions/checkout action to v3.4.0 ([#163](https://github.com/maxbrunet/automatic-timezoned/issues/163)) ([2d9f151](https://github.com/maxbrunet/automatic-timezoned/commit/2d9f151a9430ce2dd25541acb383ead1e0e390d1))
+* **deps:** update cycjimmy/semantic-release-action action to v3.4.0 ([#160](https://github.com/maxbrunet/automatic-timezoned/issues/160)) ([4af1c6a](https://github.com/maxbrunet/automatic-timezoned/commit/4af1c6a4af114a414309a4203b90fbb78ca1dd3a))
+* **deps:** update rust crate trycmd to v0.14.14 ([#162](https://github.com/maxbrunet/automatic-timezoned/issues/162)) ([c5d9a75](https://github.com/maxbrunet/automatic-timezoned/commit/c5d9a7580e1df8607ef84916f22ceb70412663c8))
+* **deps:** update rust crate trycmd to v0.14.15 ([#165](https://github.com/maxbrunet/automatic-timezoned/issues/165)) ([0748986](https://github.com/maxbrunet/automatic-timezoned/commit/0748986c6baf526d19b6954024174ba23c59bf28))
+* **deps:** update rust to v1.68.0 ([#159](https://github.com/maxbrunet/automatic-timezoned/issues/159)) ([22f628e](https://github.com/maxbrunet/automatic-timezoned/commit/22f628ebd32b864b325998bdfe016576199cb12d))
+
 ## [1.0.72](https://github.com/maxbrunet/automatic-timezoned/compare/v1.0.71...v1.0.72) (2023-03-08)
 
 
