@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.76](https://github.com/maxbrunet/automatic-timezoned/compare/v1.0.75...v1.0.76) (2023-03-23)
+
+
+### Miscellaneous Chores
+
+* **deps:** update dependency cargo-audit to v0.17.5 ([#168](https://github.com/maxbrunet/automatic-timezoned/issues/168)) ([8af7066](https://github.com/maxbrunet/automatic-timezoned/commit/8af706622b2a9b9b9c4b48fd367b72dd73608217))
+
+
+### Build System
+
+* **deps:** update rust crate geo to v0.24.1 ([#169](https://github.com/maxbrunet/automatic-timezoned/issues/169)) ([4a38c9d](https://github.com/maxbrunet/automatic-timezoned/commit/4a38c9d70e6ea035eda01082a77c64f7f3b413a7))
+
 ## [1.0.75](https://github.com/maxbrunet/automatic-timezoned/compare/v1.0.74...v1.0.75) (2023-03-19)
 
 
