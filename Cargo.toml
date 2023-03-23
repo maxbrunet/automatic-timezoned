@@ -10,7 +10,7 @@ keywords = ["dbus", "geoclue", "systemd", "timezone", "zoneinfo"]
 [dependencies]
 csv = { version = "=1.2.1", default-features = false }
 env_logger = { version = "=0.10.0", default-features = false }
-geo = { version = "=0.24.0", default-features = false }
+geo = { version = "=0.24.1", default-features = false }
 log = { version = "=0.4.17", default-features = false }
 zbus = { version = "=3.11.1", default-features = false, features = ["async-io"] }
 zvariant = { version = "=3.12.0", default-features = false }
