@@ -84,7 +84,7 @@ jobs:
         run: cargo --color=always install --locked cargo-audit --version "${CARGO_AUDIT_VERSION}"
         env:
           # renovate: datasource=crate depName=cargo-audit versioning=cargo
-          CARGO_AUDIT_VERSION: =0.17.4
+          CARGO_AUDIT_VERSION: =0.17.5
 
       - name: Audit
         run: cargo --color=always audit --deny warnings
