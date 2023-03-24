@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.78](https://github.com/maxbrunet/automatic-timezoned/compare/v1.0.77...v1.0.78) (2023-03-24)
+
+
+### Miscellaneous Chores
+
+* **deps:** update dependency @semantic-release/changelog to v6.0.3 ([#173](https://github.com/maxbrunet/automatic-timezoned/issues/173)) ([ebf5017](https://github.com/maxbrunet/automatic-timezoned/commit/ebf5017c85e11ea77b82e449273856ec5cd4c34c))
+
+
+### Build System
+
+* **deps:** update rust crate clap to v4.1.13 ([#172](https://github.com/maxbrunet/automatic-timezoned/issues/172)) ([97afc5d](https://github.com/maxbrunet/automatic-timezoned/commit/97afc5ddcaefb60139128f461f1b09151a52d17e))
+
 ## [1.0.77](https://github.com/maxbrunet/automatic-timezoned/compare/v1.0.76...v1.0.77) (2023-03-23)
 
 
