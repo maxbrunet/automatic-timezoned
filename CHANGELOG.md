@@ -2,6 +2,20 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.79](https://github.com/maxbrunet/automatic-timezoned/compare/v1.0.78...v1.0.79) (2023-03-28)
+
+
+### Miscellaneous Chores
+
+* **deps:** lock file maintenance ([#177](https://github.com/maxbrunet/automatic-timezoned/issues/177)) ([bcf7dc6](https://github.com/maxbrunet/automatic-timezoned/commit/bcf7dc6f31ae3eccc877c7ac9699fdccf3c7cd5c))
+* **deps:** update actions/checkout action to v3.5.0 ([#174](https://github.com/maxbrunet/automatic-timezoned/issues/174)) ([fdb55fe](https://github.com/maxbrunet/automatic-timezoned/commit/fdb55fed15872a2ec480fff5f1826d19bcd9f7f9))
+* **deps:** update rust to v1.68.1 ([#175](https://github.com/maxbrunet/automatic-timezoned/issues/175)) ([636cc30](https://github.com/maxbrunet/automatic-timezoned/commit/636cc300d7cba4c2c09536da5da2eb992c7123d6))
+
+
+### Build System
+
+* **deps:** update rust crate clap to v4.1.14 ([#176](https://github.com/maxbrunet/automatic-timezoned/issues/176)) ([9324c18](https://github.com/maxbrunet/automatic-timezoned/commit/9324c185e12bf45228ce630f108ecd93fad1ff78))
+
 ## [1.0.78](https://github.com/maxbrunet/automatic-timezoned/compare/v1.0.77...v1.0.78) (2023-03-24)
 
 
