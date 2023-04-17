@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.83](https://github.com/maxbrunet/automatic-timezoned/compare/v1.0.82...v1.0.83) (2023-04-17)
+
+
+### Miscellaneous Chores
+
+* **deps:** lock file maintenance ([#190](https://github.com/maxbrunet/automatic-timezoned/issues/190)) ([10ba9ca](https://github.com/maxbrunet/automatic-timezoned/commit/10ba9cad969737ba883d87e4bb6ca13642fff802))
+
+
+### Build System
+
+* **deps:** update rust crate zbus to v3.12.0 ([#189](https://github.com/maxbrunet/automatic-timezoned/issues/189)) ([73ef05d](https://github.com/maxbrunet/automatic-timezoned/commit/73ef05dc726fc006de2bbd04be33efde2a23e464))
+
 ## [1.0.82](https://github.com/maxbrunet/automatic-timezoned/compare/v1.0.81...v1.0.82) (2023-04-13)
 
 
