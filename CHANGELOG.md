@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.90](https://github.com/maxbrunet/automatic-timezoned/compare/v1.0.89...v1.0.90) (2023-05-15)
+
+
+### Miscellaneous Chores
+
+* **deps:** update swatinem/rust-cache action to v2.3.0 ([#200](https://github.com/maxbrunet/automatic-timezoned/issues/200)) ([20bd235](https://github.com/maxbrunet/automatic-timezoned/commit/20bd235d985e73ac429d1fe2edfeae14af4a0be8))
+* **renovate:** group packages from zbus monorepo together ([#203](https://github.com/maxbrunet/automatic-timezoned/issues/203)) ([fb8ad1b](https://github.com/maxbrunet/automatic-timezoned/commit/fb8ad1b6cf596bf53a81e742aff29c4716aea3a0))
+
+
+### Build System
+
+* **deps:** update zbus ([#204](https://github.com/maxbrunet/automatic-timezoned/issues/204)) ([4585801](https://github.com/maxbrunet/automatic-timezoned/commit/4585801db38ae090c8b5f213d45f98b2885444d7))
+
 ## [1.0.89](https://github.com/maxbrunet/automatic-timezoned/compare/v1.0.88...v1.0.89) (2023-05-12)
 
 
