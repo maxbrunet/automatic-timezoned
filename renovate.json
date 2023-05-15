@@ -32,6 +32,12 @@
       "groupName": "insta"
     },
     {
+      "description": "Group packages from zbus monorepo together",
+      "matchSourceUrls": ["https://github.com/dbus2/zbus"],
+      "matchUpdateTypes": ["digest", "patch", "minor", "major"],
+      "groupName": "zbus"
+    },
+    {
       "matchDepTypes": ["dependencies"],
       "semanticCommitType": "build"
     }
