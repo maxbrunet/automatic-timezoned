@@ -8,7 +8,7 @@ license = "GPL-3.0"
 keywords = ["dbus", "geoclue", "systemd", "timezone", "zoneinfo"]
 
 [dependencies]
-csv = { version = "=1.2.1", default-features = false }
+csv = { version = "=1.2.2", default-features = false }
 env_logger = { version = "=0.10.0", default-features = false }
 geo = { version = "=0.25.0", default-features = false }
 log = { version = "=0.4.18", default-features = false }
