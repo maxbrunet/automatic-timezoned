@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.97](https://github.com/maxbrunet/automatic-timezoned/compare/v1.0.96...v1.0.97) (2023-06-09)
+
+
+### Miscellaneous Chores
+
+* **deps:** update actions/checkout action to v3.5.3 ([#216](https://github.com/maxbrunet/automatic-timezoned/issues/216)) ([b8321d4](https://github.com/maxbrunet/automatic-timezoned/commit/b8321d42fdc733959775e4edacef822f8f054f94))
+* **deps:** update dependency conventional-changelog-conventionalcommits to v6 ([#214](https://github.com/maxbrunet/automatic-timezoned/issues/214)) ([1b5a6c2](https://github.com/maxbrunet/automatic-timezoned/commit/1b5a6c22aaccd01882d1c394b0cba851eb20c31d))
+
+
+### Build System
+
+* **deps:** update rust crate clap to v4.3.3 ([#215](https://github.com/maxbrunet/automatic-timezoned/issues/215)) ([e3c8f24](https://github.com/maxbrunet/automatic-timezoned/commit/e3c8f24b7a4024ce665d9267a2fea2f4c944f4bb))
+
 ## [1.0.96](https://github.com/maxbrunet/automatic-timezoned/compare/v1.0.95...v1.0.96) (2023-06-05)
 
 
