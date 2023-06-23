@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.101](https://github.com/maxbrunet/automatic-timezoned/compare/v1.0.100...v1.0.101) (2023-06-23)
+
+
+### Miscellaneous Chores
+
+* **deps:** update insta to v1.30.0 ([#222](https://github.com/maxbrunet/automatic-timezoned/issues/222)) ([eb9c083](https://github.com/maxbrunet/automatic-timezoned/commit/eb9c083b0c113ccf68e61014952884a2a50db087))
+
+
+### Build System
+
+* **deps:** update rust crate clap to v4.3.6 ([#223](https://github.com/maxbrunet/automatic-timezoned/issues/223)) ([a485924](https://github.com/maxbrunet/automatic-timezoned/commit/a485924b92c2ecfd6a1b699ad1064bbb29e76c46))
+
 ## [1.0.100](https://github.com/maxbrunet/automatic-timezoned/compare/v1.0.99...v1.0.100) (2023-06-20)
 
 
