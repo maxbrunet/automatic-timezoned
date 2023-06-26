@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.103](https://github.com/maxbrunet/automatic-timezoned/compare/v1.0.102...v1.0.103) (2023-06-26)
+
+
+### Build System
+
+* **deps:** update rust crate geo to v0.25.1 ([#225](https://github.com/maxbrunet/automatic-timezoned/issues/225)) ([e78e480](https://github.com/maxbrunet/automatic-timezoned/commit/e78e48024f70b874b257c970610e7d42a9450e4a))
+
 ## [1.0.102](https://github.com/maxbrunet/automatic-timezoned/compare/v1.0.101...v1.0.102) (2023-06-23)
 
 
