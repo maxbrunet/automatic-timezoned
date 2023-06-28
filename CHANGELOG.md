@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.104](https://github.com/maxbrunet/automatic-timezoned/compare/v1.0.103...v1.0.104) (2023-06-28)
+
+
+### Build System
+
+* **deps:** update rust crate clap to v4.3.9 ([#226](https://github.com/maxbrunet/automatic-timezoned/issues/226)) ([8183b24](https://github.com/maxbrunet/automatic-timezoned/commit/8183b241f5321f6ec6ba91ba9fb973111d974361))
+
 ## [1.0.103](https://github.com/maxbrunet/automatic-timezoned/compare/v1.0.102...v1.0.103) (2023-06-26)
 
 
