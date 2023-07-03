@@ -32,7 +32,7 @@ jobs:
         run: rustup show
 
       - name: Set up Rust cache
-        uses: Swatinem/rust-cache@2656b87321093db1cb55fbd73183d195214fdfd1 # v2.5.0
+        uses: Swatinem/rust-cache@dd05243424bd5c0e585e4b55eb2d7615cdd32f1f # v2.5.1
 
       - name: Test
         run: cargo --color=always test
@@ -52,7 +52,7 @@ jobs:
         run: rustup show
 
       - name: Set up Rust cache
-        uses: Swatinem/rust-cache@2656b87321093db1cb55fbd73183d195214fdfd1 # v2.5.0
+        uses: Swatinem/rust-cache@dd05243424bd5c0e585e4b55eb2d7615cdd32f1f # v2.5.1
 
       - name: Run clippy
         run: cargo --color=always clippy
@@ -78,7 +78,7 @@ jobs:
         run: rustup show
 
       - name: Set up Rust cache
-        uses: Swatinem/rust-cache@2656b87321093db1cb55fbd73183d195214fdfd1 # v2.5.0
+        uses: Swatinem/rust-cache@dd05243424bd5c0e585e4b55eb2d7615cdd32f1f # v2.5.1
 
       - name: Set up cargo-audit
         run: cargo --color=always install --locked cargo-audit --version "${CARGO_AUDIT_VERSION}"
@@ -104,7 +104,7 @@ jobs:
         run: rustup show
 
       - name: Set up Rust cache
-        uses: Swatinem/rust-cache@2656b87321093db1cb55fbd73183d195214fdfd1 # v2.5.0
+        uses: Swatinem/rust-cache@dd05243424bd5c0e585e4b55eb2d7615cdd32f1f # v2.5.1
 
       - name: Build
         run: cargo --color=always build
@@ -132,7 +132,7 @@ jobs:
         run: rustup show
 
       - name: Set up Rust cache
-        uses: Swatinem/rust-cache@2656b87321093db1cb55fbd73183d195214fdfd1 # v2.5.0
+        uses: Swatinem/rust-cache@dd05243424bd5c0e585e4b55eb2d7615cdd32f1f # v2.5.1
 
       - name: Semantic Release
         uses: cycjimmy/semantic-release-action@8e58d20d0f6c8773181f43eb74d6a05e3099571d # v3.4.2
