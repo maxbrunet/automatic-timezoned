@@ -1,14 +1,13 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
-    "config:base",
+    "config:best-practices",
     ":automergeDigest",
     ":automergeMinor",
     ":maintainLockFilesMonthly",
     ":rebaseStalePrs",
     ":semanticCommits",
-    ":semanticCommitScope(deps)",
-    "helpers:pinGitHubActionDigests"
+    ":semanticCommitScope(deps)"
   ],
   "assignees": ["maxbrunet"],
   "internalChecksFilter": "strict",
@@ -18,7 +17,7 @@
     {
       "description": "One week stability period for Rust packages",
       "matchDatasources": ["crate"],
-      "stabilityDays": 7
+      "minimumReleaseAge": "7 days"
     },
     {
       "description": "Customize rust updates commit message",
@@ -45,6 +44,7 @@
   "regexManagers": [
     {
       "description": "Update version keys in YAML files",
+      "customType": "regex",
       "fileMatch": ["(^|/).*.ya?ml$"],
       "matchStrings": [
         "# renovate: datasource=(?<datasource>[a-z-]+?) depName=(?<depName>[^\\s]+?)(?: packageName=(?<packageName>[^\\s]+?))?(?: versioning=(?<versioning>[a-z-0-9]+?))?\\s*[\\w-_]*(?:version|VERSION): (?<currentValue>.*?)\\s"
@@ -52,12 +52,14 @@
     },
     {
       "description": "Update semantic-release plugins",
+      "customType": "regex",
       "fileMatch": ["^\\.github/workflows/build\\.yml$"],
       "matchStrings": ["\\s{12}(?<depName>\\S+?)@(?<currentValue>.+?)\\s"],
       "datasourceTemplate": "npm"
     },
     {
       "description": "Update _VERSION variables in .envrc",
+      "customType": "regex",
       "fileMatch": ["(^|/)\\.envrc$"],
       "matchStrings": [
         "# renovate: datasource=(?<datasource>.+?) depName=(?<depName>.+?)(?: (?:packageName)=(?<packageName>.+?))?(?: versioning=(?<versioning>.+?))?\\s[A-Z_]+?_VERSION=('|\")?(?<currentValue>.+?)('|\")?\\s"
@@ -65,6 +67,7 @@
     },
     {
       "description": "Update Rust stable version in rust-toolchain.toml",
+      "customType": "regex",
       "fileMatch": ["(^|/)rust-toolchain\\.toml$"],
       "matchStrings": ["channel\\s*=\\s*('|\")(?<currentValue>.+?)('|\")\\s"],
       "depNameTemplate": "rust",
