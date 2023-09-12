@@ -2,6 +2,25 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.126](https://github.com/maxbrunet/automatic-timezoned/compare/v1.0.125...v1.0.126) (2023-09-12)
+
+
+### Miscellaneous Chores
+
+* **deps:** lock file maintenance ([#264](https://github.com/maxbrunet/automatic-timezoned/issues/264)) ([c11751c](https://github.com/maxbrunet/automatic-timezoned/commit/c11751c8f73fc989b7f64f511c622ad927a7ef4d))
+* **deps:** update actions/checkout action to v4 ([#266](https://github.com/maxbrunet/automatic-timezoned/issues/266)) ([ff8ad5c](https://github.com/maxbrunet/automatic-timezoned/commit/ff8ad5cf07e54d9559741a36242c3933325eb7e3))
+* **deps:** update cycjimmy/semantic-release-action action to v4 ([#260](https://github.com/maxbrunet/automatic-timezoned/issues/260)) ([7279b89](https://github.com/maxbrunet/automatic-timezoned/commit/7279b89d2b57f75390976ce82e8c08880927b8ca))
+* **deps:** update dependency conventional-changelog-conventionalcommits to v7 ([#258](https://github.com/maxbrunet/automatic-timezoned/issues/258)) ([cfc39a2](https://github.com/maxbrunet/automatic-timezoned/commit/cfc39a2fc68f0e3b95c4ee78f7fdaca65792b777))
+* **deps:** update dependency conventional-changelog-conventionalcommits to v7.0.2 ([#267](https://github.com/maxbrunet/automatic-timezoned/issues/267)) ([db44052](https://github.com/maxbrunet/automatic-timezoned/commit/db4405296d1223b0de6b8a7ee6ca28c47d4d1bd7))
+* **deps:** update dependency semantic-release to v21 ([#128](https://github.com/maxbrunet/automatic-timezoned/issues/128)) ([d8e2a61](https://github.com/maxbrunet/automatic-timezoned/commit/d8e2a61993e50c669e36dc3da43f550a79b45cb5))
+* **deps:** update swatinem/rust-cache action to v2.7.0 ([#269](https://github.com/maxbrunet/automatic-timezoned/issues/269)) ([335d3e0](https://github.com/maxbrunet/automatic-timezoned/commit/335d3e0c7b6a6216b0c9f11e3888ee88e7008164))
+* **renovate:** refresh configuration ([#265](https://github.com/maxbrunet/automatic-timezoned/issues/265)) ([a456cbc](https://github.com/maxbrunet/automatic-timezoned/commit/a456cbc21bc4ddd79b6068c89da7b3e58009aa4a))
+
+
+### Build System
+
+* **deps:** update rust crate clap to v4.4.3 ([#268](https://github.com/maxbrunet/automatic-timezoned/issues/268)) ([e100a30](https://github.com/maxbrunet/automatic-timezoned/commit/e100a307dee440766a30a6356ebdee650202bf8a))
+
 ## [1.0.125](https://github.com/maxbrunet/automatic-timezoned/compare/v1.0.124...v1.0.125) (2023-09-01)
 
 
