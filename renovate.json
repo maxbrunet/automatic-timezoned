@@ -9,43 +9,67 @@
     ":semanticCommits",
     ":semanticCommitScope(deps)"
   ],
-  "assignees": ["maxbrunet"],
+  "assignees": [
+    "maxbrunet"
+  ],
   "internalChecksFilter": "strict",
   "platformAutomerge": true,
   "rangeStrategy": "pin",
   "packageRules": [
     {
       "description": "One week stability period for Rust packages",
-      "matchDatasources": ["crate"],
+      "matchDatasources": [
+        "crate"
+      ],
       "minimumReleaseAge": "7 days"
     },
     {
       "description": "Customize rust updates commit message",
-      "matchPackageNames": ["rust"],
+      "matchPackageNames": [
+        "rust"
+      ],
       "commitMessageTopic": "rust"
     },
     {
       "description": "Group insta packages",
-      "matchSourceUrls": ["https://github.com/mitsuhiko/insta"],
-      "matchUpdateTypes": ["digest", "patch", "minor", "major"],
+      "matchSourceUrls": [
+        "https://github.com/mitsuhiko/insta"
+      ],
+      "matchUpdateTypes": [
+        "digest",
+        "patch",
+        "minor",
+        "major"
+      ],
       "groupName": "insta"
     },
     {
       "description": "Group packages from zbus monorepo together",
-      "matchSourceUrls": ["https://github.com/dbus2/zbus"],
-      "matchUpdateTypes": ["digest", "patch", "minor", "major"],
+      "matchSourceUrls": [
+        "https://github.com/dbus2/zbus"
+      ],
+      "matchUpdateTypes": [
+        "digest",
+        "patch",
+        "minor",
+        "major"
+      ],
       "groupName": "zbus"
     },
     {
-      "matchDepTypes": ["dependencies"],
+      "matchDepTypes": [
+        "dependencies"
+      ],
       "semanticCommitType": "build"
     }
   ],
-  "regexManagers": [
+  "customManagers": [
     {
       "description": "Update version keys in YAML files",
       "customType": "regex",
-      "fileMatch": ["(^|/).*.ya?ml$"],
+      "fileMatch": [
+        "(^|/).*.ya?ml$"
+      ],
       "matchStrings": [
         "# renovate: datasource=(?<datasource>[a-z-]+?) depName=(?<depName>[^\\s]+?)(?: packageName=(?<packageName>[^\\s]+?))?(?: versioning=(?<versioning>[a-z-0-9]+?))?\\s*[\\w-_]*(?:version|VERSION): (?<currentValue>.*?)\\s"
       ]
@@ -53,14 +77,20 @@
     {
       "description": "Update semantic-release plugins",
       "customType": "regex",
-      "fileMatch": ["^\\.github/workflows/build\\.yml$"],
-      "matchStrings": ["\\s{12}(?<depName>\\S+?)@(?<currentValue>.+?)\\s"],
+      "fileMatch": [
+        "^\\.github/workflows/build\\.yml$"
+      ],
+      "matchStrings": [
+        "\\s{12}(?<depName>\\S+?)@(?<currentValue>.+?)\\s"
+      ],
       "datasourceTemplate": "npm"
     },
     {
       "description": "Update _VERSION variables in .envrc",
       "customType": "regex",
-      "fileMatch": ["(^|/)\\.envrc$"],
+      "fileMatch": [
+        "(^|/)\\.envrc$"
+      ],
       "matchStrings": [
         "# renovate: datasource=(?<datasource>.+?) depName=(?<depName>.+?)(?: (?:packageName)=(?<packageName>.+?))?(?: versioning=(?<versioning>.+?))?\\s[A-Z_]+?_VERSION=('|\")?(?<currentValue>.+?)('|\")?\\s"
       ]
@@ -68,8 +98,12 @@
     {
       "description": "Update Rust stable version in rust-toolchain.toml",
       "customType": "regex",
-      "fileMatch": ["(^|/)rust-toolchain\\.toml$"],
-      "matchStrings": ["channel\\s*=\\s*('|\")(?<currentValue>.+?)('|\")\\s"],
+      "fileMatch": [
+        "(^|/)rust-toolchain\\.toml$"
+      ],
+      "matchStrings": [
+        "channel\\s*=\\s*('|\")(?<currentValue>.+?)('|\")\\s"
+      ],
       "depNameTemplate": "rust",
       "packageNameTemplate": "rust-lang/rust",
       "datasourceTemplate": "github-releases"
