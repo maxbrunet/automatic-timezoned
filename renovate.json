@@ -41,7 +41,7 @@
       "semanticCommitType": "build"
     }
   ],
-  "regexManagers": [
+  "customManagers": [
     {
       "description": "Update version keys in YAML files",
       "customType": "regex",
