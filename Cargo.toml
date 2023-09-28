@@ -28,7 +28,7 @@ features = [
 ]
 
 [dev-dependencies]
-insta = "=1.32.0"
+insta = "=1.33.0"
 trycmd = "=0.14.17"
 
 [profile.release]
