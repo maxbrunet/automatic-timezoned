@@ -2,6 +2,23 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.131](https://github.com/maxbrunet/automatic-timezoned/compare/v1.0.130...v1.0.131) (2023-10-24)
+
+
+### Miscellaneous Chores
+
+* **deps:** update actions/checkout action to v4.1.1 ([#288](https://github.com/maxbrunet/automatic-timezoned/issues/288)) ([c65f484](https://github.com/maxbrunet/automatic-timezoned/commit/c65f484beec933bc8587f1f36572b5f12a72f3e6))
+* **deps:** update dependency cargo-audit to v0.18.3 ([#290](https://github.com/maxbrunet/automatic-timezoned/issues/290)) ([6d4e245](https://github.com/maxbrunet/automatic-timezoned/commit/6d4e245f151b4577f6bee8c49dae902dda25ae50))
+* **deps:** update dependency cargo-insta to v1.34.0 ([#286](https://github.com/maxbrunet/automatic-timezoned/issues/286)) ([971ef55](https://github.com/maxbrunet/automatic-timezoned/commit/971ef555228d74edb7ff73088e24be2ae3652060))
+* **deps:** update rust crate insta to v1.34.0 ([#287](https://github.com/maxbrunet/automatic-timezoned/issues/287)) ([66c0eec](https://github.com/maxbrunet/automatic-timezoned/commit/66c0eec18274d99faf25802f3d4b8c9c50a55bad))
+* **deps:** update rust to v1.73.0 ([#285](https://github.com/maxbrunet/automatic-timezoned/issues/285)) ([2feed64](https://github.com/maxbrunet/automatic-timezoned/commit/2feed6485d78981f1277bb4428a1353b0f2109a0))
+* **deps:** update swatinem/rust-cache action to v2.7.1 ([#289](https://github.com/maxbrunet/automatic-timezoned/issues/289)) ([ec6781e](https://github.com/maxbrunet/automatic-timezoned/commit/ec6781e22560557bdafe7ce97b7e9dec6479861a))
+
+
+### Build System
+
+* **deps:** update rust crate clap to v4.4.7 ([#291](https://github.com/maxbrunet/automatic-timezoned/issues/291)) ([fea706e](https://github.com/maxbrunet/automatic-timezoned/commit/fea706e0903eb9fdbac4d3e2008ce588485f7733))
+
 ## [1.0.130](https://github.com/maxbrunet/automatic-timezoned/compare/v1.0.129...v1.0.130) (2023-10-03)
 
 
