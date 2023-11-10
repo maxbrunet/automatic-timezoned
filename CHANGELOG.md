@@ -2,6 +2,20 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.132](https://github.com/maxbrunet/automatic-timezoned/compare/v1.0.131...v1.0.132) (2023-11-10)
+
+
+### Miscellaneous Chores
+
+* **deps:** lock file maintenance ([#293](https://github.com/maxbrunet/automatic-timezoned/issues/293)) ([0bf2bd6](https://github.com/maxbrunet/automatic-timezoned/commit/0bf2bd66f0b3659f39318063942d6ec1dab38a85))
+* **deps:** update dependency semantic-release to v22.0.6 ([#292](https://github.com/maxbrunet/automatic-timezoned/issues/292)) ([aeb10b5](https://github.com/maxbrunet/automatic-timezoned/commit/aeb10b51d79e60cecfc996f22085f0ebf69f2bb5))
+* **deps:** update dependency semantic-release to v22.0.7 ([#294](https://github.com/maxbrunet/automatic-timezoned/issues/294)) ([34a9414](https://github.com/maxbrunet/automatic-timezoned/commit/34a94149793814105374280f6eb013ea9e12c160))
+
+
+### Build System
+
+* **deps:** update rust crate env_logger to v0.10.1 ([#295](https://github.com/maxbrunet/automatic-timezoned/issues/295)) ([1453789](https://github.com/maxbrunet/automatic-timezoned/commit/1453789474049f05a9f885aa335ea2a7774eacdb))
+
 ## [1.0.131](https://github.com/maxbrunet/automatic-timezoned/compare/v1.0.130...v1.0.131) (2023-10-24)
 
 
