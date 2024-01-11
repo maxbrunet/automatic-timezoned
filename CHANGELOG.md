@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.141](https://github.com/maxbrunet/automatic-timezoned/compare/v1.0.140...v1.0.141) (2024-01-11)
+
+
+### Miscellaneous Chores
+
+* **deps:** update swatinem/rust-cache action to v2.7.2 ([#316](https://github.com/maxbrunet/automatic-timezoned/issues/316)) ([dfc04ed](https://github.com/maxbrunet/automatic-timezoned/commit/dfc04ed62002e68bf8e761b7d35301a1b5beb357))
+
+
+### Build System
+
+* **deps:** update rust crate clap to v4.4.15 ([#317](https://github.com/maxbrunet/automatic-timezoned/issues/317)) ([db6e1a5](https://github.com/maxbrunet/automatic-timezoned/commit/db6e1a50f3b62da5890f00f03259abacf768c9e7))
+
 ## [1.0.140](https://github.com/maxbrunet/automatic-timezoned/compare/v1.0.139...v1.0.140) (2024-01-08)
 
 
