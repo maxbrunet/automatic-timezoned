@@ -4,24 +4,15 @@ use std::error::Error;
 
 use clap::Parser;
 use log::{debug, error, info};
+use tzf_rs::DefaultFinder;
 use zbus::{blocking::Connection, dbus_proxy};
 
 mod geoclue;
-mod zoneinfo;
 
 /// Automatically update system timezone based on location
 #[derive(Parser)]
 #[command(author, version, about, long_about = None)]
 struct Args {
-    /// Path to zoneinfo tab file
-    #[arg(
-        short,
-        long,
-        default_value = "/usr/share/zoneinfo/zone1970.tab",
-        env = "AUTOTZD_ZONEINFO_FILE"
-    )]
-    zoneinfo_path: String,
-
     /// Log level filter. See <https://docs.rs/env_logger> for syntax
     #[arg(short, long, default_value = "info", env = "AUTOTZD_LOG_LEVEL")]
     log_level: String,
@@ -50,14 +41,7 @@ fn main() -> Result<(), Box<dyn Error>> {
         env!("CARGO_PKG_VERSION")
     );
 
-    let mut zoneinfo = zoneinfo::new();
-    match zoneinfo.load_zones(&args.zoneinfo_path) {
-        Ok(z) => z,
-        Err(e) => {
-            error!("Failed to load zoneinfo tab file");
-            return Err(e);
-        }
-    };
+    let zone_finder = DefaultFinder::new();
 
     let conn = Connection::system()?;
 
@@ -80,22 +64,26 @@ fn main() -> Result<(), Box<dyn Error>> {
             .path(args.new())?
             .build()?;
 
+        let latitude = location.latitude()?;
+        let longitude = location.longitude()?;
+
         debug!(
             "Received location update. Latitude: {} / Longitude: {}",
-            location.latitude()?,
-            location.longitude()?,
+            latitude, longitude,
         );
 
-        let (timezone, distance) =
-            zoneinfo.find_closest_zone(location.latitude()?, location.longitude()?);
+        let timezone = zone_finder.get_tz_name(longitude, latitude);
 
-        timedate.set_timezone(&timezone, false)?;
+        if timezone.is_empty() {
+            error!(
+                "Failed to find a timezone. Latitude: {} / Longitude: {}",
+                latitude, longitude,
+            );
+            continue;
+        }
 
-        info!(
-            "Set timezone to \"{}\" (distance: {:.0}km)",
-            timezone,
-            distance / 1000.0
-        );
+        timedate.set_timezone(timezone, false)?;
+        info!("Set timezone to \"{}\"", timezone,);
     }
 
     Ok(())
