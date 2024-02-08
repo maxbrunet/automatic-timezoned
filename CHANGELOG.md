@@ -2,6 +2,21 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.149](https://github.com/maxbrunet/automatic-timezoned/compare/v1.0.148...v1.0.149) (2024-02-08)
+
+
+### Miscellaneous Chores
+
+* **deps:** update dependency semantic-release to v23.0.1 ([#331](https://github.com/maxbrunet/automatic-timezoned/issues/331)) ([7ef11d3](https://github.com/maxbrunet/automatic-timezoned/commit/7ef11d3b0008bd0fbd20791c04ddbbd2af2d9901))
+* **deps:** update dependency semantic-release to v23.0.2 ([#332](https://github.com/maxbrunet/automatic-timezoned/issues/332)) ([c354c61](https://github.com/maxbrunet/automatic-timezoned/commit/c354c61d02d3225282d8b6e8dd4de2ff55873c23))
+* **deps:** update rust crate trycmd to v0.14.21 ([#334](https://github.com/maxbrunet/automatic-timezoned/issues/334)) ([10c0d38](https://github.com/maxbrunet/automatic-timezoned/commit/10c0d38f00b976ed581f5b881fefd7359a454baf))
+* **deps:** update rust to v1.76.0 ([#333](https://github.com/maxbrunet/automatic-timezoned/issues/333)) ([230a7d4](https://github.com/maxbrunet/automatic-timezoned/commit/230a7d456cfc8367192add198c205f5b937f7993))
+
+
+### Build System
+
+* **deps:** update rust crate clap to v4.5.0 ([#335](https://github.com/maxbrunet/automatic-timezoned/issues/335)) ([9d6062e](https://github.com/maxbrunet/automatic-timezoned/commit/9d6062e5116808bde6f1703498f239157fc83035))
+
 ## [1.0.148](https://github.com/maxbrunet/automatic-timezoned/compare/v1.0.147...v1.0.148) (2024-02-05)
 
 
