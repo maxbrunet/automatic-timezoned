@@ -29,7 +29,7 @@ features = [
 
 [dev-dependencies]
 insta = "=1.34.0"
-trycmd = "=0.14.21"
+trycmd = "=0.15.0"
 
 [profile.release]
 lto = true
