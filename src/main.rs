@@ -4,7 +4,7 @@ use std::error::Error;
 
 use clap::Parser;
 use log::{debug, error, info};
-use zbus::{blocking::Connection, dbus_proxy};
+use zbus::{blocking::Connection, proxy};
 
 mod geoclue;
 mod zoneinfo;
@@ -27,7 +27,7 @@ struct Args {
     log_level: String,
 }
 
-#[dbus_proxy(
+#[proxy(
     default_service = "org.freedesktop.timedate1",
     interface = "org.freedesktop.timedate1",
     default_path = "/org/freedesktop/timedate1"
