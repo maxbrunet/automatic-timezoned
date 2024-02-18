@@ -2,6 +2,99 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.151](https://github.com/maxbrunet/automatic-timezoned/compare/v1.0.150...v1.0.151) (2024-02-16)
+
+
+### Miscellaneous Chores
+
+* **deps:** update dependency cargo-audit to v0.20.0 ([#339](https://github.com/maxbrunet/automatic-timezoned/issues/339)) ([79a7ffe](https://github.com/maxbrunet/automatic-timezoned/commit/79a7ffe4de7facff620e047c470ab783d95dd897))
+* **deps:** update rust crate trycmd to v0.15.0 ([#338](https://github.com/maxbrunet/automatic-timezoned/issues/338)) ([0c487a0](https://github.com/maxbrunet/automatic-timezoned/commit/0c487a079fb863949e9d6aabfba5f03f29482748))
+
+
+### Build System
+
+* **deps:** update rust crate clap to v4.5.1 ([#340](https://github.com/maxbrunet/automatic-timezoned/issues/340)) ([d061710](https://github.com/maxbrunet/automatic-timezoned/commit/d0617103773efc22049c186b8b7eafa12d91b468))
+
+## [1.0.150](https://github.com/maxbrunet/automatic-timezoned/compare/v1.0.149...v1.0.150) (2024-02-13)
+
+
+### Build System
+
+* **deps:** update rust crate env_logger to v0.11.2 ([#337](https://github.com/maxbrunet/automatic-timezoned/issues/337)) ([7d7a105](https://github.com/maxbrunet/automatic-timezoned/commit/7d7a105ef8be831f919312226fbd75e7e6346eae))
+
+## [1.0.149](https://github.com/maxbrunet/automatic-timezoned/compare/v1.0.148...v1.0.149) (2024-02-08)
+
+
+### Miscellaneous Chores
+
+* **deps:** update dependency semantic-release to v23.0.1 ([#331](https://github.com/maxbrunet/automatic-timezoned/issues/331)) ([7ef11d3](https://github.com/maxbrunet/automatic-timezoned/commit/7ef11d3b0008bd0fbd20791c04ddbbd2af2d9901))
+* **deps:** update dependency semantic-release to v23.0.2 ([#332](https://github.com/maxbrunet/automatic-timezoned/issues/332)) ([c354c61](https://github.com/maxbrunet/automatic-timezoned/commit/c354c61d02d3225282d8b6e8dd4de2ff55873c23))
+* **deps:** update rust crate trycmd to v0.14.21 ([#334](https://github.com/maxbrunet/automatic-timezoned/issues/334)) ([10c0d38](https://github.com/maxbrunet/automatic-timezoned/commit/10c0d38f00b976ed581f5b881fefd7359a454baf))
+* **deps:** update rust to v1.76.0 ([#333](https://github.com/maxbrunet/automatic-timezoned/issues/333)) ([230a7d4](https://github.com/maxbrunet/automatic-timezoned/commit/230a7d456cfc8367192add198c205f5b937f7993))
+
+
+### Build System
+
+* **deps:** update rust crate clap to v4.5.0 ([#335](https://github.com/maxbrunet/automatic-timezoned/issues/335)) ([9d6062e](https://github.com/maxbrunet/automatic-timezoned/commit/9d6062e5116808bde6f1703498f239157fc83035))
+
+## [1.0.148](https://github.com/maxbrunet/automatic-timezoned/compare/v1.0.147...v1.0.148) (2024-02-05)
+
+
+### Miscellaneous Chores
+
+* **deps:** update dependency cargo-audit to v0.19.0 ([#329](https://github.com/maxbrunet/automatic-timezoned/issues/329)) ([397ffda](https://github.com/maxbrunet/automatic-timezoned/commit/397ffda03f97db8465e4bce90e1b9d625804c62c))
+
+
+### Build System
+
+* **deps:** update rust crate zbus to v3.15.0 ([#330](https://github.com/maxbrunet/automatic-timezoned/issues/330)) ([265d655](https://github.com/maxbrunet/automatic-timezoned/commit/265d655bd2ac15e58d647f0aac6bbc9798fd9d5b))
+
+## [1.0.147](https://github.com/maxbrunet/automatic-timezoned/compare/v1.0.146...v1.0.147) (2024-02-01)
+
+
+### Miscellaneous Chores
+
+* **deps:** lock file maintenance ([#328](https://github.com/maxbrunet/automatic-timezoned/issues/328)) ([61ebcc3](https://github.com/maxbrunet/automatic-timezoned/commit/61ebcc3de9eee1f4bfaed3c73a0c6b8f19c411b6))
+
+
+### Build System
+
+* **deps:** update rust crate env_logger to v0.11.1 ([#327](https://github.com/maxbrunet/automatic-timezoned/issues/327)) ([fa58d80](https://github.com/maxbrunet/automatic-timezoned/commit/fa58d80bd617462553abb1f17717341a070097e6))
+
+## [1.0.146](https://github.com/maxbrunet/automatic-timezoned/compare/v1.0.145...v1.0.146) (2024-01-19)
+
+
+### Build System
+
+* **deps:** update rust crate env_logger to v0.11.0 ([#326](https://github.com/maxbrunet/automatic-timezoned/issues/326)) ([874fd65](https://github.com/maxbrunet/automatic-timezoned/commit/874fd65182390f73b72fa59f3617ae711368f04a))
+
+## [1.0.145](https://github.com/maxbrunet/automatic-timezoned/compare/v1.0.144...v1.0.145) (2024-01-18)
+
+
+### Build System
+
+* **deps:** update rust crate env_logger to v0.10.2 ([#325](https://github.com/maxbrunet/automatic-timezoned/issues/325)) ([276220f](https://github.com/maxbrunet/automatic-timezoned/commit/276220f0e8e55cb889a083a75fb67b870ec01c42))
+
+## [1.0.144](https://github.com/maxbrunet/automatic-timezoned/compare/v1.0.143...v1.0.144) (2024-01-16)
+
+
+### Build System
+
+* **deps:** update rust crate clap to v4.4.18 ([#324](https://github.com/maxbrunet/automatic-timezoned/issues/324)) ([67a6ab1](https://github.com/maxbrunet/automatic-timezoned/commit/67a6ab1eebeab76bba47acaf6b029d920b73742b))
+
+## [1.0.143](https://github.com/maxbrunet/automatic-timezoned/compare/v1.0.142...v1.0.143) (2024-01-15)
+
+
+### Miscellaneous Chores
+
+* **deps:** update dependency semantic-release to v23 ([#320](https://github.com/maxbrunet/automatic-timezoned/issues/320)) ([0160f84](https://github.com/maxbrunet/automatic-timezoned/commit/0160f84b6609c3bfbd46d89ddcec8a870c40e2e5))
+* **deps:** update swatinem/rust-cache action to v2.7.3 ([#321](https://github.com/maxbrunet/automatic-timezoned/issues/321)) ([7c9e551](https://github.com/maxbrunet/automatic-timezoned/commit/7c9e5519e04f409a3355e714a8bdd8d72ba8dbee))
+
+
+### Build System
+
+* **deps:** update rust crate clap to v4.4.17 ([#323](https://github.com/maxbrunet/automatic-timezoned/issues/323)) ([b18325d](https://github.com/maxbrunet/automatic-timezoned/commit/b18325d67e85bcdbd950ec0ce2b8dbbab77f7df7))
+
 ## [1.0.142](https://github.com/maxbrunet/automatic-timezoned/compare/v1.0.141...v1.0.142) (2024-01-12)
 
 
