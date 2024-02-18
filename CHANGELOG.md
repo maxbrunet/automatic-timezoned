@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2.0.0](https://github.com/maxbrunet/automatic-timezoned/compare/v1.0.152...v2.0.0) (2024-02-18)
+
+
+### ⚠ BREAKING CHANGES
+
+* use tzf-rs to get timezone from location (#322)
+
+### Code Refactoring
+
+* use tzf-rs to get timezone from location ([#322](https://github.com/maxbrunet/automatic-timezoned/issues/322)) ([7f6eabc](https://github.com/maxbrunet/automatic-timezoned/commit/7f6eabce2027bdcc7812b4061e53a0a31ce664fa)), closes [#314](https://github.com/maxbrunet/automatic-timezoned/issues/314)
+
 ## [1.0.152](https://github.com/maxbrunet/automatic-timezoned/compare/v1.0.151...v1.0.152) (2024-02-18)
 
 
