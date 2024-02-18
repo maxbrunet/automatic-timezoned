@@ -25,12 +25,6 @@
       "commitMessageTopic": "rust"
     },
     {
-      "description": "Group insta packages",
-      "matchSourceUrls": ["https://github.com/mitsuhiko/insta"],
-      "matchUpdateTypes": ["digest", "patch", "minor", "major"],
-      "groupName": "insta"
-    },
-    {
       "description": "Group packages from zbus monorepo together",
       "matchSourceUrls": ["https://github.com/dbus2/zbus"],
       "matchUpdateTypes": ["digest", "patch", "minor", "major"],
@@ -56,14 +50,6 @@
       "fileMatch": ["^\\.github/workflows/build\\.yml$"],
       "matchStrings": ["\\s{12}(?<depName>\\S+?)@(?<currentValue>.+?)\\s"],
       "datasourceTemplate": "npm"
-    },
-    {
-      "description": "Update _VERSION variables in .envrc",
-      "customType": "regex",
-      "fileMatch": ["(^|/)\\.envrc$"],
-      "matchStrings": [
-        "# renovate: datasource=(?<datasource>.+?) depName=(?<depName>.+?)(?: (?:packageName)=(?<packageName>.+?))?(?: versioning=(?<versioning>.+?))?\\s[A-Z_]+?_VERSION=('|\")?(?<currentValue>.+?)('|\")?\\s"
-      ]
     },
     {
       "description": "Update Rust stable version in rust-toolchain.toml",

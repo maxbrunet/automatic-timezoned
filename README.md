@@ -9,9 +9,11 @@ A Linux daemon to automatically update the system timezone based on location.
 ## How It Works
 
 1. The current location is retrieved from GeoClue
-2. The timezone of the current location is determined using [tzf-rs](https://github.com/ringsaturn/tzf-rs)
+2. The timezone of the current location is determined using [tzf-rs](https://crates.io/crates/tzf-rs)
 3. The timezone is updated via `systemd-timedated`
 4. Then, the daemon waits for the location updated signal from GeoClue, and repeats from step 1 when it happens
+
+_Note: The timezone choice may not be accurate if very close to a timezone border due to `tzf-rs` using simplified shape data._
 
 ## Requirements
 
@@ -61,7 +63,7 @@ cargo test
 This service depends on the `tzf-rs` package which bundles timezones and their geographical borders,
 here are some alternatives which have made different trade-offs for performance and accuracy:
 
-* [github.com/Stebalien/localtime](https://github.com/Stebalien/localtime): Depends on the unmaintained [github.com/bradfitz/latlong](https://pkg.go.dev/github.com/bradfitz/latlong) Go library.
+* [github.com/Stebalien/localtime](https://github.com/Stebalien/localtime): Depends on the unmaintained [github.com/bradfitz/latlong](https://pkg.go.dev/github.com/bradfitz/latlong) Go library (although if you prefer Go, [github.com/ringsaturn/tzf](https://pkg.go.dev/github.com/ringsaturn/tzf) could be used).
 * [Gnome Automatic Time Zone](https://help.gnome.org/users/gnome-help/stable/clock-timezone.html.en) ([Source Code](https://gitlab.gnome.org/GNOME/gnome-settings-daemon/-/tree/master/plugins/datetime)): Depends on the `tzdata` package and [Nominatim Web API](https://nominatim.org/) for distances.
 
 ## License
