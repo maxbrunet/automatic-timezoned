@@ -7,7 +7,7 @@ All notable changes to this project will be documented in this file.
 
 ### ⚠ BREAKING CHANGES
 
-* use tzf-rs to get timezone from location (#322)
+* `automatic-timezoned` no longer depends on the `tzdata` package, and bundles an optimized timezone database instead, consequently timezone look-ups from location are more accurate and faster, the `--zoneinfo-path` has been removed, the size of the binary has increased from 3MB to 18MB. Please see [#314](https://github.com/maxbrunet/automatic-timezoned/issues/314) for reason.
 
 ### Code Refactoring
 
