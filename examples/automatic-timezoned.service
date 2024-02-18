@@ -6,7 +6,7 @@ After=geoclue.service
 
 [Service]
 User=SOME_USER
-ExecStart=automatic-timezoned --zoneinfo-path=/usr/share/zoneinfo/zone1970.tab
+ExecStart=automatic-timezoned
 
 [Install]
 WantedBy=default.target
