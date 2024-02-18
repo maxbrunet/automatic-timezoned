@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.152](https://github.com/maxbrunet/automatic-timezoned/compare/v1.0.151...v1.0.152) (2024-02-18)
+
+
+### Build System
+
+* **deps:** update zbus to v4 (major) ([#336](https://github.com/maxbrunet/automatic-timezoned/issues/336)) ([d1d0cca](https://github.com/maxbrunet/automatic-timezoned/commit/d1d0cca9fa32adade9c3438b35ce41a7494ac63c))
+
 ## [1.0.151](https://github.com/maxbrunet/automatic-timezoned/compare/v1.0.150...v1.0.151) (2024-02-16)
 
 
