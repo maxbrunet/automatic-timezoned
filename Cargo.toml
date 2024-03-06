@@ -15,7 +15,7 @@ zbus = { version = "=4.1.2", default-features = false, features = ["async-io"] }
 zvariant = { version = "=4.0.2", default-features = false }
 
 [dependencies.clap]
-version = "=4.5.1"
+version = "=4.5.2"
 default-features = false
 features = [
   "derive",
