@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2.0.12](https://github.com/maxbrunet/automatic-timezoned/compare/v2.0.11...v2.0.12) (2024-04-30)
+
+
+### Miscellaneous Chores
+
+* **deps:** update actions/checkout action to v4.1.3 ([#366](https://github.com/maxbrunet/automatic-timezoned/issues/366)) ([ab9eaba](https://github.com/maxbrunet/automatic-timezoned/commit/ab9eaba2d22d3ac559c2adea3d3eb832f3be110f))
+* **deps:** update actions/checkout action to v4.1.4 ([#367](https://github.com/maxbrunet/automatic-timezoned/issues/367)) ([1b5e4d8](https://github.com/maxbrunet/automatic-timezoned/commit/1b5e4d86290cbafe7c5e567d80858f418f1aa56d))
+
+
+### Build System
+
+* **deps:** update zbus ([#368](https://github.com/maxbrunet/automatic-timezoned/issues/368)) ([ec2fdf7](https://github.com/maxbrunet/automatic-timezoned/commit/ec2fdf7ac3b45eea1e9881335bdcfc129419b5b1))
+
 ## [2.0.11](https://github.com/maxbrunet/automatic-timezoned/compare/v2.0.10...v2.0.11) (2024-04-12)
 
 
