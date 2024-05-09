@@ -2,6 +2,20 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2.0.13](https://github.com/maxbrunet/automatic-timezoned/compare/v2.0.12...v2.0.13) (2024-05-09)
+
+
+### Miscellaneous Chores
+
+* **deps:** lock file maintenance ([#369](https://github.com/maxbrunet/automatic-timezoned/issues/369)) ([21591b0](https://github.com/maxbrunet/automatic-timezoned/commit/21591b065da9217324fd4908be7729ecd33aa1bb))
+* **deps:** update actions/checkout action to v4.1.5 ([#372](https://github.com/maxbrunet/automatic-timezoned/issues/372)) ([bee1340](https://github.com/maxbrunet/automatic-timezoned/commit/bee1340a1715f9687068de51ab30a37eff9f5eb9))
+* **deps:** update rust to v1.78.0 ([#370](https://github.com/maxbrunet/automatic-timezoned/issues/370)) ([5fe60c0](https://github.com/maxbrunet/automatic-timezoned/commit/5fe60c0030b46674df055e177c62e87f78f4f48a))
+
+
+### Build System
+
+* **deps:** update zbus ([#373](https://github.com/maxbrunet/automatic-timezoned/issues/373)) ([1ff0e48](https://github.com/maxbrunet/automatic-timezoned/commit/1ff0e4895cbe58bbec0cf03d989d0b2257755a2a))
+
 ## [2.0.12](https://github.com/maxbrunet/automatic-timezoned/compare/v2.0.11...v2.0.12) (2024-04-30)
 
 
