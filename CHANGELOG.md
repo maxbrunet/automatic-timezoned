@@ -2,6 +2,21 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2.0.14](https://github.com/maxbrunet/automatic-timezoned/compare/v2.0.13...v2.0.14) (2024-05-20)
+
+
+### Miscellaneous Chores
+
+* **deps:** lock file maintenance ([#377](https://github.com/maxbrunet/automatic-timezoned/issues/377)) ([58b5ea0](https://github.com/maxbrunet/automatic-timezoned/commit/58b5ea0c59c00252db0981944bb09f70c43a8733))
+* **deps:** update actions/checkout action to v4.1.6 ([#376](https://github.com/maxbrunet/automatic-timezoned/issues/376)) ([b1413ee](https://github.com/maxbrunet/automatic-timezoned/commit/b1413eeec08679a9536af064f6862dff5d0af8e7))
+* **deps:** update dependency semantic-release to v23.1.1 ([#374](https://github.com/maxbrunet/automatic-timezoned/issues/374)) ([55aab34](https://github.com/maxbrunet/automatic-timezoned/commit/55aab349de26359093ff6d0a7251ea5a902a8f96))
+* **deps:** update rust crate trycmd to v0.15.2 ([#375](https://github.com/maxbrunet/automatic-timezoned/issues/375)) ([aa63e13](https://github.com/maxbrunet/automatic-timezoned/commit/aa63e137c49cd7614cf832cbc161417bc6a2c5f3))
+
+
+### Build System
+
+* **deps:** update zbus ([#378](https://github.com/maxbrunet/automatic-timezoned/issues/378)) ([ecede86](https://github.com/maxbrunet/automatic-timezoned/commit/ecede868952811878702824d9f8d66d1356f1314))
+
 ## [2.0.13](https://github.com/maxbrunet/automatic-timezoned/compare/v2.0.12...v2.0.13) (2024-05-09)
 
 
