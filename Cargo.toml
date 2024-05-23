@@ -27,7 +27,7 @@ features = [
 ]
 
 [dev-dependencies]
-trycmd = "=0.15.2"
+trycmd = "=0.15.3"
 
 [profile.release]
 lto = true
