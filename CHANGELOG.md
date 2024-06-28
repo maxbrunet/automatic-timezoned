@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2.0.18](https://github.com/maxbrunet/automatic-timezoned/compare/v2.0.17...v2.0.18) (2024-06-28)
+
+
+### Build System
+
+* **deps:** update rust crate log to v0.4.22 ([#388](https://github.com/maxbrunet/automatic-timezoned/issues/388)) ([9d9c2bf](https://github.com/maxbrunet/automatic-timezoned/commit/9d9c2bf3aee84a4215c7c3382a716accdaddad47))
+
 ## [2.0.17](https://github.com/maxbrunet/automatic-timezoned/compare/v2.0.16...v2.0.17) (2024-06-16)
 
 
