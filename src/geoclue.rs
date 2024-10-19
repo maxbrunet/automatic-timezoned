@@ -16,7 +16,7 @@ pub enum AccuracyLevel {
     interface = "org.freedesktop.GeoClue2.Manager",
     default_path = "/org/freedesktop/GeoClue2/Manager"
 )]
-trait Manager {
+pub trait Manager {
     /// GetClient method
     #[zbus(object = "Client")]
     fn get_client(&self);
@@ -26,7 +26,7 @@ trait Manager {
     default_service = "org.freedesktop.GeoClue2",
     interface = "org.freedesktop.GeoClue2.Client"
 )]
-trait Client {
+pub trait Client {
     /// Start method
     fn start(&self) -> zbus::Result<()>;
 
@@ -54,7 +54,7 @@ trait Client {
     default_service = "org.freedesktop.GeoClue2",
     interface = "org.freedesktop.GeoClue2.Location"
 )]
-trait Location {
+pub trait Location {
     /// Latitude property
     #[zbus(property)]
     fn latitude(&self) -> zbus::Result<f64>;
