@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2.0.36](https://github.com/maxbrunet/automatic-timezoned/compare/v2.0.35...v2.0.36) (2024-10-19)
+
+### Miscellaneous Chores
+
+* **deps:** update dependency rust to v1.82.0 ([#426](https://github.com/maxbrunet/automatic-timezoned/issues/426)) ([8469bcd](https://github.com/maxbrunet/automatic-timezoned/commit/8469bcda4d1aee9db50d29e9e45685e7314db43c))
+* **deps:** update dependency semantic-release to v24.1.3 ([#428](https://github.com/maxbrunet/automatic-timezoned/issues/428)) ([1c5fc5c](https://github.com/maxbrunet/automatic-timezoned/commit/1c5fc5c8f865d4fa54f9b1d606d23dfa2f6c2b7e))
+* **deps:** update swatinem/rust-cache action to v2.7.5 ([#425](https://github.com/maxbrunet/automatic-timezoned/issues/425)) ([a0f8140](https://github.com/maxbrunet/automatic-timezoned/commit/a0f8140f432df69fab9cdc4f574d60528e4f5625))
+
+### Build System
+
+* **deps:** update zbus to v5 (major) ([#427](https://github.com/maxbrunet/automatic-timezoned/issues/427)) ([3caf422](https://github.com/maxbrunet/automatic-timezoned/commit/3caf42239e57edbb43e7a78d9f811ae987bcb54a))
+
 ## [2.0.35](https://github.com/maxbrunet/automatic-timezoned/compare/v2.0.34...v2.0.35) (2024-10-09)
 
 ### Miscellaneous Chores
