@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2.0.37](https://github.com/maxbrunet/automatic-timezoned/compare/v2.0.36...v2.0.37) (2024-10-21)
+
+### Build System
+
+* **deps:** update zbus to v5.0.1 ([#429](https://github.com/maxbrunet/automatic-timezoned/issues/429)) ([0fc59e4](https://github.com/maxbrunet/automatic-timezoned/commit/0fc59e493ff309827d8e656a5650d2c007ed39f3))
+
 ## [2.0.36](https://github.com/maxbrunet/automatic-timezoned/compare/v2.0.35...v2.0.36) (2024-10-19)
 
 ### Miscellaneous Chores
