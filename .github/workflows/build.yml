@@ -18,7 +18,13 @@ env:
 
 jobs:
   test:
-    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        runs-on:
+          - ubuntu-24.04
+          - ubuntu-24.04-arm
+
+    runs-on: ${{ matrix.runs-on }}
 
     timeout-minutes: 10
 
@@ -38,7 +44,7 @@ jobs:
         run: cargo --color=always test
 
   lint:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
 
     timeout-minutes: 10
 
@@ -64,7 +70,7 @@ jobs:
         run: cargo --color=always fmt --check
 
   audit:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
 
     timeout-minutes: 10
 
@@ -90,7 +96,7 @@ jobs:
         run: cargo --color=always audit --deny warnings
 
   build:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
 
     timeout-minutes: 10
 
@@ -111,7 +117,7 @@ jobs:
 
   semantic-release:
     needs: [audit, build, lint, test]
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     permissions:
       contents: write
       issues: write
