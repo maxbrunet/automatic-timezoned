@@ -11,7 +11,7 @@ keywords = ["dbus", "geoclue", "systemd", "timezone", "zoneinfo"]
 env_logger = { version = "=0.11.6", default-features = false }
 log = { version = "=0.4.25", default-features = false }
 tzf-rs = { version = "=0.4.10", default-features = false }
-zvariant = { version = "=5.2.0", default-features = false }
+zvariant = { version = "=5.3.0", default-features = false }
 
 [dependencies.clap]
 version = "=4.5.28"
@@ -26,7 +26,7 @@ features = [
 ]
 
 [dependencies.zbus]
-version = "=5.3.1"
+version = "=5.4.0"
 default-features = false
 features = [
   "async-io",
