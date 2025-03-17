@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2.0.65](https://github.com/maxbrunet/automatic-timezoned/compare/v2.0.64...v2.0.65) (2025-03-17)
+
+### Miscellaneous Chores
+
+* **deps:** update cycjimmy/semantic-release-action action to v4.2.0 ([#482](https://github.com/maxbrunet/automatic-timezoned/issues/482)) ([7220ef9](https://github.com/maxbrunet/automatic-timezoned/commit/7220ef91dc8ac652e5feb173e03250b8d0cf8e21))
+* **deps:** update dependency cargo-audit to v0.21.2 ([#481](https://github.com/maxbrunet/automatic-timezoned/issues/481)) ([dec74fa](https://github.com/maxbrunet/automatic-timezoned/commit/dec74fa25eea290f908b2a9a2fad1ca4624150f9))
+
+### Build System
+
+* **deps:** update rust crate env_logger to v0.11.7 ([#483](https://github.com/maxbrunet/automatic-timezoned/issues/483)) ([2ffbdc2](https://github.com/maxbrunet/automatic-timezoned/commit/2ffbdc22324e5b7d2c9492d2a178d57aa39ae30c))
+
 ## [2.0.64](https://github.com/maxbrunet/automatic-timezoned/compare/v2.0.63...v2.0.64) (2025-03-03)
 
 ### Miscellaneous Chores
