@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2.0.75](https://github.com/maxbrunet/automatic-timezoned/compare/v2.0.74...v2.0.75) (2025-05-10)
+
+### Miscellaneous Chores
+
+* **config:** migrate renovate config ([#497](https://github.com/maxbrunet/automatic-timezoned/issues/497)) ([d5c0387](https://github.com/maxbrunet/automatic-timezoned/commit/d5c0387e7e418a9886305ec71cff18f13a7a7665))
+* **deps:** lock file maintenance ([#496](https://github.com/maxbrunet/automatic-timezoned/issues/496)) ([769d38a](https://github.com/maxbrunet/automatic-timezoned/commit/769d38ad872867e77865cb99bed584acf1e4fab5))
+* **deps:** update dependency @semantic-release/exec to v7.1.0 ([#498](https://github.com/maxbrunet/automatic-timezoned/issues/498)) ([fa6b316](https://github.com/maxbrunet/automatic-timezoned/commit/fa6b316ab09084b6c472e75fe90b776c61b461b5))
+
+### Build System
+
+* **deps:** update zbus ([#499](https://github.com/maxbrunet/automatic-timezoned/issues/499)) ([a587455](https://github.com/maxbrunet/automatic-timezoned/commit/a587455bd113f159d6cda191184728b394b1607f))
+
 ## [2.0.74](https://github.com/maxbrunet/automatic-timezoned/compare/v2.0.73...v2.0.74) (2025-04-25)
 
 ### Build System
