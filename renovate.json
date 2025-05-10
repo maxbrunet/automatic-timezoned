@@ -9,44 +9,29 @@
     ":semanticCommits",
     ":semanticCommitScope(deps)"
   ],
-  "assignees": [
-    "maxbrunet"
-  ],
+  "assignees": ["maxbrunet"],
   "internalChecksFilter": "strict",
   "platformAutomerge": true,
   "rangeStrategy": "pin",
   "packageRules": [
     {
       "description": "One week stability period for Rust packages",
-      "matchDatasources": [
-        "crate"
-      ],
+      "matchDatasources": ["crate"],
       "minimumReleaseAge": "7 days"
     },
     {
       "description": "Customize rust updates commit message",
-      "matchPackageNames": [
-        "rust"
-      ],
+      "matchPackageNames": ["rust"],
       "commitMessageTopic": "rust"
     },
     {
       "description": "Group packages from zbus monorepo together",
-      "matchSourceUrls": [
-        "https://github.com/dbus2/zbus"
-      ],
-      "matchUpdateTypes": [
-        "digest",
-        "patch",
-        "minor",
-        "major"
-      ],
+      "matchSourceUrls": ["https://github.com/dbus2/zbus"],
+      "matchUpdateTypes": ["digest", "patch", "minor", "major"],
       "groupName": "zbus"
     },
     {
-      "matchDepTypes": [
-        "dependencies"
-      ],
+      "matchDepTypes": ["dependencies"],
       "semanticCommitType": "build"
     }
   ],
@@ -54,9 +39,7 @@
     {
       "description": "Update version keys in YAML files",
       "customType": "regex",
-      "managerFilePatterns": [
-        "/(^|/).*.ya?ml$/"
-      ],
+      "managerFilePatterns": ["/(^|/).*.ya?ml$/"],
       "matchStrings": [
         "# renovate: datasource=(?<datasource>[a-z-]+?) depName=(?<depName>[^\\s]+?)(?: packageName=(?<packageName>[^\\s]+?))?(?: versioning=(?<versioning>[a-z-0-9]+?))?\\s*[\\w-_]*(?:version|VERSION): (?<currentValue>.*?)\\s"
       ]
@@ -64,23 +47,15 @@
     {
       "description": "Update semantic-release plugins",
       "customType": "regex",
-      "managerFilePatterns": [
-        "/^\\.github/workflows/build\\.yml$/"
-      ],
-      "matchStrings": [
-        "\\s{12}(?<depName>\\S+?)@(?<currentValue>.+?)\\s"
-      ],
+      "managerFilePatterns": ["/^\\.github/workflows/build\\.yml$/"],
+      "matchStrings": ["\\s{12}(?<depName>\\S+?)@(?<currentValue>.+?)\\s"],
       "datasourceTemplate": "npm"
     },
     {
       "description": "Update Rust stable version in rust-toolchain.toml",
       "customType": "regex",
-      "managerFilePatterns": [
-        "/(^|/)rust-toolchain\\.toml$/"
-      ],
-      "matchStrings": [
-        "channel\\s*=\\s*('|\")(?<currentValue>.+?)('|\")\\s"
-      ],
+      "managerFilePatterns": ["/(^|/)rust-toolchain\\.toml$/"],
+      "matchStrings": ["channel\\s*=\\s*('|\")(?<currentValue>.+?)('|\")\\s"],
       "depNameTemplate": "rust",
       "packageNameTemplate": "rust-lang/rust",
       "datasourceTemplate": "github-releases"
