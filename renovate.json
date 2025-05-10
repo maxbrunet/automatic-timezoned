@@ -39,7 +39,7 @@
     {
       "description": "Update version keys in YAML files",
       "customType": "regex",
-      "fileMatch": ["(^|/).*.ya?ml$"],
+      "managerFilePatterns": ["/(^|/).*.ya?ml$/"],
       "matchStrings": [
         "# renovate: datasource=(?<datasource>[a-z-]+?) depName=(?<depName>[^\\s]+?)(?: packageName=(?<packageName>[^\\s]+?))?(?: versioning=(?<versioning>[a-z-0-9]+?))?\\s*[\\w-_]*(?:version|VERSION): (?<currentValue>.*?)\\s"
       ]
@@ -47,14 +47,14 @@
     {
       "description": "Update semantic-release plugins",
       "customType": "regex",
-      "fileMatch": ["^\\.github/workflows/build\\.yml$"],
+      "managerFilePatterns": ["/^\\.github/workflows/build\\.yml$/"],
       "matchStrings": ["\\s{12}(?<depName>\\S+?)@(?<currentValue>.+?)\\s"],
       "datasourceTemplate": "npm"
     },
     {
       "description": "Update Rust stable version in rust-toolchain.toml",
       "customType": "regex",
-      "fileMatch": ["(^|/)rust-toolchain\\.toml$"],
+      "managerFilePatterns": ["/(^|/)rust-toolchain\\.toml$/"],
       "matchStrings": ["channel\\s*=\\s*('|\")(?<currentValue>.+?)('|\")\\s"],
       "depNameTemplate": "rust",
       "packageNameTemplate": "rust-lang/rust",
