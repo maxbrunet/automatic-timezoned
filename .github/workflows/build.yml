@@ -144,7 +144,7 @@ jobs:
         uses: cycjimmy/semantic-release-action@0a51e81a6baff2acad3ee88f4121c589c73d0f0e # v4.2.0
         with:
           # renovate: datasource=npm depName=semantic-release
-          semantic_version: 24.2.4
+          semantic_version: 24.2.5
           dry_run: ${{ github.event_name == 'pull_request' }}
           extra_plugins: |
             conventional-changelog-conventionalcommits@8.0.0
