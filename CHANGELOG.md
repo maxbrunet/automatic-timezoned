@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2.0.77](https://github.com/maxbrunet/automatic-timezoned/compare/v2.0.76...v2.0.77) (2025-05-24)
+
+### Miscellaneous Chores
+
+* **deps:** update dependency semantic-release to v24.2.5 ([#503](https://github.com/maxbrunet/automatic-timezoned/issues/503)) ([93daa55](https://github.com/maxbrunet/automatic-timezoned/commit/93daa55bd3c3cf2d828d047cd5f9692d5a8ec2ed))
+
+### Build System
+
+* **deps:** update zbus ([#504](https://github.com/maxbrunet/automatic-timezoned/issues/504)) ([f9f2c3c](https://github.com/maxbrunet/automatic-timezoned/commit/f9f2c3c03b4a6068b22569fbac134486efd6a01b))
+
 ## [2.0.76](https://github.com/maxbrunet/automatic-timezoned/compare/v2.0.75...v2.0.76) (2025-05-18)
 
 ### Miscellaneous Chores
