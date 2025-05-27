@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2.0.78](https://github.com/maxbrunet/automatic-timezoned/compare/v2.0.77...v2.0.78) (2025-05-27)
+
+### Miscellaneous Chores
+
+* **deps:** update dependency conventional-changelog-conventionalcommits to v9 ([#505](https://github.com/maxbrunet/automatic-timezoned/issues/505)) ([2408f95](https://github.com/maxbrunet/automatic-timezoned/commit/2408f951675a5bd5a47fc6dcd10d962890c9d57d))
+
+### Build System
+
+* **deps:** update rust crate zbus to v5.7.1 ([#506](https://github.com/maxbrunet/automatic-timezoned/issues/506)) ([2d75d45](https://github.com/maxbrunet/automatic-timezoned/commit/2d75d45a555182bff93e9de8698dc90928c55983))
+
 ## [2.0.77](https://github.com/maxbrunet/automatic-timezoned/compare/v2.0.76...v2.0.77) (2025-05-24)
 
 ### Miscellaneous Chores
