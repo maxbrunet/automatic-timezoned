@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2.0.80](https://github.com/maxbrunet/automatic-timezoned/compare/v2.0.79...v2.0.80) (2025-06-16)
+
+### Miscellaneous Chores
+
+* **deps:** update cycjimmy/semantic-release-action action to v4.2.1 ([#509](https://github.com/maxbrunet/automatic-timezoned/issues/509)) ([ffd0c1b](https://github.com/maxbrunet/automatic-timezoned/commit/ffd0c1b517380cfd8d841764c5518eeb5e38966f))
+
+### Build System
+
+* **deps:** update rust crate clap to v4.5.40 ([#510](https://github.com/maxbrunet/automatic-timezoned/issues/510)) ([3f36c00](https://github.com/maxbrunet/automatic-timezoned/commit/3f36c009813ad54b0b290ba3ebc3d7c14c722df5))
+
 ## [2.0.79](https://github.com/maxbrunet/automatic-timezoned/compare/v2.0.78...v2.0.79) (2025-06-03)
 
 ### Miscellaneous Chores
