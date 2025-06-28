@@ -67,23 +67,17 @@ fn main() -> Result<(), Box<dyn Error>> {
         let latitude = location.latitude()?;
         let longitude = location.longitude()?;
 
-        debug!(
-            "Received location update. Latitude: {} / Longitude: {}",
-            latitude, longitude,
-        );
+        debug!("Received location update. Latitude: {latitude} / Longitude: {longitude}");
 
         let timezone = zone_finder.get_tz_name(longitude, latitude);
 
         if timezone.is_empty() {
-            error!(
-                "Failed to find a timezone. Latitude: {} / Longitude: {}",
-                latitude, longitude,
-            );
+            error!("Failed to find a timezone. Latitude: {latitude} / Longitude: {longitude}");
             continue;
         }
 
         timedate.set_timezone(timezone, false)?;
-        info!("Set timezone to \"{}\"", timezone,);
+        info!("Set timezone to \"{timezone}\"",);
     }
 
     Ok(())
