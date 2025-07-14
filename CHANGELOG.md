@@ -2,6 +2,22 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2.0.81](https://github.com/maxbrunet/automatic-timezoned/compare/v2.0.80...v2.0.81) (2025-07-14)
+
+### Miscellaneous Chores
+
+* **deps:** lock file maintenance ([#514](https://github.com/maxbrunet/automatic-timezoned/issues/514)) ([835d6c1](https://github.com/maxbrunet/automatic-timezoned/commit/835d6c19061c6889d31ff5af6b8332ce16455696))
+* **deps:** update cycjimmy/semantic-release-action action to v4.2.2 ([#515](https://github.com/maxbrunet/automatic-timezoned/issues/515)) ([0a0e6ef](https://github.com/maxbrunet/automatic-timezoned/commit/0a0e6ef36cc842b91837a6468b51f7d00b5d5855))
+* **deps:** update dependency conventional-changelog-conventionalcommits to v9.1.0 ([#516](https://github.com/maxbrunet/automatic-timezoned/issues/516)) ([a8e4442](https://github.com/maxbrunet/automatic-timezoned/commit/a8e444216ac728f7b64eb0b7c77e51b4f687d75d))
+* **deps:** update dependency rust to v1.88.0 ([#512](https://github.com/maxbrunet/automatic-timezoned/issues/512)) ([70f8da8](https://github.com/maxbrunet/automatic-timezoned/commit/70f8da82f6b534ec1d9588ab724e242b2c00dc9a))
+* **deps:** update dependency semantic-release to v24.2.6 ([#513](https://github.com/maxbrunet/automatic-timezoned/issues/513)) ([abd9345](https://github.com/maxbrunet/automatic-timezoned/commit/abd93456f793bc118dee09b963ce156dfc7e6bf3))
+* **deps:** update dependency semantic-release to v24.2.7 ([#517](https://github.com/maxbrunet/automatic-timezoned/issues/517)) ([14d41db](https://github.com/maxbrunet/automatic-timezoned/commit/14d41db34f96c5605c1c8a33784f0ef2b5e23691))
+* **deps:** update swatinem/rust-cache action to v2.8.0 ([#511](https://github.com/maxbrunet/automatic-timezoned/issues/511)) ([d2875cd](https://github.com/maxbrunet/automatic-timezoned/commit/d2875cdd3461f625648a1556652bb4dda450b025))
+
+### Build System
+
+* **deps:** update rust crate zvariant to v5.6.0 ([#518](https://github.com/maxbrunet/automatic-timezoned/issues/518)) ([973a027](https://github.com/maxbrunet/automatic-timezoned/commit/973a027b177c5470206dcca03664677cfe86178b))
+
 ## [2.0.80](https://github.com/maxbrunet/automatic-timezoned/compare/v2.0.79...v2.0.80) (2025-06-16)
 
 ### Miscellaneous Chores
