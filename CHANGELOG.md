@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2.0.92](https://github.com/maxbrunet/automatic-timezoned/compare/v2.0.91...v2.0.92) (2025-09-27)
+
+### Miscellaneous Chores
+
+* **deps:** update cycjimmy/semantic-release-action action to v5 ([#529](https://github.com/maxbrunet/automatic-timezoned/issues/529)) ([2305964](https://github.com/maxbrunet/automatic-timezoned/commit/2305964afa90e10aae5a60851f683ca7bdd13708))
+* **deps:** update dependency rust to v1.90.0 ([#537](https://github.com/maxbrunet/automatic-timezoned/issues/537)) ([43b1455](https://github.com/maxbrunet/automatic-timezoned/commit/43b1455b8b76511e1c6277ffa5bc086d25f4cdc1))
+* **deps:** update dependency semantic-release to v24.2.9 ([#538](https://github.com/maxbrunet/automatic-timezoned/issues/538)) ([1f879a3](https://github.com/maxbrunet/automatic-timezoned/commit/1f879a3248f2a34635e96a553f8231226eff8478))
+* **deps:** update swatinem/rust-cache action to v2.8.1 ([#536](https://github.com/maxbrunet/automatic-timezoned/issues/536)) ([5d94370](https://github.com/maxbrunet/automatic-timezoned/commit/5d9437097162e3ddc7a8e42c61ad52a08ad33369))
+
+### Build System
+
+* **deps:** update rust crate clap to v4.5.48 ([#539](https://github.com/maxbrunet/automatic-timezoned/issues/539)) ([6dadffa](https://github.com/maxbrunet/automatic-timezoned/commit/6dadffad7e98fde4d22314c206f6abd6af080c4a))
+
 ## [2.0.91](https://github.com/maxbrunet/automatic-timezoned/compare/v2.0.90...v2.0.91) (2025-09-16)
 
 ### Build System
