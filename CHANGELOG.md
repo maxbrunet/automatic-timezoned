@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2.0.93](https://github.com/maxbrunet/automatic-timezoned/compare/v2.0.92...v2.0.93) (2025-10-18)
+
+### Miscellaneous Chores
+
+* **deps:** update dependency semantic-release to v25 ([#540](https://github.com/maxbrunet/automatic-timezoned/issues/540)) ([d09ec0a](https://github.com/maxbrunet/automatic-timezoned/commit/d09ec0a09540034a4e9c4a33433d82ef642d3ff6))
+
+### Build System
+
+* **deps:** update rust crate tzf-rs to v1.0.1 ([#541](https://github.com/maxbrunet/automatic-timezoned/issues/541)) ([9ae9c88](https://github.com/maxbrunet/automatic-timezoned/commit/9ae9c88be037d9a65c06956f12d13e27dbc89293))
+
 ## [2.0.92](https://github.com/maxbrunet/automatic-timezoned/compare/v2.0.91...v2.0.92) (2025-09-27)
 
 ### Miscellaneous Chores
