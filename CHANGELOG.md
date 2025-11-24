@@ -2,6 +2,21 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2.0.103](https://github.com/maxbrunet/automatic-timezoned/compare/v2.0.102...v2.0.103) (2025-11-24)
+
+### Miscellaneous Chores
+
+* **deps:** update actions/checkout action to v5.0.1 ([#558](https://github.com/maxbrunet/automatic-timezoned/issues/558)) ([b06a125](https://github.com/maxbrunet/automatic-timezoned/commit/b06a1257031cdb4d78c6314ffd49cc87fd976565))
+* **deps:** update actions/checkout action to v6 ([#559](https://github.com/maxbrunet/automatic-timezoned/issues/559)) ([597e949](https://github.com/maxbrunet/automatic-timezoned/commit/597e949fe6a23ac310f12a6d791f574cf33e21d8))
+* **deps:** update cycjimmy/semantic-release-action action to v5.0.2 ([#557](https://github.com/maxbrunet/automatic-timezoned/issues/557)) ([bdffcac](https://github.com/maxbrunet/automatic-timezoned/commit/bdffcacea9e8eecf8cdb81c5c0b08f525a80e469))
+* **deps:** update dependency cargo-audit to v0.22.0 ([#556](https://github.com/maxbrunet/automatic-timezoned/issues/556)) ([9abfa4b](https://github.com/maxbrunet/automatic-timezoned/commit/9abfa4b39a2ca0793ab910a671af52eb58ffef74))
+* **deps:** update dependency rust to v1.91.1 ([#555](https://github.com/maxbrunet/automatic-timezoned/issues/555)) ([efcb52a](https://github.com/maxbrunet/automatic-timezoned/commit/efcb52a6cf95e246e3615821e1941aadbf00a8b9))
+* **deps:** update dependency semantic-release to v25.0.2 ([#554](https://github.com/maxbrunet/automatic-timezoned/issues/554)) ([c254c25](https://github.com/maxbrunet/automatic-timezoned/commit/c254c25707ba08475f3b51cb29a73fd93f1bfcd8))
+
+### Build System
+
+* **deps:** update rust crate clap to v4.5.52 ([#561](https://github.com/maxbrunet/automatic-timezoned/issues/561)) ([1993aa1](https://github.com/maxbrunet/automatic-timezoned/commit/1993aa167280167d0f404aadbc5703b0dface063))
+
 ## [2.0.102](https://github.com/maxbrunet/automatic-timezoned/compare/v2.0.101...v2.0.102) (2025-11-05)
 
 ### Miscellaneous Chores
