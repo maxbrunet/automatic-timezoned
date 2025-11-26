@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2.0.104](https://github.com/maxbrunet/automatic-timezoned/compare/v2.0.103...v2.0.104) (2025-11-26)
+
+### Miscellaneous Chores
+
+* **deps:** update cycjimmy/semantic-release-action action to v6 ([#560](https://github.com/maxbrunet/automatic-timezoned/issues/560)) ([5310558](https://github.com/maxbrunet/automatic-timezoned/commit/5310558b6b0e059a1af8238b3b331c3f251eb992))
+* **deps:** update rust crate trycmd to v0.15.11 ([#562](https://github.com/maxbrunet/automatic-timezoned/issues/562)) ([4bd9e96](https://github.com/maxbrunet/automatic-timezoned/commit/4bd9e96877f1ce25d062d7c959a39dc5824eee26))
+* **deps:** update swatinem/rust-cache action to v2.8.2 ([#563](https://github.com/maxbrunet/automatic-timezoned/issues/563)) ([9b4d484](https://github.com/maxbrunet/automatic-timezoned/commit/9b4d484945f0f60fee2733dfb1dbd9753c17cedb))
+
+### Build System
+
+* **deps:** update rust crate clap to v4.5.53 ([#564](https://github.com/maxbrunet/automatic-timezoned/issues/564)) ([f4761e3](https://github.com/maxbrunet/automatic-timezoned/commit/f4761e3c4133e04afa8e873986940b3b8c10ead7))
+
 ## [2.0.103](https://github.com/maxbrunet/automatic-timezoned/compare/v2.0.102...v2.0.103) (2025-11-24)
 
 ### Miscellaneous Chores
