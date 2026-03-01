@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2.0.121](https://github.com/maxbrunet/automatic-timezoned/compare/v2.0.120...v2.0.121) (2026-03-01)
+
+### Miscellaneous Chores
+
+* **deps:** lock file maintenance ([#592](https://github.com/maxbrunet/automatic-timezoned/issues/592)) ([b36f20b](https://github.com/maxbrunet/automatic-timezoned/commit/b36f20b8aaac5956cc46311092f80fd5910c0f63))
+
+### Build System
+
+* **deps:** update rust crate zvariant to v5.10.0 ([#594](https://github.com/maxbrunet/automatic-timezoned/issues/594)) ([83c7a4e](https://github.com/maxbrunet/automatic-timezoned/commit/83c7a4e5ccd771a36f4a37c764ec30e84e1860e5))
+
 ## [2.0.120](https://github.com/maxbrunet/automatic-timezoned/compare/v2.0.119...v2.0.120) (2026-02-26)
 
 ### Build System
