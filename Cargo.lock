@@ -1661,9 +1661,9 @@ checksum = "b8848ee67ecc8aedbaf3e4122217aff892639231befc6a1b58d29fff4c2cabaa"
 
 [[package]]
 name = "zvariant"
-version = "5.9.2"
+version = "5.10.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "68b64ef4f40c7951337ddc7023dd03528a57a3ce3408ee9da5e948bd29b232c4"
+checksum = "5708299b21903bbe348e94729f22c49c55d04720a004aa350f1f9c122fd2540b"
 dependencies = [
  "endi",
  "enumflags2",
