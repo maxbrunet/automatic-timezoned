@@ -1,7 +1,7 @@
 #![warn(clippy::all)]
 
-use std::error::Error;
 
+use anyhow::Result;
 use clap::Parser;
 use futures_lite::stream::StreamExt;
 use log::{debug, error, info};
@@ -34,7 +34,7 @@ async fn handle_location(
     timedate: &TimedateProxy<'_>,
     zone_finder: &DefaultFinder,
     conn: &Connection,
-) -> Result<(), Box<dyn Error>> {
+) -> Result<()> {
     let args = signal.args()?;
 
     let location = geoclue::LocationProxy::builder(&conn)
@@ -60,7 +60,7 @@ async fn handle_location(
 }
 
 #[tokio::main]
-async fn main() -> Result<(), Box<dyn Error>> {
+async fn main() -> Result<()> {
     let args = Args::parse();
 
     env_logger::Builder::new()
