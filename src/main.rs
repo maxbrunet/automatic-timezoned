@@ -29,6 +29,36 @@ trait Timedate {
     fn set_timezone(&self, timezone: &str, interactive: bool) -> zbus::Result<()>;
 }
 
+async fn handle_location(
+    signal: geoclue::LocationUpdated,
+    timedate: &TimedateProxy<'_>,
+    zone_finder: &DefaultFinder,
+    conn: &Connection,
+) -> Result<(), Box<dyn Error>> {
+    let args = signal.args()?;
+
+    let location = geoclue::LocationProxy::builder(&conn)
+        .path(args.new())?
+        .build()
+        .await?;
+
+    let latitude = location.latitude().await?;
+    let longitude = location.longitude().await?;
+
+    debug!("Received location update. Latitude: {latitude} / Longitude: {longitude}");
+
+    let timezone = zone_finder.get_tz_name(longitude, latitude);
+
+    if timezone.is_empty() {
+        error!("Failed to find a timezone. Latitude: {latitude} / Longitude: {longitude}");
+    } else {
+        timedate.set_timezone(timezone, false).await?;
+        info!("Set timezone to \"{timezone}\"",);
+    }
+
+    Ok(())
+}
+
 #[tokio::main]
 async fn main() -> Result<(), Box<dyn Error>> {
     let args = Args::parse();
@@ -62,26 +92,7 @@ async fn main() -> Result<(), Box<dyn Error>> {
     gclue_client.start().await?;
 
     while let Some(signal) = location_updated.next().await {
-        let args = signal.args()?;
-
-        let location = geoclue::LocationProxy::builder(&conn)
-            .path(args.new())?
-            .build().await?;
-
-        let latitude = location.latitude().await?;
-        let longitude = location.longitude().await?;
-
-        debug!("Received location update. Latitude: {latitude} / Longitude: {longitude}");
-
-        let timezone = zone_finder.get_tz_name(longitude, latitude);
-
-        if timezone.is_empty() {
-            error!("Failed to find a timezone. Latitude: {latitude} / Longitude: {longitude}");
-            continue;
-        }
-
-        timedate.set_timezone(timezone, false).await?;
-        info!("Set timezone to \"{timezone}\"",);
+        handle_location(signal, &timedate, &zone_finder, &conn).await?
     }
 
     Ok(())
