@@ -8,10 +8,19 @@ license = "GPL-3.0"
 keywords = ["dbus", "geoclue", "systemd", "timezone", "zoneinfo"]
 
 [dependencies]
+anyhow = { version = "=1.0.102", default-features = false }
 env_logger = { version = "=0.11.9", default-features = false }
 log = { version = "=0.4.29", default-features = false }
 tzf-rs = { version = "=1.1.4", default-features = false }
 zvariant = { version = "=5.10.0", default-features = false }
+futures-lite = { version = "=2.6.1", default-features = false }
+
+[dependencies.tokio]
+version = "=1.50.0"
+default-features = false
+features = [
+  "full"
+]
 
 [dependencies.clap]
 version = "=4.5.60"
@@ -29,8 +38,7 @@ features = [
 version = "=5.14.0"
 default-features = false
 features = [
-  "async-io",
-  "blocking-api",
+  "tokio"
 ]
 
 [dev-dependencies]
