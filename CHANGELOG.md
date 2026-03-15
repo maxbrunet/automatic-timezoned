@@ -2,6 +2,21 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2.0.123](https://github.com/maxbrunet/automatic-timezoned/compare/v2.0.122...v2.0.123) (2026-03-15)
+
+### Miscellaneous Chores
+
+* **deps:** update dependency conventional-changelog-conventionalcommits to v9.2.0 ([#595](https://github.com/maxbrunet/automatic-timezoned/issues/595)) ([b4b8dcb](https://github.com/maxbrunet/automatic-timezoned/commit/b4b8dcbb75343c82ddee59e908e4ed5b80dbb412))
+* **deps:** update dependency conventional-changelog-conventionalcommits to v9.3.0 ([#597](https://github.com/maxbrunet/automatic-timezoned/issues/597)) ([32533c1](https://github.com/maxbrunet/automatic-timezoned/commit/32533c1bb8242aaf66f340042828aa1d22ad9a4f))
+* **deps:** update dependency rust to v1.94.0 ([#596](https://github.com/maxbrunet/automatic-timezoned/issues/596)) ([f253f0f](https://github.com/maxbrunet/automatic-timezoned/commit/f253f0fc78ff3a0b2d0a1234f88ab54fc223d229))
+* **deps:** update rust crate trycmd to v1.0.1 ([#598](https://github.com/maxbrunet/automatic-timezoned/issues/598)) ([f2aaa82](https://github.com/maxbrunet/automatic-timezoned/commit/f2aaa829fd68a89b73faca20477d0c07307c0cff))
+* **deps:** update swatinem/rust-cache action to v2.9.0 ([#601](https://github.com/maxbrunet/automatic-timezoned/issues/601)) ([ea06f04](https://github.com/maxbrunet/automatic-timezoned/commit/ea06f044dc5b7045674719e33ffda4d0c5fbed19))
+* **deps:** update swatinem/rust-cache action to v2.9.1 ([#602](https://github.com/maxbrunet/automatic-timezoned/issues/602)) ([2627ec2](https://github.com/maxbrunet/automatic-timezoned/commit/2627ec2dcd85bbb640d40c735793e8ca3f99d18a))
+
+### Build System
+
+* **deps:** update rust crate tzf-rs to v1.1.5 ([#603](https://github.com/maxbrunet/automatic-timezoned/issues/603)) ([5e44bae](https://github.com/maxbrunet/automatic-timezoned/commit/5e44baeff366e25bbf5fe4a99799df8904ac800e))
+
 ## [2.0.122](https://github.com/maxbrunet/automatic-timezoned/compare/v2.0.121...v2.0.122) (2026-03-01)
 
 ### Build System
