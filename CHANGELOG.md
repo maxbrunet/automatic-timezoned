@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2.0.124](https://github.com/maxbrunet/automatic-timezoned/compare/v2.0.123...v2.0.124) (2026-03-19)
+
+### Miscellaneous Chores
+
+* **deps:** update rust crate trycmd to v1.1.0 ([#604](https://github.com/maxbrunet/automatic-timezoned/issues/604)) ([ef938f3](https://github.com/maxbrunet/automatic-timezoned/commit/ef938f3c03137853e9176dff41d3d62bf6ae328b))
+* **deps:** update rust crate trycmd to v1.1.1 ([#606](https://github.com/maxbrunet/automatic-timezoned/issues/606)) ([8795362](https://github.com/maxbrunet/automatic-timezoned/commit/87953626736aa703338ad37a161867d5a2e661ef))
+
+### Build System
+
+* **deps:** update rust crate clap to v4.6.0 ([#605](https://github.com/maxbrunet/automatic-timezoned/issues/605)) ([7be7b0f](https://github.com/maxbrunet/automatic-timezoned/commit/7be7b0f2feffe7360da54f23a90eb69039def07a))
+
 ## [2.0.123](https://github.com/maxbrunet/automatic-timezoned/compare/v2.0.122...v2.0.123) (2026-03-15)
 
 ### Miscellaneous Chores
