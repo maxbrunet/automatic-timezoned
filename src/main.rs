@@ -1,11 +1,14 @@
 #![warn(clippy::all)]
 
-use std::error::Error;
+use std::time::Duration;
 
+use anyhow::{Context, Result};
 use clap::Parser;
+use futures_lite::stream::StreamExt;
 use log::{debug, error, info};
+use tokio::time::timeout;
 use tzf_rs::DefaultFinder;
-use zbus::{blocking::Connection, proxy};
+use zbus::{proxy, Connection};
 
 mod geoclue;
 
@@ -16,6 +19,9 @@ struct Args {
     /// Log level filter. See <https://docs.rs/env_logger> for syntax
     #[arg(short, long, default_value = "info", env = "AUTOTZD_LOG_LEVEL")]
     log_level: String,
+    /// Timeout in seconds for connections.
+    #[arg(short, long, default_value = "30", env = "AUTOTZD_TIMEOUT_SECS")]
+    timeout_secs: u16,
 }
 
 #[proxy(
@@ -28,12 +34,45 @@ trait Timedate {
     fn set_timezone(&self, timezone: &str, interactive: bool) -> zbus::Result<()>;
 }
 
-fn main() -> Result<(), Box<dyn Error>> {
+async fn handle_location(
+    signal: geoclue::LocationUpdated,
+    timedate: &TimedateProxy<'_>,
+    zone_finder: &DefaultFinder,
+    conn: &Connection,
+) -> Result<()> {
+    let args = signal.args()?;
+
+    let location = geoclue::LocationProxy::builder(&conn)
+        .path(args.new())?
+        .build()
+        .await?;
+
+    let latitude = location.latitude().await?;
+    let longitude = location.longitude().await?;
+
+    debug!("Received location update. Latitude: {latitude} / Longitude: {longitude}");
+
+    let timezone = zone_finder.get_tz_name(longitude, latitude);
+
+    if timezone.is_empty() {
+        error!("Failed to find a timezone. Latitude: {latitude} / Longitude: {longitude}");
+    } else {
+        timedate.set_timezone(timezone, false).await?;
+        info!("Set timezone to \"{timezone}\"",);
+    }
+
+    Ok(())
+}
+
+#[tokio::main]
+async fn main() -> Result<()> {
     let args = Args::parse();
 
     env_logger::Builder::new()
         .parse_filters(&args.log_level)
         .init();
+
+    let timeout_s = Duration::from_secs(args.timeout_secs.into());
 
     info!(
         "Starting {} {}...",
@@ -43,41 +82,35 @@ fn main() -> Result<(), Box<dyn Error>> {
 
     let zone_finder = DefaultFinder::new();
 
-    let conn = Connection::system()?;
+    let conn = Connection::system().await?;
 
-    let gclue_manager = geoclue::ManagerProxyBlocking::new(&conn)?;
-    let gclue_client = gclue_manager.get_client()?;
-    gclue_client.set_desktop_id("automatic-timezoned")?;
-    gclue_client.set_distance_threshold(10000)?; // meters
-    gclue_client.set_requested_accuracy_level(geoclue::AccuracyLevel::City as u32)?;
+    let gclue_manager = geoclue::ManagerProxy::new(&conn).await?;
+    let gclue_client = timeout(timeout_s, gclue_manager.get_client())
+        .await
+        .context("Failed to connect to geoclue")??;
+    gclue_client.set_desktop_id("automatic-timezoned").await?;
+    gclue_client.set_distance_threshold(10000).await?; // meters
+    gclue_client
+        .set_requested_accuracy_level(geoclue::AccuracyLevel::City as u32)
+        .await?;
 
-    let timedate = TimedateProxyBlocking::new(&conn)?;
+    let timedate = TimedateProxy::new(&conn).await?;
 
-    let location_updated = gclue_client.receive_location_updated()?;
+    let mut location_updated = gclue_client.receive_location_updated().await?;
 
-    gclue_client.start()?;
+    gclue_client.start().await?;
 
-    for signal in location_updated {
-        let args = signal.args()?;
+    // Wait for first update with timeout set, to ensure it works
+    if let Some(signal) = timeout(timeout_s, location_updated.next())
+        .await
+        .context("Failed to get initial location")?
+    {
+        handle_location(signal, &timedate, &zone_finder, &conn).await?
+    }
 
-        let location = geoclue::LocationProxyBlocking::builder(&conn)
-            .path(args.new())?
-            .build()?;
-
-        let latitude = location.latitude()?;
-        let longitude = location.longitude()?;
-
-        debug!("Received location update. Latitude: {latitude} / Longitude: {longitude}");
-
-        let timezone = zone_finder.get_tz_name(longitude, latitude);
-
-        if timezone.is_empty() {
-            error!("Failed to find a timezone. Latitude: {latitude} / Longitude: {longitude}");
-            continue;
-        }
-
-        timedate.set_timezone(timezone, false)?;
-        info!("Set timezone to \"{timezone}\"",);
+    // Wait for future updates
+    while let Some(signal) = location_updated.next().await {
+        handle_location(signal, &timedate, &zone_finder, &conn).await?
     }
 
     Ok(())
