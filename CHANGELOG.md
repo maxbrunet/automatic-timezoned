@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2.0.126](https://github.com/maxbrunet/automatic-timezoned/compare/v2.0.125...v2.0.126) (2026-04-19)
+
+### Miscellaneous Chores
+
+* **deps:** lock file maintenance ([#610](https://github.com/maxbrunet/automatic-timezoned/issues/610)) ([1743d0b](https://github.com/maxbrunet/automatic-timezoned/commit/1743d0bab1b83d5b6cbf1859136ccbc2803cbc5a))
+* **deps:** update dependency conventional-changelog-conventionalcommits to v9.3.1 ([#611](https://github.com/maxbrunet/automatic-timezoned/issues/611)) ([db8dca7](https://github.com/maxbrunet/automatic-timezoned/commit/db8dca746786d836771453917ebc27ac55d42dc2))
+* **deps:** update dependency rust to v1.95.0 ([#612](https://github.com/maxbrunet/automatic-timezoned/issues/612)) ([06a5933](https://github.com/maxbrunet/automatic-timezoned/commit/06a5933c1c1a3e29fbc9c495e0eee62f9085bbce))
+* **deps:** update rust crate trycmd to v1.2.0 ([#609](https://github.com/maxbrunet/automatic-timezoned/issues/609)) ([8674f78](https://github.com/maxbrunet/automatic-timezoned/commit/8674f78307bbba7a74fbc0412b5ed38cada6ee1d))
+
+### Build System
+
+* **deps:** update rust crate tzf-rs to v1.2.0 ([#613](https://github.com/maxbrunet/automatic-timezoned/issues/613)) ([205f23e](https://github.com/maxbrunet/automatic-timezoned/commit/205f23e065931ff25ee6283120bdab072d4ab21d))
+
 ## [2.0.125](https://github.com/maxbrunet/automatic-timezoned/compare/v2.0.124...v2.0.125) (2026-03-30)
 
 ### Miscellaneous Chores
