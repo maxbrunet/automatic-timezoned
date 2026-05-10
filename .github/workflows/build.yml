@@ -23,10 +23,11 @@ jobs:
         runs-on:
           - ubuntu-24.04
           - ubuntu-24.04-arm
+          - ubuntu-24.04-riscv
 
     runs-on: ${{ matrix.runs-on }}
 
-    timeout-minutes: 10
+    timeout-minutes: 15
 
     steps:
       - name: Checkout repository
