@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2.0.140](https://github.com/maxbrunet/automatic-timezoned/compare/v2.0.139...v2.0.140) (2026-06-28)
+
+### Miscellaneous Chores
+
+* **deps:** update actions/checkout action to v7 ([#633](https://github.com/maxbrunet/automatic-timezoned/issues/633)) ([5562c2d](https://github.com/maxbrunet/automatic-timezoned/commit/5562c2da73173433ee7d1ef21921ee899cc33b64))
+* **deps:** update dependency cargo-audit to v0.22.2 ([#631](https://github.com/maxbrunet/automatic-timezoned/issues/631)) ([8151652](https://github.com/maxbrunet/automatic-timezoned/commit/8151652f2da0ebe654417d67f789755febd5e793))
+* **deps:** update semantic-release monorepo to v25.0.5 ([#632](https://github.com/maxbrunet/automatic-timezoned/issues/632)) ([cfe1290](https://github.com/maxbrunet/automatic-timezoned/commit/cfe12902ec2a96bb59acd1a9841ffd6c253ebf19))
+
+### Build System
+
+* **deps:** update rust crate log to v0.4.33 ([#634](https://github.com/maxbrunet/automatic-timezoned/issues/634)) ([46d1c1a](https://github.com/maxbrunet/automatic-timezoned/commit/46d1c1a68d27b1b703f66817a767bd23477de649))
+
 ## [2.0.139](https://github.com/maxbrunet/automatic-timezoned/compare/v2.0.138...v2.0.139) (2026-06-11)
 
 ### Build System
