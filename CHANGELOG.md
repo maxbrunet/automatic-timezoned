@@ -2,6 +2,8 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2.0.142](https://github.com/maxbrunet/automatic-timezoned/compare/v2.0.141...v2.0.142) (2026-07-14)
+
 ## [2.0.141](https://github.com/maxbrunet/automatic-timezoned/compare/v2.0.140...v2.0.141) (2026-07-02)
 
 ### Miscellaneous Chores
