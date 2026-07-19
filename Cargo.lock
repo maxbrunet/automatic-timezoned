@@ -537,9 +537,9 @@ dependencies = [
 
 [[package]]
 name = "geometry-rs"
-version = "0.4.3"
+version = "0.5.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "6c46d2873cdca2d09114352106a70e89a713a91f9399f84e0274d87afc9d0f86"
+checksum = "6d6f6ee37dd57537a387bc9fefdc8274379faf3e5c6a81d8962c0eaa60f376e1"
 dependencies = [
  "rtree_rs",
 ]
@@ -1183,15 +1183,15 @@ dependencies = [
 
 [[package]]
 name = "tzf-dist"
-version = "0.0.2026-b-fix1"
+version = "0.0.2026-c-fix1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "5d01156e05a8a494a8cfd993ae5990e9f39813c119bd490e0a67dd0bcbdbf1b6"
+checksum = "6bf8976fc0b988b1c95b4b8b07d16b4b7567c346d7f50a8f5fd850be6efd5699"
 
 [[package]]
 name = "tzf-rs"
-version = "1.3.4"
+version = "1.3.5"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "c772e3f79d84ba2300dfee7d3fc02b6c586dd2e96acee4bf17ac890a88080dc9"
+checksum = "6b0b417be5714578c2ea2674f5ca928120558954e8aebe766160e3d92fc9cc9c"
 dependencies = [
  "anyhow",
  "bytes",
