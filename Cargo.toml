@@ -14,7 +14,7 @@ tzf-rs = { version = "=1.3.6", default-features = false, features = ["bundled"] 
 zvariant = { version = "=5.13.0", default-features = false }
 
 [dependencies.clap]
-version = "=4.6.1"
+version = "=4.6.2"
 default-features = false
 features = [
   "derive",
