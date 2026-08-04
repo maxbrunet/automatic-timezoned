@@ -85,6 +85,7 @@ fn run_cmd(cmd: &str, args: &[&str]) -> Result<(), Box<dyn Error>> {
     Ok(())
 }
 
+// Prevents half-written files by writing temp files and only moving them once fully written
 fn safe_write(path: impl AsRef<Path>, contents: impl AsRef<[u8]>) -> Result<(), Box<dyn Error>> {
     let (path, contents) = (path.as_ref(), contents.as_ref());
     let output_folder = path.parent().ok_or_else(|| {
@@ -100,25 +101,31 @@ fn safe_write(path: impl AsRef<Path>, contents: impl AsRef<[u8]>) -> Result<(), 
 }
 
 pub fn install() -> Result<(), Box<dyn Error>> {
-    // step 1: test if this is root
+    // first: test if this is root
     if !nix::unistd::geteuid().is_root() {
         println!(
             "This must be run as root, please rerun with `sudo ./automatic-timezoned --install`"
         );
         return Ok(());
     }
+	
+	// next: check if already installed
+	if fs::exists("/var/lib/automatic-timezoned/installation_manifest.txt")? {
+		eprintln!("This program is already installed, please run `sudo ./automatic-timezoned --uninstall` before reinstalling");
+		return Ok(());
+	}
 
     println!("Installing Automatic Timezoned");
     println!("Warning: this installer is still experimental and you might still need to manually configure your system after installation");
 
-    // step 2: get user name and uid
+    // next: get user name and uid
     let uid = std::env::var("SUDO_UID")?;
     let uid: u32 = uid.parse()?;
     println!("Detected user uid is {uid}");
     let user_name = std::env::var("SUDO_USER")?;
     println!("Detected user name is {user_name}");
 
-    // step 3: write installation manifest
+    // next: write installation manifest
     fs::create_dir_all("/var/lib/automatic-timezoned")?;
     fs::write(
         "/var/lib/automatic-timezoned/installation_manifest.txt",
@@ -128,7 +135,7 @@ pub fn install() -> Result<(), Box<dyn Error>> {
 
     let mut did_all_install = true;
 
-    // step 4: copy binary
+    // next: copy binary
     print!("Install (copy) binary to `/usr/bin/automatic-timezoned`? Y/n ");
     if get_stdin_yes_no()? {
         fs::create_dir_all("/usr/bin")?;
@@ -142,7 +149,7 @@ pub fn install() -> Result<(), Box<dyn Error>> {
         did_all_install = false;
     }
 
-    // step 5: write geoclue config file
+    // next: write geoclue config file
     print!("Install geoclue config file to `/etc/geoclue/conf.d/automatic-timezoned.conf`? Y/n ");
     if get_stdin_yes_no()? {
         let geoclue_conf_file = format_template(GEOCLUE_CONF_FILE, &[uid.to_string().as_str()]);
@@ -159,7 +166,7 @@ pub fn install() -> Result<(), Box<dyn Error>> {
         did_all_install = false;
     }
 
-    // step 6: write polkit config file
+    // next: write polkit config file
     print!("Install polkit config file to `/etc/polkit-1/rules.d/automatic-timezoned.rules`? Y/n ");
     if get_stdin_yes_no()? {
         let polkit_conf_file = format_template(POLKIT_CONF_FILE, &[user_name.as_str()]);
@@ -176,7 +183,7 @@ pub fn install() -> Result<(), Box<dyn Error>> {
         did_all_install = false;
     }
 
-    // step 7: write systemd service file
+    // next: write systemd service file
     print!(
         "Install systemd service file to `/etc/systemd/system/automatic-timezoned.service`? Y/n "
     );
@@ -195,11 +202,11 @@ pub fn install() -> Result<(), Box<dyn Error>> {
         did_all_install = false;
     }
 
-    // step 7: run `systemctl daemon-reload`
+    // next: run `systemctl daemon-reload`
     run_cmd("systemctl", &["daemon-reload"])?;
     println!("Ran `systemctl daemon-reload`");
 
-    // step 8: enable systemd service
+    // next: enable systemd service
     if did_all_install {
         print!("Start systemd service? Y/n ");
         if get_stdin_yes_no()? {
@@ -215,7 +222,7 @@ pub fn install() -> Result<(), Box<dyn Error>> {
         println!("Because some install options were skipped, the service will not be started");
     }
 
-    // step 9: check systemd service
+    // next: check systemd service
     println!("Checking systemd service status:");
     // not using run_cmd() here because a failure here shouldn't stop the program
     let status = Command::new("systemctl")
@@ -237,7 +244,7 @@ pub fn install() -> Result<(), Box<dyn Error>> {
 }
 
 pub fn uninstall() -> Result<(), Box<dyn Error>> {
-    // step 1: test if this is root
+    // first: test if this is root
     if !nix::unistd::geteuid().is_root() {
         println!(
             "This must be run as root, please rerun with `sudo ./automatic-timezoned --uninstall`"
@@ -245,7 +252,7 @@ pub fn uninstall() -> Result<(), Box<dyn Error>> {
         return Ok(());
     }
 
-    // step 2: get manifest and run appropriate installer
+    // next: get manifest
     if !fs::exists("/var/lib/automatic-timezoned/installation_manifest.txt")? {
         eprintln!("Fatal: could not find the essential installation manifest file, so the program cannot be uninstalled.");
         return Ok(());
@@ -260,6 +267,8 @@ pub fn uninstall() -> Result<(), Box<dyn Error>> {
             )))
         }
     };
+	
+	// next: get manifest version and run appropriate uninstaller
     let version = match version.strip_prefix("version: ") {
 		Some(v) => v,
 		None => return Err(Box::new(std::io::Error::other("Cannot uninstall because installation manifest is malformed, must start with \"version: {}\""))),
@@ -280,7 +289,7 @@ pub fn uninstall() -> Result<(), Box<dyn Error>> {
 }
 
 fn uninstall_v1(manifest: String) -> Result<(), Box<dyn Error>> {
-    // step 1: remove systemd service
+    // next: remove systemd service
     println!("Disabling systemd service...");
     let result = run_cmd(
         "systemctl",
@@ -290,7 +299,7 @@ fn uninstall_v1(manifest: String) -> Result<(), Box<dyn Error>> {
         eprintln!("WARNING: Failed to disable systemd service: {err}");
     }
 
-    // step 2: remove all files and folders listed in installation manifest
+    // next: remove all files and folders listed in installation manifest
     let installed_files = manifest
         .lines()
         .skip(1)
@@ -320,11 +329,11 @@ fn uninstall_v1(manifest: String) -> Result<(), Box<dyn Error>> {
         }
     }
 
-    // step 3: run `systemctl daemon-reload`
+    // next: run `systemctl daemon-reload`
     run_cmd("systemctl", &["daemon-reload"])?;
     println!("Ran `systemctl daemon-reload`");
 
-    // final warnings
+    // next: give final warnings
     if !skipped_files.is_empty() {
         eprintln!("Warning: these files were skipped during uninstallation and could still be on your computer:");
         for path in skipped_files {
