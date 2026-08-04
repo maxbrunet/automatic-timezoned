@@ -2,7 +2,7 @@ use std::{
     error::Error, fs, io::Write, os::unix::fs::PermissionsExt, path::Path, process::Command,
 };
 
-// Note: this is written to disk only for the purpose of uninstallation, so this just lists all files (and folders) that are likely installed (aka all the path that should be deleted when uninstalled). The first line denotes the manifest version, if future versions require more sophisticated uninstalls then this is how that will be detected
+// Note: this is written to disk only for the purpose of uninstallation, so this just lists all files (and folders) that are likely installed (aka all the paths that should be deleted when uninstalled). The first line denotes the manifest version, if future versions require more sophisticated uninstalls then this is how that will be detected
 static INSTALLATION_MANIFEST: &str = r#"version: 1
 /usr/bin/automatic-timezoned
 /etc/geoclue/conf.d/automatic-timezoned.conf
@@ -74,6 +74,7 @@ fn format_template(template: &str, args: &[&str]) -> String {
     output
 }
 
+// note: this does not capture the output of run commands
 fn run_cmd(cmd: &str, args: &[&str]) -> Result<(), Box<dyn Error>> {
     let status = Command::new(cmd).args(args).status()?;
     if !status.success() {
@@ -85,7 +86,7 @@ fn run_cmd(cmd: &str, args: &[&str]) -> Result<(), Box<dyn Error>> {
     Ok(())
 }
 
-// Prevents half-written files by writing temp files and only moving them once fully written
+// prevents half-written files by writing temp files and only moving them once fully written
 fn safe_write(path: impl AsRef<Path>, contents: impl AsRef<[u8]>) -> Result<(), Box<dyn Error>> {
     let (path, contents) = (path.as_ref(), contents.as_ref());
     let output_folder = path.parent().ok_or_else(|| {
@@ -108,12 +109,12 @@ pub fn install() -> Result<(), Box<dyn Error>> {
         );
         return Ok(());
     }
-	
-	// next: check if already installed
-	if fs::exists("/var/lib/automatic-timezoned/installation_manifest.txt")? {
-		eprintln!("This program is already installed, please run `sudo ./automatic-timezoned --uninstall` before reinstalling");
-		return Ok(());
-	}
+
+    // next: check if already installed
+    if fs::exists("/var/lib/automatic-timezoned/installation_manifest.txt")? {
+        eprintln!("This program is already installed, please run `sudo ./automatic-timezoned --uninstall` before reinstalling");
+        return Ok(());
+    }
 
     println!("Installing Automatic Timezoned");
     println!("Warning: this installer is still experimental and you might still need to manually configure your system after installation");
@@ -124,6 +125,22 @@ pub fn install() -> Result<(), Box<dyn Error>> {
     println!("Detected user uid is {uid}");
     let user_name = std::env::var("SUDO_USER")?;
     println!("Detected user name is {user_name}");
+
+    // next: test if the chosen user can contact geoclue
+    println!("Attempting to contact geoclue... (if this hangs, the installation will not work with your current user)");
+    Command::new("sudo")
+        .args(&[
+            "-u",
+            &*user_name,
+            "busctl",
+            "--system",
+            "call",
+            "org.freedesktop.GeoClue2",
+            "/org/freedesktop/GeoClue2/Manager",
+            "org.freedesktop.GeoClue2.Manager",
+            "GetClient",
+        ])
+        .status()?;
 
     // next: write installation manifest
     fs::create_dir_all("/var/lib/automatic-timezoned")?;
@@ -267,8 +284,8 @@ pub fn uninstall() -> Result<(), Box<dyn Error>> {
             )))
         }
     };
-	
-	// next: get manifest version and run appropriate uninstaller
+
+    // next: get manifest version and run appropriate uninstaller
     let version = match version.strip_prefix("version: ") {
 		Some(v) => v,
 		None => return Err(Box::new(std::io::Error::other("Cannot uninstall because installation manifest is malformed, must start with \"version: {}\""))),

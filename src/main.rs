@@ -18,10 +18,10 @@ struct Args {
     #[arg(short, long, default_value = "info", env = "AUTOTZD_LOG_LEVEL")]
     log_level: String,
     /// Install Automatic Timezoned as a system service
-    #[arg(long)]
+    #[arg(long, conflicts_with = "uninstall")]
     install: bool,
     /// Uninstall Automatic Timezoned
-    #[arg(long)]
+    #[arg(long, conflicts_with = "install")]
     uninstall: bool,
 }
 
