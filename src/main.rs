@@ -8,6 +8,7 @@ use tzf_rs::DefaultFinder;
 use zbus::{blocking::Connection, proxy};
 
 mod geoclue;
+mod installer;
 
 /// Automatically update system timezone based on location
 #[derive(Parser)]
@@ -16,6 +17,12 @@ struct Args {
     /// Log level filter. See <https://docs.rs/env_logger> for syntax
     #[arg(short, long, default_value = "info", env = "AUTOTZD_LOG_LEVEL")]
     log_level: String,
+    /// Install Automatic Timezoned as a system service
+    #[arg(long)]
+    install: bool,
+    /// Uninstall Automatic Timezoned
+    #[arg(long)]
+    uninstall: bool,
 }
 
 #[proxy(
@@ -34,6 +41,16 @@ fn main() -> Result<(), Box<dyn Error>> {
     env_logger::Builder::new()
         .parse_filters(&args.log_level)
         .init();
+
+    if args.uninstall {
+        installer::uninstall()?;
+        return Ok(());
+    }
+
+    if args.install {
+        installer::install()?;
+        return Ok(());
+    }
 
     info!(
         "Starting {} {}...",
