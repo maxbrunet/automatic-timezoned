@@ -63,9 +63,9 @@ fn main() -> Result<(), Box<dyn Error>> {
     let conn = Connection::system()?;
 
     let gclue_manager = geoclue::ManagerProxyBlocking::new(&conn)?;
-	info!("Acquiring manager from geoclue (this should be instant)");
+    info!("Acquiring manager from geoclue (this should be instant)");
     let gclue_client = gclue_manager.get_client()?;
-	info!("Acquired manager from geoclue");
+    info!("Acquired manager from geoclue");
     gclue_client.set_desktop_id("automatic-timezoned")?;
     gclue_client.set_distance_threshold(10000)?; // meters
     gclue_client.set_requested_accuracy_level(geoclue::AccuracyLevel::City as u32)?;
