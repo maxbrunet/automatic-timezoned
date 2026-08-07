@@ -8,6 +8,7 @@ use tzf_rs::DefaultFinder;
 use zbus::{blocking::Connection, proxy};
 
 mod geoclue;
+mod installer;
 
 /// Automatically update system timezone based on location
 #[derive(Parser)]
@@ -16,6 +17,12 @@ struct Args {
     /// Log level filter. See <https://docs.rs/env_logger> for syntax
     #[arg(short, long, default_value = "info", env = "AUTOTZD_LOG_LEVEL")]
     log_level: String,
+    /// Install Automatic Timezoned as a system service
+    #[arg(long, conflicts_with = "uninstall")]
+    install: bool,
+    /// Uninstall Automatic Timezoned
+    #[arg(long, conflicts_with = "install")]
+    uninstall: bool,
 }
 
 #[proxy(
@@ -35,6 +42,16 @@ fn main() -> Result<(), Box<dyn Error>> {
         .parse_filters(&args.log_level)
         .init();
 
+    if args.uninstall {
+        installer::uninstall()?;
+        return Ok(());
+    }
+
+    if args.install {
+        installer::install()?;
+        return Ok(());
+    }
+
     info!(
         "Starting {} {}...",
         env!("CARGO_PKG_NAME"),
@@ -46,7 +63,9 @@ fn main() -> Result<(), Box<dyn Error>> {
     let conn = Connection::system()?;
 
     let gclue_manager = geoclue::ManagerProxyBlocking::new(&conn)?;
+    info!("Acquiring manager from geoclue (this should be instant)");
     let gclue_client = gclue_manager.get_client()?;
+    info!("Acquired manager from geoclue");
     gclue_client.set_desktop_id("automatic-timezoned")?;
     gclue_client.set_distance_threshold(10000)?; // meters
     gclue_client.set_requested_accuracy_level(geoclue::AccuracyLevel::City as u32)?;
