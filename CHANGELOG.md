@@ -2,6 +2,8 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2.0.154](https://github.com/maxbrunet/automatic-timezoned/compare/v2.0.153...v2.0.154) (2026-08-13)
+
 ## [2.0.153](https://github.com/maxbrunet/automatic-timezoned/compare/v2.0.152...v2.0.153) (2026-08-07)
 
 ## [2.0.152](https://github.com/maxbrunet/automatic-timezoned/compare/v2.0.151...v2.0.152) (2026-08-04)
