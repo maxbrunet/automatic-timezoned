@@ -35,6 +35,8 @@ Usage: automatic-timezoned [OPTIONS]
 
 Options:
   -l, --log-level <LOG_LEVEL>  Log level filter. See <https://docs.rs/env_logger> for syntax [env: AUTOTZD_LOG_LEVEL=] [default: info]
+      --install                Install Automatic Timezoned as a system service
+      --uninstall              Uninstall Automatic Timezoned
   -h, --help                   Print help
   -V, --version                Print version
 
