@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2.0.159](https://github.com/maxbrunet/automatic-timezoned/compare/v2.0.158...v2.0.159) (2026-09-21)
+
+### Miscellaneous Chores
+
+* **deps:** lock file maintenance ([#675](https://github.com/maxbrunet/automatic-timezoned/issues/675)) ([2184f26](https://github.com/maxbrunet/automatic-timezoned/commit/2184f2617be63a59ec7620f08acc6367608ff7af))
+* **deps:** update dependency rust to v1.98.1 ([#676](https://github.com/maxbrunet/automatic-timezoned/issues/676)) ([c64c5b9](https://github.com/maxbrunet/automatic-timezoned/commit/c64c5b957e96e8982adef05f9f99bac1638af1f4))
+
+### Build System
+
+* **deps:** update rust crate clap to v4.6.7 ([#680](https://github.com/maxbrunet/automatic-timezoned/issues/680)) ([a703f23](https://github.com/maxbrunet/automatic-timezoned/commit/a703f23d2ae51b1a6b92095e43d4ce2948ea48d1))
+
 ## [2.0.158](https://github.com/maxbrunet/automatic-timezoned/compare/v2.0.157...v2.0.158) (2026-08-29)
 
 ### Build System
