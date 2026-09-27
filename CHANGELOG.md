@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2.0.160](https://github.com/maxbrunet/automatic-timezoned/compare/v2.0.159...v2.0.160) (2026-09-27)
+
+### Miscellaneous Chores
+
+* **deps:** update dependency ubuntu to v26 ([#679](https://github.com/maxbrunet/automatic-timezoned/issues/679)) ([275f967](https://github.com/maxbrunet/automatic-timezoned/commit/275f967273244bebe597566e9c51aa7a8f61b1b4))
+* **deps:** update dependency ubuntu to v26 in strategy.matrix ([#681](https://github.com/maxbrunet/automatic-timezoned/issues/681)) ([84411fb](https://github.com/maxbrunet/automatic-timezoned/commit/84411fbf520498f44493afe3e11d293a4d2f7f4d))
+
+### Build System
+
+* **deps:** update rust crate tzf-rs to v2 ([#678](https://github.com/maxbrunet/automatic-timezoned/issues/678)) ([52708e4](https://github.com/maxbrunet/automatic-timezoned/commit/52708e40a8e0a220ea99bf769c8d33a07ddd63bc))
+
 ## [2.0.159](https://github.com/maxbrunet/automatic-timezoned/compare/v2.0.158...v2.0.159) (2026-09-21)
 
 ### Miscellaneous Chores
