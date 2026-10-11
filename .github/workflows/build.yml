@@ -23,7 +23,7 @@ jobs:
         runs-on:
           - ubuntu-26.04
           - ubuntu-26.04-arm
-          - ubuntu-24.04-riscv
+          - ubuntu-26.04-riscv
 
     runs-on: ${{ matrix.runs-on }}
 
