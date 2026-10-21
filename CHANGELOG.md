@@ -2,6 +2,23 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2.0.161](https://github.com/maxbrunet/automatic-timezoned/compare/v2.0.160...v2.0.161) (2026-10-21)
+
+### Miscellaneous Chores
+
+* **deps:** update cycjimmy/semantic-release-action action to v7 ([#684](https://github.com/maxbrunet/automatic-timezoned/issues/684)) ([dab4eba](https://github.com/maxbrunet/automatic-timezoned/commit/dab4ebab6678bfb31cfbec3c9acf4b3efa8bd73e))
+* **deps:** update cycjimmy/semantic-release-action action to v7.1.2 ([#685](https://github.com/maxbrunet/automatic-timezoned/issues/685)) ([6e5202e](https://github.com/maxbrunet/automatic-timezoned/commit/6e5202eb556d50a562f5b296aa21d87bfe123515))
+* **deps:** update cycjimmy/semantic-release-action action to v8 ([#686](https://github.com/maxbrunet/automatic-timezoned/issues/686)) ([eceb8c5](https://github.com/maxbrunet/automatic-timezoned/commit/eceb8c597cf1488bc2f83f53ce9809cb80a6ad59))
+* **deps:** update cycjimmy/semantic-release-action action to v8.0.1 ([#687](https://github.com/maxbrunet/automatic-timezoned/issues/687)) ([edf3fd7](https://github.com/maxbrunet/automatic-timezoned/commit/edf3fd77c2c0c5f3ae1dc9480a396395bd35163c))
+* **deps:** update cycjimmy/semantic-release-action action to v8.1.2 ([#689](https://github.com/maxbrunet/automatic-timezoned/issues/689)) ([9087865](https://github.com/maxbrunet/automatic-timezoned/commit/9087865aee09903cd1d8be9ebe3dd8ba24b10d63))
+* **deps:** update cycjimmy/semantic-release-action action to v8.1.3 ([#691](https://github.com/maxbrunet/automatic-timezoned/issues/691)) ([e0666be](https://github.com/maxbrunet/automatic-timezoned/commit/e0666be68c1e0e5d97a7fdb58df2bd4b918a79bf))
+* **deps:** update rust to v1.99.0 ([#683](https://github.com/maxbrunet/automatic-timezoned/issues/683)) ([d47e1c6](https://github.com/maxbrunet/automatic-timezoned/commit/d47e1c67bee87c09fd487f5fe8c3ee5ec9b563aa))
+* **deps:** update rust to v1.99.1 ([#688](https://github.com/maxbrunet/automatic-timezoned/issues/688)) ([8c970f6](https://github.com/maxbrunet/automatic-timezoned/commit/8c970f6c2a84cb965f964715b4a11151629b7a18))
+
+### Build System
+
+* **deps:** update rust crate zbus to v6 ([#693](https://github.com/maxbrunet/automatic-timezoned/issues/693)) ([e5f605f](https://github.com/maxbrunet/automatic-timezoned/commit/e5f605f61c0e3c82c6b9c0dee895f36467b03a6e))
+
 ## [2.0.160](https://github.com/maxbrunet/automatic-timezoned/compare/v2.0.159...v2.0.160) (2026-09-27)
 
 ### Miscellaneous Chores
