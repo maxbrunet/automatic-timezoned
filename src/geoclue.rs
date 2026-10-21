@@ -1,5 +1,4 @@
-use zbus::proxy;
-use zvariant::ObjectPath;
+use zbus::{proxy, ObjectPath};
 
 #[allow(dead_code)]
 pub enum AccuracyLevel {
