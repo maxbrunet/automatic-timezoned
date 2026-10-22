@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2.0.163](https://github.com/maxbrunet/automatic-timezoned/compare/v2.0.162...v2.0.163) (2026-10-22)
+
+### Bug Fixes
+
+* log D-Bus failures with their failing step and exit non-zero ([#694](https://github.com/maxbrunet/automatic-timezoned/issues/694)) ([88fff8d](https://github.com/maxbrunet/automatic-timezoned/commit/88fff8d87e5411731623db1460d8b0093207134c))
+
 ## [2.0.162](https://github.com/maxbrunet/automatic-timezoned/compare/v2.0.161...v2.0.162) (2026-10-21)
 
 ### Miscellaneous Chores
