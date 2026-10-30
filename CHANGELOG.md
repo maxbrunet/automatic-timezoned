@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2.0.164](https://github.com/maxbrunet/automatic-timezoned/compare/v2.0.163...v2.0.164) (2026-10-30)
+
+### Miscellaneous Chores
+
+* **deps:** update cycjimmy/semantic-release-action action to v8.1.4 ([#695](https://github.com/maxbrunet/automatic-timezoned/issues/695)) ([db46a3d](https://github.com/maxbrunet/automatic-timezoned/commit/db46a3d45769e6df5ac3e51e1bd851ce9163ea6a))
+
+### Build System
+
+* **deps:** update rust crate zbus to v6.1.0 ([#696](https://github.com/maxbrunet/automatic-timezoned/issues/696)) ([2e9eba4](https://github.com/maxbrunet/automatic-timezoned/commit/2e9eba4b0b70d68bacbb01d450f9ee6d859f2bab))
+
 ## [2.0.163](https://github.com/maxbrunet/automatic-timezoned/compare/v2.0.162...v2.0.163) (2026-10-22)
 
 ### Bug Fixes
