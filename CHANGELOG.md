@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2.0.167](https://github.com/maxbrunet/automatic-timezoned/compare/v2.0.166...v2.0.167) (2026-11-08)
+
+### Build System
+
+* **deps:** update rust crate tzf-rs to v2.1.4 ([#700](https://github.com/maxbrunet/automatic-timezoned/issues/700)) ([83b9ff7](https://github.com/maxbrunet/automatic-timezoned/commit/83b9ff70731a9cfdd9ef9d1084b4a00a6a544eeb))
+
 ## [2.0.166](https://github.com/maxbrunet/automatic-timezoned/compare/v2.0.165...v2.0.166) (2026-11-07)
 
 ### Build System
