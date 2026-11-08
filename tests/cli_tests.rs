@@ -1,3 +1,5 @@
+//! CLI integration tests.
+
 #[test]
 fn cli_tests() {
     trycmd::TestCases::new()

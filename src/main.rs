@@ -1,6 +1,7 @@
-#![warn(clippy::all)]
+//! Automatically update system timezone based on location.
 
 use std::process::ExitCode;
+use std::sync::LazyLock;
 
 use clap::Parser;
 use futures_util::StreamExt;
@@ -10,7 +11,9 @@ use zbus::{proxy, Connection};
 
 mod geoclue;
 
-/// Automatically update system timezone based on location
+#[cfg(all(test, unix))]
+mod tests;
+
 #[derive(Parser)]
 #[command(author, version, about, long_about = None)]
 struct Args {
@@ -25,9 +28,10 @@ struct Args {
     default_path = "/org/freedesktop/timedate1"
 )]
 trait Timedate {
-    /// SetTimezone method
     fn set_timezone(&self, timezone: &str, interactive: bool) -> zbus::Result<()>;
 }
+
+static ZONE_FINDER: LazyLock<DefaultFinder> = LazyLock::new(DefaultFinder::new);
 
 fn main() -> ExitCode {
     let args = Args::parse();
@@ -42,18 +46,19 @@ fn main() -> ExitCode {
         env!("CARGO_PKG_VERSION")
     );
 
-    match zbus::block_on(run()) {
+    match zbus::block_on(async {
+        let conn = Connection::system()
+            .await
+            .map_err(|err| error!("Failed to connect to the system bus: {err}"))?;
+        run(&conn).await
+    }) {
         Ok(()) => ExitCode::SUCCESS,
         Err(()) => ExitCode::FAILURE,
     }
 }
 
-async fn run() -> Result<(), ()> {
-    let conn = Connection::system()
-        .await
-        .map_err(|err| error!("Failed to connect to the system bus: {err}"))?;
-
-    let gclue_manager = geoclue::ManagerProxy::new(&conn)
+async fn run(conn: &Connection) -> Result<(), ()> {
+    let gclue_manager = geoclue::ManagerProxy::new(conn)
         .await
         .map_err(|err| error!("Failed to build the GeoClue manager proxy: {err}"))?;
     let gclue_client = gclue_manager
@@ -61,7 +66,7 @@ async fn run() -> Result<(), ()> {
         .await
         .map_err(|err| error!("Failed to get a GeoClue client: {err}"))?;
     gclue_client
-        .set_desktop_id("automatic-timezoned")
+        .set_desktop_id(env!("CARGO_PKG_NAME"))
         .await
         .map_err(|err| error!("Failed to set the GeoClue client desktop id: {err}"))?;
     gclue_client
@@ -69,11 +74,11 @@ async fn run() -> Result<(), ()> {
         .await
         .map_err(|err| error!("Failed to set the GeoClue client distance threshold: {err}"))?;
     gclue_client
-        .set_requested_accuracy_level(geoclue::AccuracyLevel::City as u32)
+        .set_requested_accuracy_level(u32::from(geoclue::AccuracyLevel::City))
         .await
         .map_err(|err| error!("Failed to set the GeoClue client accuracy level: {err}"))?;
 
-    let timedate = TimedateProxy::new(&conn)
+    let timedate = TimedateProxy::new(conn)
         .await
         .map_err(|err| error!("Failed to build the timedated proxy: {err}"))?;
 
@@ -87,7 +92,7 @@ async fn run() -> Result<(), ()> {
         .await
         .map_err(|err| error!("Failed to start the GeoClue client: {err}"))?;
 
-    let zone_finder = DefaultFinder::new();
+    let zone_finder = LazyLock::force(&ZONE_FINDER);
 
     info!("Waiting for location updates...");
     while let Some(signal) = location_updated.next().await {
@@ -95,7 +100,7 @@ async fn run() -> Result<(), ()> {
             .args()
             .map_err(|err| error!("Failed to parse the GeoClue location update: {err}"))?;
 
-        let location = geoclue::LocationProxy::builder(&conn)
+        let location = geoclue::LocationProxy::builder(conn)
             .path(args.new())
             .build()
             .await
@@ -123,7 +128,7 @@ async fn run() -> Result<(), ()> {
             .set_timezone(timezone, false)
             .await
             .map_err(|err| error!("Failed to set the timezone: {err}"))?;
-        info!("Set timezone to \"{timezone}\"",);
+        info!("Set timezone to \"{timezone}\"");
     }
 
     error!("D-Bus connection closed");

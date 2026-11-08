@@ -1,13 +1,29 @@
 use zbus::{proxy, ObjectPath};
 
-#[allow(dead_code)]
-pub enum AccuracyLevel {
-    None = 0,
-    Country = 1,
-    City = 4,
-    Neighborhood = 5,
-    Street = 6,
-    Exact = 8,
+#[expect(
+    dead_code,
+    reason = "the full GeoClue accuracy scale is documented; only City is used"
+)]
+pub(crate) enum AccuracyLevel {
+    None,
+    Country,
+    City,
+    Neighborhood,
+    Street,
+    Exact,
+}
+
+impl From<AccuracyLevel> for u32 {
+    fn from(level: AccuracyLevel) -> Self {
+        match level {
+            AccuracyLevel::None => 0,
+            AccuracyLevel::Country => 1,
+            AccuracyLevel::City => 4,
+            AccuracyLevel::Neighborhood => 5,
+            AccuracyLevel::Street => 6,
+            AccuracyLevel::Exact => 8,
+        }
+    }
 }
 
 #[proxy(
@@ -16,7 +32,6 @@ pub enum AccuracyLevel {
     default_path = "/org/freedesktop/GeoClue2/Manager"
 )]
 pub trait Manager {
-    /// GetClient method
     #[zbus(object = "Client")]
     fn get_client(&self);
 }
@@ -26,25 +41,19 @@ pub trait Manager {
     interface = "org.freedesktop.GeoClue2.Client"
 )]
 pub trait Client {
-    /// Start method
     fn start(&self) -> zbus::Result<()>;
 
-    /// Stop method
     fn stop(&self) -> zbus::Result<()>;
 
-    /// LocationUpdated signal
     #[zbus(signal)]
     fn location_updated(&self, old: ObjectPath<'_>, new: ObjectPath<'_>) -> zbus::Result<()>;
 
-    /// DesktopId property
     #[zbus(property)]
     fn set_desktop_id(&self, id: &str) -> zbus::Result<()>;
 
-    /// DistanceThreshold property
     #[zbus(property)]
     fn set_distance_threshold(&self, meters: u32) -> zbus::Result<()>;
 
-    /// RequestedAccuracyLevel property
     #[zbus(property)]
     fn set_requested_accuracy_level(&self, level: u32) -> zbus::Result<()>;
 }
@@ -54,11 +63,9 @@ pub trait Client {
     interface = "org.freedesktop.GeoClue2.Location"
 )]
 pub trait Location {
-    /// Latitude property
     #[zbus(property)]
     fn latitude(&self) -> zbus::Result<f64>;
 
-    /// Longitude property
     #[zbus(property)]
     fn longitude(&self) -> zbus::Result<f64>;
 }
