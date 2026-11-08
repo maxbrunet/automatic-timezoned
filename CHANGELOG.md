@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2.0.169](https://github.com/maxbrunet/automatic-timezoned/compare/v2.0.168...v2.0.169) (2026-11-08)
+
+### Tests
+
+* add hermetic daemon tests ([#703](https://github.com/maxbrunet/automatic-timezoned/issues/703)) ([84063a8](https://github.com/maxbrunet/automatic-timezoned/commit/84063a80b7c389501d8c6cdc98213190e3596345))
+
+### Build System
+
+* **deps:** update rust crate zbus to v6.2.1 ([#702](https://github.com/maxbrunet/automatic-timezoned/issues/702)) ([e24dbbf](https://github.com/maxbrunet/automatic-timezoned/commit/e24dbbf28fb1b9f19932873be74ca7f7e73537c2))
+
 ## [2.0.168](https://github.com/maxbrunet/automatic-timezoned/compare/v2.0.167...v2.0.168) (2026-11-08)
 
 ### Build System
