@@ -1,0 +1,6 @@
+[advisories]
+ignore = [
+  # humantime is unmaintained
+  # Depended by trycmd
+  "RUSTSEC-2026-0542",
+]
