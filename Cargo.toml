@@ -15,7 +15,7 @@ log = { version = "=0.4.35", default-features = false }
 tzf-rs = { version = "=2.3.0", default-features = false, features = ["bundled"] }
 
 [dependencies.clap]
-version = "=4.6.7"
+version = "=4.6.8"
 default-features = false
 features = [
   "derive",
