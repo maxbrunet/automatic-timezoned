@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2.0.175](https://github.com/maxbrunet/automatic-timezoned/compare/v2.0.174...v2.0.175) (2026-11-28)
+
+### Miscellaneous Chores
+
+* **deps:** update rust to v1.100.1 ([#713](https://github.com/maxbrunet/automatic-timezoned/issues/713)) ([1312472](https://github.com/maxbrunet/automatic-timezoned/commit/13124727f3e5cfff2fb868eb40f1d67f6cf73fe5))
+
+### Build System
+
+* **deps:** update rust crate env_logger to v0.11.12 ([#712](https://github.com/maxbrunet/automatic-timezoned/issues/712)) ([7654867](https://github.com/maxbrunet/automatic-timezoned/commit/765486712d7173dca9fe1d5df26e7f45b05c32c3))
+
 ## [2.0.174](https://github.com/maxbrunet/automatic-timezoned/compare/v2.0.173...v2.0.174) (2026-11-27)
 
 ### Build System
